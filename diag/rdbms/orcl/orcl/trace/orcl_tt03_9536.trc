@@ -1,0 +1,32 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_tt03_9536.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:391M/8070M, Ph+PgF:2289M/17909M 
+Instance name: orcl
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 9536, image: 
+
+
+*** 2021-06-17T11:28:59.444741+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+*** SESSION ID:(621.19869) 2021-06-17T11:28:59.445771+05:30
+*** SERVICE NAME:() 2021-06-17T11:28:59.445771+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:28:59.445771+05:30
+ 
+krsv_proc_add: Request to add process to V$MANAGED_STANDBY [krss.c:7418]
+krsy_rtw_primary_loop: Sleep 5 seconds and then try to clear SRLs in 2 time(s)
+
+*** 2021-06-17T11:29:04.485845+05:30 (CDB$ROOT(1))
+RT_STATE: Changing deferred archival state from 0 to 1 [krsy.c:2862]
+krse_srl_archive_int: Database is not in ARCHIVELOG mode
+RT_STATE: Changing deferred archival state from 1 to 0 [krsy.c:2865]
+*** 2021-06-17 11:29:04.524046 [krsh.c:1298]
+krsh_tmi_update: INFO: Event Time Measurement Interface set to: 0 (0x0) [krsy.c:2181]

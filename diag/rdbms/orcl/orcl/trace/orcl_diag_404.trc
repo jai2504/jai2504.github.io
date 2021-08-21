@@ -1,0 +1,2363 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_diag_404.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:562M/8070M, Ph+PgF:2378M/18036M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 404, image: 
+
+
+*** 2021-06-17T11:41:08.408594+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+2021-06-17 12:36:59.297 :kjzdcrsh(): System state dump is made for local instance
+
+*** 2021-06-17T12:36:59.308777+05:30 (CDB$ROOT(1))
+*** SESSION ID:(1.16540) 2021-06-17T12:36:59.308777+05:30
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-06-17T12:36:59.308777+05:30
+*** CONTAINER ID:(1) 2021-06-17T12:36:59.308777+05:30
+ 
+2021-06-17 12:36:59.308 :kjzdlogdreq(): system state dump at level 10, requested by (instance=1, osid=20556 (PSP0)), summary=[abnormal instance termination].
+===================================================
+SYSTEM STATE (level=10)
+------------
+Dumping the Process Summary
+       1: PSEUDO process
+       2: PMON ospid 4724 sid 247 ser 11063, waiting for 'pmon timer' 
+       3: CLMN ospid 7760 sid 370 ser 10159, waiting for 'pmon timer' 
+       4: PSP0 ospid 20556 sid 493 ser 43500, 
+       5: VKTM ospid 10116 sid 616 ser 31193, waiting for 'VKTM Logical Idle Wait' 
+       6: GEN0 ospid 20132 sid 739 ser 46071, waiting for 'rdbms ipc message' 
+       7: MMAN ospid 4640 sid 863 ser 59374, waiting for 'rdbms ipc message' 
+       8: DIAG ospid 404 sid 1 ser 16540, waiting for 'DIAG idle wait' 
+       9: GEN1 ospid 12496 sid 124 ser 33163, waiting for 'rdbms ipc message' 
+      10: DBRM ospid 13388 sid 248 ser 39953, waiting for 'rdbms ipc message' 
+      11: VKRM ospid 5912 sid 371 ser 8511, waiting for 'VKRM Idle' 
+      12: SVCB ospid 10980 sid 494 ser 28471, waiting for 'wait for unread message on broadcast channel' 
+      13: PMAN ospid 18184 sid 617 ser 12845, waiting for 'pman timer' 
+      14: DIA0 ospid 6872 sid 740 ser 15665, waiting for 'DIAG idle wait' 
+      15: DBW0 ospid 20736 sid 864 ser 38289, waiting for 'rdbms ipc message' 
+      16: LGWR ospid 10564 sid 2 ser 61588, waiting for 'rdbms ipc message' 
+      17: CKPT ospid 11760 sid 125 ser 34774, waiting for 'rdbms ipc message' 
+      18: LG00 ospid 12908 sid 249 ser 24983, waiting for 'LGWR worker group idle' 
+      19: SMON ospid 7728 sid 372 ser 2901, waiting for 'smon timer' 
+      20: LG01 ospid 2012 sid 495 ser 48186, waiting for 'LGWR worker group idle' 
+      21: SMCO ospid 3040 sid 618 ser 54885, waiting for 'rdbms ipc message' 
+      22: RECO ospid 15344 sid 741 ser 63547, waiting for 'rdbms ipc message' 
+      23: W000 ospid 15556 sid 865 ser 60273, waiting for 'Space Manager: slave idle wait' 
+      24: LREG ospid 3460 sid 3 ser 21187, waiting for 'lreg timer' 
+      25: W001 ospid 18412 sid 126 ser 10168, waiting for 'Space Manager: slave idle wait' 
+      26: PXMN ospid 5344 sid 250 ser 29829, waiting for 'rdbms ipc message' 
+      27: Q004 ospid 6612 sid 378 ser 14979, waiting for 'Streams AQ: qmn slave idle wait' 
+      28: MMON ospid 11088 sid 496 ser 30074, waiting for 'rdbms ipc message' 
+      29: MMNL ospid 5844 sid 619 ser 3202, waiting for 'rdbms ipc message' 
+      30: D000 ospid 7700 sid 0 ser 0, 
+      31: S000 ospid 16604 sid 0 ser 0, 
+      32: TMON ospid 20072 sid 4 ser 3057, waiting for 'rdbms ipc message' 
+      33: M000 ospid 5356 sid 128 ser 33123, waiting for 'class slave wait' 
+      34: TT00 ospid 20264 sid 251 ser 16234, waiting for 'Data Guard: Gap Manager' 
+      35: TT01 ospid 9320 sid 375 ser 19437, waiting for 'Data Guard: Timer' 
+      36: TT02 ospid 12312 sid 498 ser 44839, waiting for 'heartbeat redo informer' 
+      37: W002 ospid 256 sid 620 ser 34336, waiting for 'Space Manager: slave idle wait' 
+      38: AQPC ospid 7388 sid 742 ser 9792, waiting for 'AQPC idle' 
+      39: CJQ0 ospid 3344 sid 862 ser 41806, waiting for 'oracle thread bootstrap' 
+      40: P000 ospid 14616 sid 0 ser 0, 
+      41: P001 ospid 10892 sid 0 ser 0, 
+      42: P002 ospid 1752 sid 0 ser 0, 
+      43: P003 ospid 14656 sid 0 ser 0, 
+      44: P004 ospid 11824 sid 0 ser 0, 
+      45: P005 ospid 9724 sid 0 ser 0, 
+      46: P006 ospid 7736 sid 0 ser 0, 
+      47: P007 ospid 6528 sid 0 ser 0, 
+      48: P008 ospid 17540 sid 0 ser 0, 
+      49: P009 ospid 20832 sid 0 ser 0, 
+      50: P00A ospid 15136 sid 0 ser 0, 
+      51: P00B ospid 21464 sid 0 ser 0, 
+      52: P00C ospid 2652 sid 0 ser 0, 
+      53: P00D ospid 18896 sid 0 ser 0, 
+      54: P00E ospid 13652 sid 0 ser 0, 
+      55: P00F ospid 17512 sid 0 ser 0, 
+      56: W003 ospid 21248 sid 6 ser 64964, waiting for 'Space Manager: slave idle wait' 
+      57: M002 ospid 18900 sid 131 ser 23142, waiting for 'class slave wait' 
+      58: M001 ospid 10208 sid 253 ser 54957, waiting for 'class slave wait' 
+      59: M003 ospid 8884 sid 376 ser 17083, waiting for 'class slave wait' 
+      60: W004 ospid 6928 sid 499 ser 9669, waiting for 'Space Manager: slave idle wait' 
+      61: W006 ospid 272 sid 624 ser 38303, waiting for 'Space Manager: slave idle wait' 
+      62: W007 ospid 6220 sid 743 ser 3436, waiting for 'Space Manager: slave idle wait' 
+      63: W008 ospid 6020 sid 867 ser 3343, waiting for 'Space Manager: slave idle wait' 
+      64: W009 ospid 1612 sid 8 ser 27993, waiting for 'Space Manager: slave idle wait' 
+      65: W00A ospid 10200 sid 135 ser 47897, waiting for 'Space Manager: slave idle wait' 
+      66: W00B ospid 4776 sid 257 ser 41765, waiting for 'Space Manager: slave idle wait' 
+      67: W00C ospid 5924 sid 379 ser 61238, waiting for 'Space Manager: slave idle wait' 
+      68: W00D ospid 1484 sid 501 ser 60753, waiting for 'Space Manager: slave idle wait' 
+      69: USER ospid 8080 sid 623 ser 12849, waiting for 'SQL*Net message from client' 
+      70: W00E ospid 17060 sid 746 ser 37592, waiting for 'Space Manager: slave idle wait' 
+      71: QM02 ospid 7796 sid 868 ser 42271, waiting for 'Streams AQ: qmn coordinator idle wait' 
+      72: W00F ospid 8308 sid 10 ser 8481, waiting for 'Space Manager: slave idle wait' 
+      73: M004 ospid 11220 sid 133 ser 29727, waiting for 'class slave wait' 
+      75: Q003 ospid 8548 sid 377 ser 10152, waiting for 'Streams AQ: waiting for time management or cleanup tasks' 
+      81: W005 ospid 13560 sid 134 ser 46999, waiting for 'Space Manager: slave idle wait' (DEAD)
+System global information:
+     processes: base 0x00007FFE7F500530, size 640
+     allocation: free sessions 0x00007FFE7F8F4870, free calls 0x0000000000000000
+     control alloc errors: 1092 (process), 1092 (session), 1092 (call), 0 (transaction)
+Cleanup state:
+  Seconds since last dead process scan: hard=46, soft=3370, part=1
+  Current cleanup pass: 61, started 46 seconds ago
+  Orapids on dead process list:  [count = 0]
+     system statistics:
+0 OS CPU Qt wait time
+436 Requests to/from client
+174 logons cumulative
+55 logons current
+58186 opened cursors cumulative
+96 opened cursors current
+181 user commits
+1 user rollbacks
+1257 user calls
+299290 recursive calls
+1835 recursive cpu usage
+22 pinned cursors current
+19 user logons cumulative
+13 user logouts cumulative
+520644 session logical reads
+0 session logical reads in local numa group
+0 session logical reads in remote numa group
+0 session stored procedure space
+1028 CPU used when call started
+2784 CPU used by this session
+5269 DB time
+0 CPU used by LWTs for this session
+0 DB time of LWTs for this session
+0 cluster wait time
+1330005 concurrency wait time
+2403 application wait time
+15964192 user I/O wait time
+0 scheduler wait time
+61140883 non-idle wait time
+41820 non-idle wait count
+171304458398 in call idle wait time
+0 session connect time
+1623912185 process last non-idle time
+138233008 session uga memory
+290893816 session uga memory max
+3271 messages sent
+3271 messages received
+31089 background timeouts
+0 remote Oradebug requests
+210075624 session pga memory
+297482344 session pga memory max
+0 recursive system API invocations
+167 enqueue timeouts
+53 enqueue waits
+0 enqueue deadlocks
+492195 enqueue requests
+11197 enqueue conversions
+491992 enqueue releases
+0 global enqueue gets sync
+0 global enqueue gets async
+0 global enqueue get time
+0 global enqueue releases
+21142 physical read total IO requests
+904 physical read total multi block requests
+0 physical read requests optimized
+0 physical read total bytes optimized
+0 physical read partial requests
+1105183232 physical read total bytes
+0 physical write requests optimized
+0 physical write total bytes optimized
+0 cell writes to flash cache
+0 cell overwrites in flash cache
+0 cell partial writes in flash cache
+0 cell writes to flash cache for temp IO
+7288 physical write total IO requests
+863 physical write total multi block requests
+867891712 physical write total bytes
+1973074944 cell physical IO interconnect bytes
+0 spare statistic 1
+0 spare statistic 2
+0 spare statistic 3
+0 spare statistic 4
+0 spare statistic 5
+0 spare statistic 6
+0 spare statistic 7
+0 spare statistic 8
+0 spare statistic 9
+0 spare statistic 10
+0 spare statistic 11
+0 spare statistic 12
+0 spare statistic 13
+0 spare statistic 14
+0 spare statistic 15
+0 spare statistic 16
+0 spare statistic 17
+0 spare statistic 18
+0 spare statistic 19
+0 spare statistic 20
+0 spare statistic 21
+0 spare statistic 22
+0 spare statistic 23
+0 spare statistic 24
+0 spare statistic 25
+0 spare statistic 26
+0 spare statistic 27
+0 spare statistic 28
+0 spare statistic 29
+0 spare statistic 30
+0 spare statistic 31
+0 spare statistic 32
+0 spare statistic 33
+0 spare statistic 34
+0 spare statistic 35
+0 spare statistic 36
+0 spare statistic 37
+0 spare statistic 38
+0 spare statistic 39
+0 spare statistic 40
+0 IPC CPU used by this session
+0 physical read snap IO requests base
+0 physical read snap IO requests copy
+0 physical read snap IO requests no data
+0 physical read snap bytes base
+0 physical read snap bytes copy
+0 physical write snap IO requests new allocations
+0 Client Lost Packets
+0 Client Total Number of Retransmitted Packets
+0 Client Total Bytes Acked
+0 Client Total Bytes Received
+0 Client Time (usec) Busy Sending Data
+0 Client Time (usec) Limited by Receive Window
+0 Client Time (usec) Limited by Send Buffer
+0 Client Data Segments In
+0 Client Data Segments Out
+0 Client Time (usec) Busy Sending Data under Congestion
+0 Client Time (usec) Round Trip Time
+0 Client Time (usec) Round Trip Time Variance
+0 Client Send Congestion Window
+0 Client Advertised Send Window
+0 Client Advertised Receive Window
+0 Client Time (usec) Last Data Sent
+0 Client Time (usec) Last Data Received
+0 Client Time (usec) Last Ack Sent
+0 Client Time (usec) Last Ack Received
+0 Client Path Maximum Transmission Unit(MTU)
+0 gcs messages sent
+0 ges messages sent
+0 global enqueue CPU used by this session
+0 gcs data block access records
+0 gcs data block access record drops
+0 gcs stats management (SCM) process posts
+0 gcs read-mostly lock grants
+0 gcs anti-locks created
+0 gcs read-mostly lock failures
+0 gcs affinity lock grants
+0 gcs affinity lock failures
+0 ka messages sent
+0 ka grants received
+0 ka local messages received
+0 ka local message waits
+0 ka wait due to timeout
+0 ka wait due to trigger
+0 ka wait calls suppressed
+0 ka wait calls for invalid kga
+0 ka wait calls attempted
+0 ka wait calls other
+393 max cf enq hold time
+1973 total cf enq hold time
+275 total number of cf enq holders
+148933 db block gets
+148932 db block gets from cache
+97068 db block gets from cache (fastpath)
+1 db block gets direct
+371711 consistent gets
+371710 consistent gets from cache
+251140 consistent gets pin
+242539 consistent gets pin (fastpath)
+120570 consistent gets examination
+119042 consistent gets examination (fastpath)
+1 consistent gets direct
+0 fastpath consistent get quota limit
+4265099264 logical read bytes from cache
+32943 physical reads
+32916 physical reads cache
+0 physical read flash cache hits
+27 physical reads direct
+11318 physical read IO requests
+269869056 physical read bytes
+155653 db block changes
+4567 consistent changes
+0 recovery blocks read
+0 recovery blocks read for lost write detection
+0 recovery blocks skipped lost write checks
+5379 physical writes
+135 physical writes direct
+5244 physical writes from cache
+1484 physical write IO requests
+0 flash cache inserts
+2 physical reads direct temporary tablespace
+0 physical writes direct temporary tablespace
+44064768 physical write bytes
+0 flash cache eviction: invalidated
+0 flash cache eviction: buffer pinned
+0 flash cache eviction: aged out
+0 flash cache insert skip: not current
+0 flash cache insert skip: DBWR overloaded
+0 flash cache insert skip: exists
+0 flash cache insert skip: not useful
+0 flash cache insert skip: modification
+0 flash cache insert skip: corrupt
+0 db corrupt blocks detected
+0 db corrupt blocks recovered
+0 session referenced a buffer on dram
+0 session referenced a buffer on xmem
+5083 physical writes non checkpoint
+0 summed dirty queue length
+5118 DBWR checkpoint buffers written
+0 DBWR thread checkpoint buffers written
+0 DBWR tablespace checkpoint buffers written
+0 DBWR parallel query checkpoint buffers written
+1 DBWR object drop buffers written
+95 DBWR transaction table writes
+1726 DBWR undo block writes
+0 DBWR revisited being-written buffer
+0 DBWR lru scans
+19 DBWR checkpoints
+0 DBWR fusion writes
+0 prefetch clients - keep
+0 prefetch clients - recycle
+0 prefetch clients - default
+0 prefetch clients - 2k
+0 prefetch clients - 4k
+0 prefetch clients - 8k
+0 prefetch clients - 16k
+0 prefetch clients - 32k
+0 BPS commit wait
+0 BPS redo wait
+0 BPS session wait
+49 change write time
+0 exchange deadlocks
+37508 free buffer requested
+0 dirty buffers inspected
+0 pinned buffers inspected
+0 hot buffers moved to head of LRU
+1 free buffer inspected
+0 commit cleanout failures: write disabled
+0 commit cleanout failures: block lost
+7 commit cleanout failures: cannot pin
+0 commit cleanout failures: hot backup in progress
+0 commit cleanout failures: buffer being written
+18 commit cleanout failures: callback failure
+0 commit cleanout failures: delayed log
+0 commit cleanout failures: flashback
+6736 commit cleanouts
+6711 commit cleanouts successfully completed
+0 saved cleanout failures: write disabled
+0 saved cleanout failures: cannot pin
+0 saved cleanout failures: hot backup in progress
+0 saved cleanout failures: buffer being written
+0 saved cleanout failures: callback failure
+0 saved cleanout failures: flashback
+0 saved cleanout failures: delayed log
+0 saved cleanouts
+0 saved cleanouts successfully completed
+0 recovery array reads
+0 recovery array read time
+68 CR blocks created
+0 private CR blocks created
+0 current blocks converted for CR
+768 switch current to new buffer
+765 switch current caused by our pin
+0 write clones created in foreground
+15 write clones created in background
+0 write clones created for recovery
+0 checkpoint clones created for ADG recovery
+0 recovery block gets from cache
+21645 physical reads cache prefetch
+0 physical reads prefetch warmup
+0 prefetched blocks aged out before use
+0 prefetch warmup blocks aged out before use
+0 prefetch warmup blocks flushed out before use
+0 physical reads retry corrupt
+1 physical reads direct (lob)
+122 physical writes direct (lob)
+0 cold recycle reads
+425 shared hash latch upgrades - no wait
+0 shared hash latch upgrades - wait
+0 physical reads for flashback new
+0 flashback cache read optimizations for block new
+0 flashback direct read optimizations for block new
+0 flashback securefile cache read optimizations for block new
+0 flashback securefile direct read optimizations for block new
+0 physical reads cache for securefile flashback block new
+0 physical reads direct for securefile flashback block new
+0 blocks encrypted
+0 blocks decrypted
+0 data warehousing scanned objects
+0 data warehousing scanned blocks
+0 data warehousing scanned blocks - memory
+0 data warehousing scanned blocks - flash
+0 data warehousing scanned blocks - disk
+0 data warehousing scanned blocks - offload
+0 data warehousing evicted objects
+0 data warehousing evicted objects - cooling
+0 data warehousing evicted objects - replace
+0 data warehousing cooling action
+0 dram clean buffers available and above threshold
+0 dram clean buffers available and is requested
+0 xmem clean buffers available and used
+0 xmem clean buffers not available so switch to main
+0 xmem buffer switch needed but no free dram buffer
+0 xmem: dram enforced but no free buffer
+16593 calls to kcmgcs
+0 calls to kcmgrs
+5737 calls to kcmgas
+0 SCN increments due to another database
+102862 calls to get snapshot scn: kcmgss
+0 redo blocks read for recovery
+0 redo k-bytes read for recovery
+0 redo k-bytes read for terminal recovery
+0 Streaming Stall Reap
+0 Streaming No-Stall Reap
+79583 redo entries
+27316404 redo size
+0 redo entries for lost write detection
+0 redo size for lost write detection
+60 redo size for direct writes
+0 redo buffer allocation retries
+414396 redo wastage
+1575 redo write active strands
+1556 redo writes
+1233 redo writes (group 0)
+323 redo writes (group 1)
+0 redo writes (group 2)
+0 redo writes (group 3)
+0 redo writes (group 4)
+0 redo writes (group 5)
+0 redo writes (group 6)
+0 redo writes (group 7)
+1556 redo writes adaptive all
+1556 redo writes adaptive worker
+0 redo writes coalesced
+55993 redo blocks written
+54335 redo blocks written (group 0)
+1658 redo blocks written (group 1)
+0 redo blocks written (group 2)
+0 redo blocks written (group 3)
+0 redo blocks written (group 4)
+0 redo blocks written (group 5)
+0 redo blocks written (group 6)
+0 redo blocks written (group 7)
+1253 redo write size count (   4KB)
+134 redo write size count (   8KB)
+45 redo write size count (  16KB)
+65 redo write size count (  32KB)
+0 redo write size count (  64KB)
+35 redo write size count ( 128KB)
+5 redo write size count ( 256KB)
+6 redo write size count ( 512KB)
+3 redo write size count (1024KB)
+10 redo write size count (inf)
+173 redo write time
+1725251 redo write time (usec)
+65023 redo write worker delay (usec)
+1556 redo write worker delay count
+13160 redo blocks checksummed by FG (exclusive)
+0 redo blocks checksummed by LGWR
+0 redo log space requests
+0 redo log space wait time
+27 redo ordering marks
+888 redo subscn max counts
+0 redo write broadcast ack time
+0 redo write broadcast ack count
+0 redo write broadcast lgwr post count
+15 redo synch time
+189229 redo synch time (usec)
+399433 redo synch time overhead (usec)
+122 redo synch time overhead count (  2ms)
+1 redo synch time overhead count (  8ms)
+0 redo synch time overhead count ( 32ms)
+4 redo synch time overhead count (128ms)
+1 redo synch time overhead count (inf)
+0 redo synch fast sync all sleep (usec)
+0 redo synch fast sync all sleep count
+0 redo synch fast sync all sleep (20us)
+0 redo synch fast sync all sleep (40us)
+0 redo synch fast sync all sleep (60us)
+0 redo synch fast sync all sleep (80us)
+0 redo synch fast sync all sleep (100us)
+0 redo synch fast sync all sleep (120us)
+0 redo synch fast sync all sleep (160us)
+0 redo synch fast sync all sleep (240us)
+0 redo synch fast sync all sleep (400us)
+0 redo synch fast sync all sleep (720us)
+0 redo synch fast sync all sleep (inf)
+0 redo synch fast sync sleep count
+0 redo synch fast sync sleep (usec)
+0 redo synch fast sync sleep o/h (usec)
+0 redo synch fast sync spin count
+0 redo synch fast sync spin (usec)
+0 redo synch fast sync backoff count
+0 redo synch fast sync backoff (usec)
+0 redo synch fast sync backoff o/h (usec)
+151 redo synch writes
+0 redo synch long waits
+75398 redo write gather time
+80959 redo write schedule time
+0 redo write issue time
+1717731 redo write finish time
+1785948 redo write total time
+0 redo synch poll writes
+0 redo synch polls
+128 redo write info find
+0 redo write info find fail
+375104 file io service time
+53284643 file io wait time
+0 gc cr blocks served
+0 gc cr block flush time
+0 gc cr blocks flushed
+0 gc cr block build time
+0 gc cr blocks built
+0 gc read time waited
+0 gc read waits
+0 gc read wait failures
+0 gc read wait timeouts
+0 gc current blocks served
+0 gc current block pin time
+0 gc current blocks pinned
+0 gc current block flush time
+0 gc current blocks flushed
+0 gc cr blocks received
+0 gc cr block receive time
+0 gc current blocks received
+0 gc current block receive time
+0 gc undo block disk read
+0 gc ka grants received
+0 gc ka grant receive time
+0 gc cr multiblock grants received
+0 gc cr multiblock grant time
+0 gc status messages received
+0 gc status messages sent
+0 gc cluster flash cache reads served
+0 gc cluster flash cache reads received
+0 gc cluster flash cache received read time
+0 gc cluster flash cache reads failure
+0 gc flash cache reads served
+0 gc flash cache served read time
+0 gc local grants
+0 gc remote grants
+0 gc kbytes sent
+0 gc kbytes saved
+0 gc blocks compressed
+0 gc merge pi fg
+0 gc merge pi bg
+0 gc cleanout saved
+0 gc cleanout applied
+0 gc cleanout no space
+0 gc reader bypass grants
+0 gc reader bypass waits
+0 gc blocks lost
+0 gc claim blocks lost
+0 gc transaction blocks lost
+0 gc blocks corrupt
+0 gc send failures
+0 undo block recovery disk reads skipped
+0 gc force cr read cr
+0 gc force cr read current
+0 gc no change made
+0 gc current blocks received with BPS
+0 gc current blocks served with BPS
+0 gc cr blocks received with BPS
+0 gc cr blocks served with BPS
+0 gc BPS array full
+0 gc cr bypass requests
+0 gc cr anti locks created
+0 gc cr anti locks expanded
+0 gc cr anti locks shrunk
+0 gc index split wait timeouts
+0 gc index split too many slots
+0 gc index split too many segments
+0 gc index split slot collisions
+0 gc IM grants
+0 gc IM blocks invalidated
+0 gc IM expands
+0 gc IM shrinks
+0 gc hash bucket full
+0 gc hash slot added
+0 gc hash slot removed
+0 gc remote block read
+0 gc remote disk read
+0 gc remote read failure
+0 gc remote bucket being modified
+0 gc remote block being modified
+0 gc remote lease failure
+0 gc remote disk read failure
+0 gc zcopy send
+0 total number of slots
+689 Effective IO time
+1 Number of read IOs issued
+0 background checkpoints started
+0 background checkpoints completed
+0 BA files created count
+0 BA files deleted count
+0 BA file bytes allocated
+0 BA au bytes allocated
+0 BA file bytes deleted
+0 BA non-flash bytes requested
+0 BA flash bytes requested
+0 BA bytes for file maps
+0 BA bytes read from flash
+0 BA bytes read from disk
+0 BA count when 10% of buckets in pb
+0 BA count when 25% of buckets in pb
+0 BA count when 50% of buckets in pb
+0 BA count when 75% of buckets in pb
+0 BA count when 90% of buckets in pb
+0 BA count - borrowed from other node
+0 BA count - searched in pb
+0 BA count - total allocation requests
+0 BA count - unable to short circuit in idn
+0 BA count - short circuit in idn
+0 BA count - cache miss
+0 BA count - cache denied
+0 BA spare statistic 1
+0 BA spare statistic 2
+0 BA spare statistic 3
+0 BA spare statistic 4
+0 ADG parselock X get attempts
+0 ADG parselock X get successes
+0 ADG global flush
+0 ADG objectlock get attempts
+0 ADG objectlock get successes
+0 ADG objectlock timeout retries
+0 ADG objectlock fallbacks
+0 ADG objectlock exceed limit
+0 ADG objectlock PDB switch fail
+0 ADG segment statistics defer invalidation
+0 ADG influx scn advance
+0 ADG query scn advance
+0 read-only violation count
+0 flashback log writes
+0 flashback log write bytes
+0 redo KB read
+0 redo KB read (memory)
+0 redo KB read for transport
+0 redo KB read (memory) for transport
+0 redo non-durable records skipped
+0 cell physical IO bytes saved during optimized file creation
+0 cell physical IO bytes saved during optimized RMAN file restore
+0 cell physical IO bytes eligible for predicate offload
+0 cell physical IO bytes eligible for smart IOs
+0 cell physical IO bytes saved by columnar cache
+0 cell physical IO bytes saved by storage index
+0 cell physical IO bytes sent directly to DB node to balance CPU usage
+0 cell physical IO bytes processed for IM capacity
+0 cell physical IO bytes processed for IM query
+0 cell physical IO bytes processed for no memcompress
+0 cell num bytes in passthru due to quarantine
+0 cell smart IO session cache lookups
+0 cell smart IO session cache hits
+0 cell smart IO session cache soft misses
+0 cell smart IO session cache hard misses
+0 cell smart IO session cache hwm
+0 cell num smart IO sessions in rdbms block IO due to user
+0 cell num smart IO sessions in rdbms block IO due to open fail
+0 cell num smart IO sessions in rdbms block IO due to no cell mem
+0 cell num smart IO sessions in rdbms block IO due to big payload
+0 cell num smart IO sessions using passthru mode due to user
+0 cell num smart IO sessions using passthru mode due to cellsrv
+0 cell num smart IO sessions using passthru mode due to timezone
+0 cell num smart file creation sessions using rdbms block IO mode
+0 cell num block IOs due to a file instant restore in progress
+0 cell physical IO interconnect bytes returned by smart scan
+0 cell num bytes in passthru during predicate offload
+0 cell num bytes in block IO during predicate offload
+0 cell num fast response sessions
+0 cell num fast response sessions continuing to smart scan
+0 cell num smartio automem buffer allocation attempts
+0 cell num smartio automem buffer allocation failures
+0 cell num smartio transient cell failures
+0 cell num smartio permanent cell failures
+0 cell num bytes of IO reissued due to relocation
+0 cell physical write bytes saved by smart file initialization
+0 cell XT granules requested for predicate offload
+0 cell XT granule bytes requested for predicate offload
+0 cell interconnect bytes returned by XT smart scan
+0 cell XT granule predicate offload retries
+0 cell XT granule IO bytes saved by storage index
+0 cell num map elem cancellation
+0 cell statistics spare1
+0 cell XT granule IO bytes saved by HDFS tbs extent map scan
+15 Batched IO vector read count
+37 Batched IO vector block count
+97 Batched IO single block count
+0 Batched IO zero block count
+373 Batched IO block miss count
+4 Batched IO double miss count
+0 Batched IO (full) vector count
+0 Batched IO (space) vector count
+108 Batched IO (bound) vector count
+238 Batched IO same unit count
+0 Batched IO buffer defrag count
+0 Batched IO slow jump count
+36 shared io pool buffer get success
+0 shared io pool buffer get failure
+0 physical reads for data transfer
+0 recovery marker
+0 recovery cvmap unavailable
+0 recovery recieve buffer unavailable
+0 recovery imc influx scn lagging
+0 recovery local buffer freed
+0 recovery remote buffer received
+0 recovery remote buffer sent
+0 recovery logmerger catchup
+0 temp space allocated (bytes)
+0 serializable aborts
+0 transaction lock foreground requests
+0 transaction lock foreground wait time
+0 transaction lock background gets
+0 transaction lock background get time
+11279068 undo change vector size
+0 txn cache local read hits
+0 txn cache local read misses
+0 txn cache local loscn read misses
+0 txn cache remote loscn read misses
+0 txn cache local writes
+0 txn cache local usn hash write misses
+0 txn cache local usn hash read misses
+0 txn cache remote usn hash read misses
+0 txn cache remote read hits
+0 txn cache remote read misses
+0 txn cache remote writes
+0 txn cache remote active read misses
+0 txn cache local ac read misses
+0 txn cache redo sync reads
+0 txn cache remote copy hits
+0 txn cache remote copy misses
+0 txn cache remote ts/inst mismatch
+0 txn cache remote proc misses
+0 txn cache local proc misses
+0 txn cache upper bound misses
+0 txn cache local preset misses
+0 txn cache local seq num misses
+0 txn cache remote seq num misses
+0 txn cache local empty slot misses
+0 txn cache remote empty slot misses
+0 txn cache local sync commit scn misses
+0 txn cache remote sync commit scn misses
+0 txn cache remote read msg sent
+0 txn cache remote requested xid count
+0 txn cache remote fetch double pass
+0 txn cache lookup usn exceeds max
+0 txn cache lookup slot exceeds max
+0 txn cache lookup fail read even version
+0 txn cache lookup conflicting write exact
+0 txn cache lookup conflicting write uppper
+0 txn cache init usn slot mismatch
+0 txn cache init usn exceeds max
+0 txn cache write usn exceeds max
+0 txn cache write slot mismatch
+0 transaction tables consistent reads - undo records applied
+0 transaction tables consistent read rollbacks
+39 data blocks consistent reads - undo records applied
+230120 no work - consistent read gets
+15 cleanouts only - consistent read gets
+14 rollbacks only - consistent read gets
+10 cleanouts and rollbacks - consistent read gets
+0 RowCR attempts
+0 RowCR hits
+0 RowCR - row contention
+0 RowCR - resume
+23 rollback changes - undo records applied
+22 transaction rollbacks
+1511 immediate (CURRENT) block cleanout applications
+25 immediate (CR) block cleanout applications
+3278 deferred (CURRENT) block cleanout applications
+129 commit txn count during cleanout
+448 active txn count during cleanout
+426 cleanout - number of ktugct calls
+0 immediate CR cleanouts (index blocks)
+0 deferred CUR cleanouts (index blocks)
+0 Commit SCN cached
+0 Cached Commit SCN referenced
+2 Block Cleanout Optim referenced
+626 blocks cleaned out using minact
+112 min active SCN optimization applied on CR
+2 auto extends on undo tablespace
+0 drop segment calls in space pressure
+0 total number of undo segments dropped
+0 doubling up with imu segment
+0 tune down retentions in space pressure
+0 steps of tune down ret. in space pressure
+0 space was found by tune down
+0 space was not found by tune down
+25 commit batch/immediate requested
+0 commit batch requested
+25 commit immediate requested
+25 commit batch/immediate performed
+0 commit batch performed
+25 commit immediate performed
+0 commit wait/nowait requested
+0 commit nowait requested
+0 commit wait requested
+0 commit wait/nowait performed
+0 commit nowait performed
+0 commit wait performed
+0 global undo segment hints helped
+0 global undo segment hints were stale
+0 local undo segment hints helped
+0 local undo segment hints were stale
+0 undo segment header was pinned
+0 undo blocks prefetched
+0 KTURMA CPU Time (usec)
+0 KTURMA RMA Ops
+0 KTURMA XID Lookups
+37 IMU commits
+29 IMU Flushes
+1 IMU contention
+0 IMU recursive-transaction flush
+0 IMU undo retention flush
+1 IMU ktichg flush
+0 IMU bind flushes
+0 IMU mbu flush
+0 IMU pool not allocated
+0 IMU CR rollbacks
+868696 IMU undo allocation size
+19400 IMU Redo allocation size
+0 IMU- failed to get a private strand
+0 Misses for writing mapping
+0 tracked transactions
+0 foreground propagated tracked transactions
+0 slave propagated tracked transactions
+0 large tracked transactions
+0 very large tracked transactions
+0 fbda woken up
+0 tracked rows
+0 CLI Flush
+0 CLI BG attempt Flush
+0 CLI Client Flush
+0 CLI Imm Wrt
+0 CLI Buf Wrt
+0 CLI Thru Wrt
+0 CLI Prvtz Lob 
+0 CLI SGA Alloc
+0 CLI BG ENQ
+0 CLI BG Fls done
+0 CLI Flstask create
+0 CLI bytes fls to table
+0 CLI bytes fls to ext
+0 Heatmap SegLevel - Write
+0 Heatmap SegLevel - Full Table Scan
+0 Heatmap SegLevel - IndexLookup
+0 Heatmap SegLevel - TableLookup
+0 Heatmap SegLevel - Flush
+0 Heatmap SegLevel - Segments flushed
+0 IM populate blocks invalid
+0 IM populate transactions check
+0 IM populate undo segheader rollback
+0 IM populate undo records applied
+0 IM populate transactions active
+0 IM populate checkpoint time (ms)
+0 IM populate direct read time (ms)
+0 IM populate cache read time (ms)
+0 IM repopulate blocks invalid
+0 IM repopulate transactions check
+0 IM repopulate undo segheader rollback
+0 IM repopulate undo records applied
+0 IM repopulate transactions active
+0 IM repopulate transactions copied
+0 IM repopulate previous SMU invalid
+0 IM repopulate checkpoints
+0 IM repopulate optimized
+0 IM repopulate old SMU nil
+0 IM repopulate invalid rows
+0 IM repopulate invalid blks
+0 IM repopulate blocks now valid
+0 IM repopulate optimized RAC/downgrade
+0 IM repopulate invalidation transfer time
+0 IM scan CUs rollback
+0 IM scan CUs no rollback
+0 IM scan CUs undo records applied
+0 IM scan CUs cleanout
+0 IM scan CUs no cleanout
+0 IM scan journal cleanout
+0 IM scan journal no cleanout
+0 IM scan journal
+0 IM scan rows journal total
+0 IM scan found invalid CU
+0 IM repopulate smu colmap used
+0 IM scan smu colmap hit
+0 IM scan smu colmap miss due to inserts
+0 IM scan smu colmap miss due to deletes
+0 IM scan smu colmap miss due to invalid blocks
+0 IM scan smu colmap miss due to update
+0 IM scan fine grain colmap hit
+0 IM scan fine grain colmap miss due to inserts
+0 IM scan fine grain colmap miss due to deletes
+0 IM scan fine grain colmap miss due to invalid blocks
+0 IM scan fine grain colmap miss due to update
+0 IM scan smu colmap miss due to untracked changes
+0 IM scan CUs low query scn
+0 IM scan CUs notfound dbclose
+0 IM scan CUs notfound lob
+0 IM scan CUs notfound
+0 IM scan CUs invisible smu
+0 IM scan CUs ref-invis smu
+0 IM scan CUs drop-invis smu
+0 IM scan CUs previous
+0 IM scan CUs lowscn no previous
+0 IM scan CUs wait notvis
+0 IM scan CUs wait notvis (doublebuffer)
+0 IM scan CUs previous current
+0 IM scan CUs current
+0 IM scan CUs maxretry done
+0 IM scan CUs no imcu
+0 IM transactions
+0 IM transactions rows journaled
+0 IM transactions rows invalidated
+0 IM transactions downgrade
+0 IM transactions blocks invalidated
+0 IM transactions CU cleanout
+0 IM transactions journal cleanout
+0 IM transactions found invalid CU
+0 IM transactions self-cleanout no active
+0 IM populate no checkpoint
+0 IM transactions full cleanout
+0 IM transaction rows array-journal calls
+0 IM transaction rows array-journaled
+0 IM transaction wait ref-smu
+0 IM transactions CUs invalid
+0 IM rac blocks invalid
+0 IM rac CUs invalid
+0 IM populate via direct reads
+0 IM repopulate via direct reads
+0 IM ADG registration failure (quiesce)
+0 IM ADG registration attempts
+0 IM scan CUs CR cache hit
+0 IM scan CUs CR cache miss
+0 IM scan CUs CR Incremental
+0 IM scan CUs CR skipped large rowids
+0 IM scan CUs readlist creation accumulated time
+0 IM scan CUs readlist creation accumulated time (CR)
+0 IM scan CUs readlist creation number
+0 IM scan CUs readlist creation number (CR)
+0 IM scan uncommitted PJ granule
+0 IM repopulate (ADG) transactions copied
+0 IM transactions block change blocks already invalid
+0 IM delta populate delta-SMU not created
+0 IM scan delta - only base scan
+0 IM scan delta - previous delta scan
+0 IM scan delta - current delta scan
+0 IM scan delta - double delta scan
+0 IM scan delta - double delta scan due to failure
+0 IM SMU Patch accumulated time
+0 IM SMU Patch accumulated time (CR)
+0 IM SMU Patch accumulated time (RAC Locks)
+0 IM SMU Patch total jobs
+0 IM SMU Patch total blocks patched
+0 IM SMU Patch total rows patched
+0 IM ADG corrupt undo blocks seen
+0 IM ADG inv pdb due to corrupt undo
+0 IM ADG inv all due to corrupt undo
+0 IM ADG blocks in flush
+0 IM ADG redo records seen
+0 IM ADG non-IMC transactions
+0 IM ADG number of query scn moves
+0 IM ADG time for query scn moves (ms)
+0 IM ADG transactions flushed
+0 IM ADG transactions compiled for flush
+0 IM ADG nothing to flush
+0 IM ADG invalidated pdb partial transaction
+0 IM ADG invalidated pdb DDL
+0 IM ADG invalidated object DDL
+0 IM ADG invalidated all objects
+0 IM ADG commit nodes added
+0 IM ADG commit nodes freed
+0 IM ADG commit journal destroy
+0 IM ADG commit journal emptied
+0 IM ADG journal sort
+0 IM ADG granule split
+4 segment dispenser load tasks
+1 segment dispenser load empty
+37 segment dispenser allocations
+70 segment cfs allocations
+39 segment chunks allocation from dispenser
+68 segment total chunk allocation
+4 TBS Extension: tasks created
+2 TBS Extension: tasks executed
+2 TBS Extension: files extended
+31457280 TBS Extension: bytes extended
+0 GDR: Active ranges cleared
+0 GDR: Active blocks cleared
+0 GDR: Inactive ranges cleared
+0 GDR: Inactive blocks cleared
+0 GDR: Unused ranges cleared
+0 GDR: Unused blocks cleared
+0 GDR: Total segments processed
+0 GDR: Total segments skipped
+0 GDR: Total blocks skipped
+0 GDR: Total files processed
+20 total number of times SMON posted
+0 SMON posted for undo segment recovery
+0 SMON posted for txn recovery for other instances
+0 SMON posted for instance recovery
+0 SMON posted for undo segment shrink
+0 SMON posted for dropping temp segment
+152 KTFB alloc req
+21889024 KTFB alloc space (block)
+663763 KTFB alloc time (ms)
+23 KTFB free req
+312 KTFB free space (block)
+18 KTFB free time (ms)
+71 KTFB apply req
+890 KTFB apply time (ms)
+4 KTFB commit req
+1144 KTFB commit time (ms)
+0 KTFB alloc myinst
+0 KTFB alloc steal
+0 KTFB alloc search FFB
+159 segment prealloc tasks
+162 segment prealloc ops
+1114112 segment prealloc bytes
+106 segment prealloc time (ms)
+0 segment prealloc ufs2cfs bytes
+0 Heatmap BlkLevel Tracked
+0 Heatmap BlkLevel Not Tracked - Memory
+0 Heatmap BlkLevel Not Updated - Repeat
+0 Heatmap BlkLevel Flushed
+0 Heatmap BlkLevel Flushed to SYSAUX
+0 Heatmap BlkLevel Flushed to BF
+0 Heatmap BlkLevel Ranges Flushed
+0 Heatmap BlkLevel Ranges Skipped
+0 Heatmap BlkLevel Flush Task Create
+2 Heatmap Blklevel Flush Task Count
+0 IM default area resized
+0 IM space CU extents allocated
+0 IM space SMU extents allocated
+0 IM space CU bytes allocated
+0 IM space SMU bytes allocated
+0 IM space CU creations initiated
+0 IM space SMU creations initiated
+0 IM space CU creations committed
+0 IM space SMU creations committed
+0 IM space private journal extents allocated
+0 IM space ADG extents allocated
+0 IM space private journal bytes allocated
+0 IM space ADG bytes allocated
+0 IM space shared journal extents allocated
+0 IM space shared journal bytes allocated
+0 IM space CU extents freed
+0 IM space SMU extents freed
+0 IM space CU bytes freed
+0 IM space SMU bytes freed
+0 IM space private journal extents freed
+0 IM space ADG journal extents freed
+0 IM space private journal bytes freed
+0 IM space ADG bytes freed
+0 IM space shared journal extents freed
+0 IM space shared journal bytes freed
+0 IM space segments allocated
+0 IM space private journal segments allocated
+0 IM space ADG segments allocated
+0 IM space shared journal segments allocated
+0 IM space segments freed
+0 IM space private journal segments freed
+0 IM space ADG segments freed
+0 IM space shared journal segments freed
+0 ASSM gsp:use space reservation
+0 ASSM gsp:Alignment unavailable in space res
+0 ASSM gsp:space reservation success
+0 ASSM gsp:blocks requested by space reservation
+0 ASSM gsp:blocks provided by space reservation
+0 ASSM gsp:blocks rejected by access layer callback
+905 ASSM gsp:get free block
+0 ASSM gsp:get free critical block
+448 ASSM gsp:get free data block
+0 ASSM gsp:get free lob block
+139 ASSM gsp:get free index block
+1099 ASSM cbk:blocks examined
+0 ASSM cbk:blocks rejected
+0 ASSM cbk:blocks accepted
+228 ASSM cbk:blocks marked full
+1095 ASSM gsp:L1 bitmaps examined
+1046 ASSM gsp:L2 bitmaps examined
+0 ASSM gsp:L3 bitmaps examined
+15 ASSM gsp:L2 bitmap full
+53 ASSM gsp:Search all
+54 ASSM gsp:Search hint
+53 ASSM gsp:Search steal
+53 ASSM gsp:bump HWM
+0 ASSM gsp:reject db
+0 ASSM gsp:reject L1
+0 ASSM gsp:reject L2
+0 ASSM gsp:reject L3
+0 ASSM gsp:Optimized reject DB
+0 ASSM gsp:Optimized reject l1
+0 ASSM gsp:Optimized reject l2
+693 ASSM gsp:good hint
+0 ASSM gsp:Optimized index block rejects
+0 ASSM gsp:Optimized data block rejects
+0 ASSM gsp:add extent
+18 ASSM wasted db state change
+5 ASSM bg: segment fix monitor
+0 ASSM fg: submit segment fix task
+0 ASSM bg:mark segment for fix
+0 ASSM bg:create segment fix task
+0 ASSM bg:slave fix one segment
+0 ASSM bg:slave compress block
+0 ASSM bg:slave fix state
+31 ASSM rsv:fill reserve
+0 ASSM rsv:alloc from reserve
+0 ASSM rsv:alloc from reserve fail
+0 ASSM rsv:alloc from reserve succ
+0 ASSM rsv:clear reserve
+4716 table scans (short tables)
+2 table scans (long tables)
+0 table scans (rowid ranges)
+0 table scans (IM)
+0 table scans (cache partitions)
+0 table scans (direct read)
+3678025 table scan rows gotten
+0 table scan rs1
+0 table scan rs2
+3678024 table scan disk non-IMC rows gotten
+0 table scan disk IMC fallback
+62876 table scan blocks gotten
+113914 table fetch by rowid
+1481 table fetch continued row
+23445 cluster key scans
+31052 cluster key scan block gets
+17009 rows fetched via callback
+0 cell scans
+0 cell blocks processed by cache layer
+0 cell blocks processed by txn layer
+0 cell blocks processed by data layer
+0 cell blocks processed by index layer
+0 cell filtered blocks failed block check
+0 cell commit cache queries
+0 cell transactions found in commit cache
+0 cell blocks helped by commit cache
+0 cell blocks helped by minscn optimization
+0 cell chained rows skipped
+0 cell chained rows processed
+0 cell chained row pieces fetched
+0 cell chained rows rejected
+0 error count cleared by cell
+0 cell blocks sent
+0 cell blocks pivoted
+0 cell blocks returned by data layer
+0 cell blocks returned by index layer
+0 cell index blocks sent
+0 cell blocks returned by external tables
+0 cell spare1
+0 cell spare2
+0 cell IO uncompressed bytes
+0 cell scan CUs pcode aggregation pushdown
+0 cell scan rows pcode aggregated
+0 cell scan CUs pcode selective done
+0 cell scan CUs pcode pred evaled
+0 cell scan CUs pcode pred evaled using rowsets
+0 cell simulated physical IO bytes eligible for predicate offload
+0 cell simulated physical IO bytes returned by predicate offload
+0 queue update without cp update
+0 index crx upgrade (prefetch)
+0 index crx upgrade (found)
+2 index crx upgrade (positioned)
+0 index cmph dm, split for cu migrate row
+0 index cmph dm, cu migrate row
+0 index cmph dm, insert unpurge CU row
+0 index cmpl ro, prefix change at block
+0 index cmpl ro, prefix no change at block
+0 index cmpl ro, blocks not compressed
+0 index cmpl ro, reorg avoid load new block
+0 index cmpl ro, reorg avoid split
+0 index cmpl co, prefix mismatch
+0 index split cancel wait noclean
+0 index split cancel wait clean
+0 index split cancel op set
+0 index crx state invalidation
+103 leaf node splits
+40 leaf node 90-10 splits
+0 index cmph sp, leaf recompress
+0 index cmph sp, leaf norecomp nospace
+0 index cmph sp, leaf norecomp negcomp
+0 index cmph sp, leaf norecomp oversize
+0 index cmph sp, leaf norecomp zerocur
+0 index cmph sp, leaf norecomp limit
+0 index cmph sp, leaf norecomp notry
+0 index cmph sp, deci norecomp max limit
+0 index cmph sp, deci norecomp donotrecomp bit
+0 index cmph sp, deci norecomp cusz threshold
+0 index cmph sp, deci recomp free purge
+0 index cmph sp, leaf 90_10 failed
+0 branch node splits
+0 root node splits
+0 failed probes on index block reclamation
+0 recursive aborts on index block reclamation
+0 index reclamation/extension switch
+1992 lob reads
+2242 lob writes
+2242 lob writes unaligned
+0 cell index scans
+101 index fast full scans (full)
+0 index fast full scans (rowid ranges)
+0 index fast full scans (direct read)
+43820 index fetch by key
+58528 index range scans
+0 index cmph sc, ffs decomp buffers
+0 index cmph sc, ffs decomp buffers rows avail
+0 index cmph sc, ffs decomp buffers rows used
+0 index cmph sc, ffs decomp failures
+0 index cmph sc, ffs decomp buffers released and found valid
+0 queue splits
+0 queue flush
+0 queue position update
+0 queue single row
+0 queue ocp pages
+0 queue qno pages
+80 heap block compress
+0 HSC OLTP Space Saving
+0 HSC OLTP Compressed Blocks
+0 HSC IDL Compressed Blocks
+0 HSC Compressed Segment Block Changes
+19903 HSC Heap Segment Block Changes
+0 HSC OLTP Non Compressible Blocks
+0 HSC OLTP positive compression
+0 HSC OLTP negative compression
+0 HSC OLTP recursive compression
+0 HSC OLTP inline compression
+0 HSC OLTP partial compression
+0 HSC OLTP Drop Column
+0 HSC OLTP Compression skipped rows
+0 HSC OLTP compression block checked
+440 Heap Segment Array Inserts
+16 Heap Segment Array Updates
+0 HSC OLTP Compression wide compressed row pieces
+0 Heap Segment Array Deletes
+991232 securefile allocation bytes
+39 securefile allocation chunks
+0 securefile direct read bytes
+991232 securefile direct write bytes
+0 securefile direct read ops
+39 securefile direct write ops
+0 securefile inode read time
+0 securefile inode write time
+0 securefile inode ioreap time
+0 securefile inode lhb redo
+0 securefile inode itree redo
+1026663 securefile bytes non-transformed
+211 securefile number of non-transformed flushes
+0 securefile bytes encrypted
+0 securefile bytes cleartext
+0 securefile compressed bytes
+0 securefile uncompressed bytes
+0 securefile bytes deduplicated
+0 securefile create dedup set
+0 securefile destroy dedup set
+0 securefile add dedupd lob to set
+0 securefile rmv from dedup set
+0 securefile reject deduplication
+0 securefile dedup prefix hash match
+0 securefile number of flushes
+0 securefile dedup flush too low
+0 securefile dedup callback oper final
+0 securefile dedup hash collision
+0 securefile dedup fits inline
+0 securefile dedup wapp cache miss
+0 HCC load direct CUs
+0 HCC load conventional CUs
+0 HCC load direct CUs query low
+0 HCC load direct CUs query high
+0 HCC load direct CUs archive high
+0 HCC load direct CUs archive low
+0 HCC load conventional CUs query low
+0 HCC load conventional CUs query high
+0 HCC load conventional CUs archive high
+0 HCC load conventional CUs archive low
+0 HCC load conventional CUs tail blk enhanced
+0 HCC load direct bytes compressed
+0 HCC load conventional bytes compressed
+0 HCC load direct bytes uncompressed
+0 HCC load conventional bytes uncompressed
+0 HCC load direct rows
+0 HCC load conventional rows
+0 HCC load direct rows not compressed
+0 HCC load conventional rows not compressed
+0 HCC load direct CUs row pieces
+0 HCC load conventional CUs row pieces
+0 HCC scan rdbms CUs decompressed
+0 HCC scan cell CUs decompressed
+0 HCC scan rdbms CUs query low
+0 HCC scan cell CUs query low
+0 HCC scan rdbms CUs query high
+0 HCC scan cell CUs query high
+0 HCC scan rdbms CUs archive high
+0 HCC scan cell CUs archive high
+0 HCC scan rdbms CUs archive low
+0 HCC scan cell CUs archive low
+0 HCC scan rdbms bytes compressed
+0 HCC scan cell bytes compressed
+0 HCC scan rdbms bytes decompressed
+0 HCC scan cell bytes decompressed
+0 HCC scan rdbms CUs columns accessed
+0 HCC scan cell CUs columns accessed
+0 scan rdbms pivoted columns accessed
+0 HCC scan rdbms columns theoretical max
+0 HCC scan cell columns theoretical max
+0 scan rdbms pivoted columns theoretical max
+0 HCC scan rdbms rows
+0 HCC scan cell rows
+0 scan rdbms pivoted rows
+0 HCC scan rdbms CUs row pieces accessed
+0 HCC scan cell CUs row pieces accessed
+0 HCC scan rdbms CUs row pieces total
+0 HCC scan cell CUs row pieces total
+0 HCC scan rdbms CUs decompression time
+0 HCC scan cell CUs decompression time
+0 HCC DML CUs
+0 HCC scan rdbms CUs normal
+0 HCC scan rdbms CUs turbo
+0 scan rdbms pivoted blocks
+0 HCC fetch by rowid CUs
+0 HCC analyze table CUs
+0 HCC block dump CUs
+0 HCC block check CUs
+0 HCC analyzer calls
+0 HCC usage ZFS
+0 HCC usage pillar
+0 HCC usage cloud
+0 HCC DML conventional
+0 cellmemory IM scan CUs processed for query
+0 cellmemory IM scan CUs processed for capacity
+0 cellmemory IM scan CUs processed no memcompress
+0 cellmemory IM load CUs for query
+0 cellmemory IM load CUs for capacity
+0 cellmemory IM load CUs no memcompress
+0 cellmemory IM scan CUs rejected for query
+0 cellmemory IM scan CUs rejected for capacity
+0 cellmemory IM scan CUs rejected no memcompress
+0 cellmemory IM scan stat 1
+0 cellmemory IM scan stat 2
+0 cellmemory IM scan stat 3
+0 cellmemory IM scan stat 4
+0 cellmemory IM scan stat 5
+0 HCC block compressions completed
+0 HCC block compressions attempted
+0 HCC scan CUs predicates received
+0 HCC scan CUs predicates optimized
+0 HCC scan CUs predicates applied
+0 HCC scan rdbms CUs optimized read
+0 HCC scan cell CUs optimized read
+0 HCC scan rdbms CUs pruned
+0 HCC scan cell CUs pruned
+0 HCC scan cell CUs sent uncompressed
+0 HCC scan cell CUs sent compressed
+0 HCC scan cell CUs sent head piece
+0 HCC scan cell CUs processed for uncompressed
+0 HCC scan cell CUs processed for compressed
+0 HCC scan CUs pcode aggregation pushdown
+0 HCC scan rows pcode aggregated
+0 HCC scan CUs pcode selective done
+0 HCC scan CUs pcode pred evaled
+0 HCC scan CUs pcode pred evaled using rowsets
+0 SecureFiles DBFS Link Operations
+0 SecureFiles Move to DBFS Link
+0 SecureFiles Copy from DBFS Link
+0 SecureFiles Get DBFS Link Reference
+0 SecureFiles Put DBFS Link Reference
+0 SecureFiles Implicit Copy from DBFS Link
+0 SecureFiles DBFS Link streaming reads
+0 SecureFiles DBFS Link Overwrites
+0 IM populate segments requested
+0 IM prepopulate segments requested
+0 IM repopulate segments requested
+0 IM populate process killed
+0 IM populate segments
+0 IM prepopulate segments
+0 IM repopulate segments
+0 IM populate CUs requested
+0 IM prepopulate CUs requested
+0 IM repopulate CUs requested
+0 IM repopulate (trickle) CUs requested
+0 IM repopulate (scan) CUs requested
+0 IM repopulate (incremental) CUs requested
+0 IM repopulate (doublebuffering) CUs requested
+0 IM repopulate (incremental) CUs old CU unavailable
+0 IM repopulate (incremental) CUs old CU empty
+0 IM repopulate (incremental) CUs old CU defchg
+0 IM populate CUs resubmitted
+0 IM prepopulate CUs resubmitted
+0 IM repopulate CUs resubmitted
+0 IM repopulate (trickle) CUs resubmitted
+0 IM repopulate (scan) CUs resubmitted
+0 IM populate CUs not
+0 IM prepopulate CUs not
+0 IM repopulate CUs not
+0 IM repopulate (trickle) CUs not
+0 IM repopulate (scan) CUs not
+0 IM populate CUs nop
+0 IM prepopulate CUs nop
+0 IM repopulate CUs nop
+0 IM repopulate (trickle) CUs nop
+0 IM repopulate (scan) CUs nop
+0 IM populate CUs no blocks
+0 IM prepopulate CUs no blocks
+0 IM populate CUs
+0 IM prepopulate CUs
+0 IM repopulate CUs
+0 IM repopulate (trickle) CUs
+0 IM repopulate (scan) CUs
+0 IM repopulate (incremental) CUs
+0 IM repopulate (doublebuffering) CUs
+0 IM repopulate (incremental) CUs using population
+0 IM repopulate (delta) CUs requested
+0 IM repopulate (delta) CUs resubmitted
+0 IM repopulate (delta) CUs
+0 IM repopulate (delta) due to row-based formula
+0 IM repopulate (delta) due to block-based formula
+0 IM populate bytes from storage
+0 IM prepopulate bytes from storage
+0 IM repopulate bytes from storage
+0 IM repopulate (trickle) bytes from storage
+0 IM repopulate due to row threshold hit
+0 IM repopulate due to block threshold hit
+0 IM populate accumulated time (ms)
+0 IM populate segments wall clock time (ms)
+0 IM prepopulate accumulated time (ms)
+0 IM repopulate accumulated time (ms)
+0 IM repopulate (trickle) accumulated time (ms)
+0 IM repopulate (delta) accumulated time (ms)
+0 IM repopulate read time (ms)
+0 IM populate buffer direct read time (ms)
+0 IM populate external table read time (ms)
+0 IM populate CUs empty
+0 IM repopulate CUs empty
+0 IM prepopulate CUs empty
+0 IM repopulate (trickle) CUs empty
+0 IM repopulate (delta) CUs empty
+0 IM populate CUs columns
+0 IM prepopulate CUs columns
+0 IM repopulate CUs columns
+0 IM repopulate (trickle) CUs columns
+0 IM populate bytes in-memory data
+0 IM prepopulate bytes in-memory data
+0 IM repopulate bytes in-memory data
+0 IM repopulate (trickle) bytes in-memory data
+0 IM populate bytes uncompressed data
+0 IM prepopulate bytes uncompressed data
+0 IM repopulate bytes uncompressed data
+0 IM repopulate (trickle) bytes uncompressed data
+0 IM populate rows
+0 IM prepopulate rows
+0 IM repopulate rows
+0 IM repopulate (trickle) rows
+0 IM populate CUs chain pieces
+0 IM prepopulate CUs chain pieces
+0 IM repopulate CUs chain pieces
+0 IM repopulate (trickle) CUs chain pieces
+0 IM populate CUs no memcompress
+0 IM prepopulate CUs no memcompress
+0 IM repopulate CUs no memcompress
+0 IM repopulate (trickle) CUs no memcompress
+0 IM populate CUs memcompress for dml
+0 IM prepopulate CUs memcompress for dml
+0 IM repopulate CUs memcompress for dml
+0 IM repopulate (trickle) CUs memcompress for dml
+0 IM populate CUs memcompress for query low
+0 IM prepopulate CUs memcompress for query low
+0 IM repopulate CUs memcompress for query low
+0 IM repopulate (trickle) CUs memcompress for query low
+0 IM populate CUs memcompress for query high
+0 IM prepopulate CUs memcompress for query high
+0 IM repopulate CUs memcompress for query high
+0 IM repopulate (trickle) CUs memcompress for query high
+0 IM populate CUs memcompress for capacity low
+0 IM prepopulate CUs memcompress for capacity low
+0 IM repopulate CUs memcompress for capacity low
+0 IM repopulate (trickle) CUs memcompress for capacity low
+0 IM populate CUs memcompress for capacity high
+0 IM prepopulate CUs memcompress for capacity high
+0 IM repopulate CUs memcompress for capacity high
+0 IM repopulate (trickle) CUs memcompress for capacity high
+0 IM XT populate rows
+0 IM XT populate CUs
+0 IM XT populate segments
+0 IM XT populate empty CU created
+0 IM scan CUs pcode aggregation pushdown
+0 IM scan rows pcode aggregated
+0 IM scan CUs pcode selective done
+0 IM scan CUs pcode pred evaled
+0 IM scan CUs pcode pred evaled using rowsets
+0 IM scan CUs pcode aggregation IME
+0 IM scan CUs skip IME base IM col
+0 IM scan CUs skip IME long varchar lob col
+0 IM scan dict engine results stored
+0 IM scan dict engine results reused
+0 IM faststart read data accumulated time (ms)
+0 IM faststart read CUs problems
+0 IM faststart read headers accumulated time (ms)
+0 IM faststart read accumulated time (ms)
+0 IM faststart read verify accumulated time (ms)
+0 IM faststart read CUs requested
+0 IM faststart read CUs
+0 IM faststart read CUs not accessible
+0 IM faststart read bytes
+0 IM faststart read CUs incompatible
+0 IM faststart read CUs invalid
+0 IM faststart write bytes
+0 IM faststart write CUs
+0 IM faststart write CUs requested
+0 IM faststart write CUs problems
+0 IM faststart write accumulated time (ms)
+0 IM faststart write CUs encryption mismatch
+0 IM faststart write CUs evicted
+0 IM faststart write CUs too dirty
+0 IM faststart write deferred CUs requested
+0 IM faststart write deferred CUs
+0 IM faststart write deferred accumulated (ms)
+0 IM faststart write deferred timeouts
+0 IM faststart write deferred CUs not found
+0 IM faststart write slave starts requested
+0 IM faststart write slave starts
+0 IM faststart coordinator accumulated time (ms)
+0 IM faststart coordinator cycle aborts
+0 IM faststart coordinator cycle overruns
+0 IM faststart coordinator runs
+0 IM faststart coordinator throttle down
+0 IM faststart coordinator task submitted priority p1
+0 IM faststart coordinator task submitted priority p2
+0 IM faststart coordinator task submitted priority p3
+0 IM faststart coordinator task priority p1 to p2
+0 IM faststart coordinator task priority p2 extended
+0 IM faststart coordinator task priority p2 to p3
+0 IM faststart coordinator scheduler restarted
+0 IM faststart delete CUs problem
+0 IM faststart GC slave runs
+0 IM populate EUs requested
+0 IM populate EUs
+0 IM prepopulate EUs requested
+0 IM prepopulate EUs
+0 IM repopulate EUs requested
+0 IM repopulate EUs
+0 IM repopulate (incremental) EUs requested
+0 IM repopulate (incremental) EUs
+0 IM repopulate (trickle) EUs requested
+0 IM repopulate (trickle) EUs
+0 IM repopulate (scan) EUs requested
+0 IM repopulate (scan) EUs
+0 IM populate EUs accumulated time (ms)
+0 IM prepopulate EUs accumulated time (ms)
+0 IM repopulate EUs accumulated time (ms)
+0 IM repopulate (trickle) EUs accumulated time (ms)
+0 IM populate EUs columns
+0 IM prepopulate EUs columns
+0 IM repopulate EUs columns
+0 IM repopulate (trickle) EUs columns
+0 IM populate bytes in-memory EU data
+0 IM prepopulate bytes in-memory EU data
+0 IM repopulate bytes in-memory EU data
+0 IM repopulate (trickle) bytes in-memory EU data
+0 IM populate bytes uncompressed EU data
+0 IM prepopulate bytes uncompressed EU data
+0 IM repopulate bytes uncompressed EU data
+0 IM repopulate (trickle) bytes uncompressed EU data
+0 IM populate EUs no memcompress
+0 IM prepopulate EUs no memcompress
+0 IM repopulate EUs no memcompress
+0 IM repopulate (trickle) EUs no memcompress
+0 IM populate EUs memcompress for dml
+0 IM prepopulate EUs memcompress for dml
+0 IM repopulate EUs memcompress for dml
+0 IM repopulate (trickle) EUs memcompress for dml
+0 IM populate EUs memcompress for query low
+0 IM prepopulate EUs memcompress for query low
+0 IM repopulate EUs memcompress for query low
+0 IM repopulate (trickle) EUs memcompress for query low
+0 IM populate EUs memcompress for query high
+0 IM prepopulate EUs memcompress for query high
+0 IM repopulate EUs memcompress for query high
+0 IM repopulate (trickle) EUs memcompress for query high
+0 IM populate EUs memcompress for capacity low
+0 IM prepopulate EUs memcompress for capacity low
+0 IM repopulate EUs memcompress for capacity low
+0 IM repopulate (trickle) EUs memcompress for capacity low
+0 IM populate EUs memcompress for capacity high
+0 IM prepopulate EUs memcompress for capacity high
+0 IM repopulate EUs memcompress for capacity high
+0 IM repopulate (trickle) EUs memcompress for capacity high
+0 IM scan CUs no memcompress
+0 IM scan CUs memcompress for dml
+0 IM scan CUs memcompress for query low
+0 IM scan CUs memcompress for query high
+0 IM scan CUs memcompress for capacity low
+0 IM scan CUs memcompress for capacity high
+0 IM scan EUs no memcompress
+0 IM scan EUs memcompress for dml
+0 IM scan EUs memcompress for query low
+0 IM scan EUs memcompress for query high
+0 IM scan EUs memcompress for capacity low
+0 IM scan EUs memcompress for capacity high
+0 IM scan CUs doublebuffering
+0 IM scan CUs delta
+0 session logical reads - IM
+0 IM scan segments disk
+0 IM scan bytes in-memory
+0 IM scan bytes uncompressed
+0 IM scan CUs columns accessed
+0 IM scan CUs columns decompressed
+0 IM scan CUs columns theoretical max
+0 IM scan EU bytes in-memory
+0 IM scan EU bytes uncompressed
+0 IM scan EUs columns accessed
+0 IM scan EUs columns decompressed
+0 IM scan EUs columns theoretical max
+0 IM scan EU rows
+0 IM scan rows
+0 IM simd compare calls
+0 IM simd decode calls
+0 IM simd rle burst calls
+0 IM simd set membership calls
+0 IM simd bloom filter calls
+0 IM simd xlate filter calls
+0 IM simd decode unpack calls
+0 IM simd decode symbol calls
+0 IM simd compare selective calls
+0 IM simd decode selective calls
+0 IM simd rle burst selective calls
+0 IM simd set membership selective calls
+0 IM simd bloom filter selective calls
+0 IM simd xlate filter selective calls
+0 IM simd decode unpack selective calls
+0 IM simd decode symbol selective calls
+0 IM simd compare HW offload calls
+0 IM simd decode HW offload calls
+0 IM simd rle burst HW offload calls
+0 IM simd set membership HW offload calls
+0 IM simd decode unpack HW offload calls
+0 IM scan rows valid
+0 IM scan rows delta
+0 IM scan rows range excluded
+0 IM scan rows discontinuous
+0 IM scan rows excluded
+0 IM scan rows optimized
+0 IM scan rows projected
+0 IM scan rows cache delta exists
+0 IM scan rows cache populate
+0 IM scan rows cache no delta
+0 IM scan blocks cache
+0 IM scan CUs split pieces
+0 IM scan EUs split pieces
+0 IM repopulate (incremental) total rows
+0 IM repopulate (trickle incremental) total rows
+0 IM repopulate (incremental) fetched rows
+0 IM repopulate (trickle incremental) fetched rows
+0 IM repopulate (incremental) valid CU rows
+0 IM repopulate (trickle incremental) valid CU rows
+0 IM repopulate (incremental) invalid CU rows
+0 IM repopulate (trickle incremental) invalid CU rows
+0 IM repopulate (incremental) CUs columns
+0 IM repopulate (trickle incremental) CUs columns
+0 IM repopulate (incremental) CUs columns dict reused
+0 IM repopulate (trickle incremental) CUs columns dict reused
+0 IM repopulate (incremental) CUs columns reused
+0 IM repopulate (trickle incremental) CUs columns reused
+0 IM repopulate (incremental) CU blocks
+0 IM repopulate (trickle incremental) CU blocks
+0 IM repopulate (incremental) blocks read
+0 IM repopulate (trickle incremental) blocks read
+0 IM repopulate (incremental) modified blocks
+0 IM repopulate (trickle incremental) modified blocks
+0 IM repopulate (incremental) CUs valid columns optimized
+0 IM repopulate (trickle incremental) CUs valid columns optimized
+0 IM populate SMU/DLM locks fail
+0 IM repopulate SMU/DLM locks fail
+0 IM populate no contiguous inmemory space
+0 IM repopulate no contiguous inmemory space
+0 IM populate no space in PGA
+0 IM repopulate no space in PGA
+0 IM populate so cleanup
+0 IM repopulate so cleanup
+0 IM delta so cleanup
+0 IM scan CUs predicates received
+0 IM scan CUs predicates applied
+0 IM scan CUs predicates optimized
+0 IM scan CUs optimized read
+0 IM scan CUs pruned
+0 IM scan CUs delta pruned
+0 IM scan segments minmax eligible
+0 IM fetches by rowid from IMCU
+0 IM fetches by rowid from disk
+0 IM fetches by rowid from fetch list
+0 IM fetches by rowid row invalid in IMCU
+0 IM scan CUs column not in memory
+0 IM scan extents invalid
+0 IM scan invalid all blocks
+0 IM scan CUs invalid or missing revert to on disk extent
+0 IM scan CUs failed to reget pin
+0 IM scan CUs no rows valid
+0 IM scan (dynamic) rows
+0 IM scan (dynamic) multi-threaded scans
+0 IM scan (dynamic) max degree
+0 IM scan (dynamic) pending tasks
+0 IM scan (dynamic) executing tasks
+0 IM scan (dynamic) task execution time
+0 IM scan (dynamic) task submission time
+0 IM scan (dynamic) task reap time
+0 IM scan (dynamic) tasks processed by thread
+0 IM scan (dynamic) tasks processed by parent
+0 IM scan (dynamic) rs2 rowsets
+0 IM split CUs requested
+0 IM split CUs
+0 IM split get smaller CUs
+0 IM split fail no space
+0 IM split CU too small
+0 IM split fail
+0 IM zzzz spare1
+0 IM zzzz spare2
+0 IM SubCU-MM bytes allocated
+0 IM SubCU-InvIdx bytes allocated
+0 IM SubCU-MM CUs
+0 IM SubCU-InvIdx CUs
+0 IM SubCU-MM CUs Examined
+0 IM SubCU-MM CUs Selected
+0 IM SubCU-MM SubCUs Eliminated
+0 IM SubCU-MM SubCUs in Selected CUs
+0 IM SubCU-Hist SubCUs Eliminated
+0 IM SubCU-Hist SubCUs in Selected CUs
+0 IM SubCU-InvIdx CUs Examined
+0 IM SubCU-InvIdx CUs Selected
+0 IM prepopulate CUs requested hwm
+0 IM populate CUs requested hwm
+0 IM prepopulate CUs hwm
+0 IM populate CUs hwm
+0 IM repopulate CUs req cleandelta
+0 IM CUs hwm expanded
+0 IM CUs hwm mismatch drop
+0 IM CUs hwm dropped
+0 index cmph ld, CU under-est
+0 index cmph ld, CU fit, add rows
+0 index cmph ld, CU fit
+0 index cmph ld, CU over-est
+0 index cmph ld, retry in over-est
+0 index cmph ld, CU negative comp
+0 index cmph ld, lf blks flushed
+0 index cmph ld, lf blks w/o CU
+0 index cmph ld, lf blks w/o unc r
+0 index cmph ld, lf blks w/ und CU
+0 index cmph ld, rows compressed
+0 index cmph ld, rows uncompressed
+0 index cmph ld, infinite loop
+0 index cmph ld, CU cmp subcol prefix
+0 index cmph ld, CU cmp prefix rows
+0 index cmph ld, CU cmp rowdir
+0 index cmph ld, CU cmp prowdir
+0 index cmph ld, CU cmp dedup keys
+0 index cmph ld, CU cols prefix comp
+0 index cmph ld, CU cols suffix comp
+0 index cmph ld, CU cols length comp
+0 index cmph ld, CU cols fixed length
+0 index cmph ld, CU cols list comp
+0 index cmph ld, CU cols bitmap comp
+0 index cmph ld, CU cols cmp special length
+0 index cmph ld, CU cols special length
+0 index cmph ld, CU cols symtab comp
+0 index cmph ld, CU cols prefix lenval
+0 index cmph cu, uncomp sentinels
+0 index cmph sp, leaf recomp fewer ucs
+0 index cmph sp, leaf recomp zero ucs
+0 index cmph dm, cu lock expand
+0 index cmph dm, split for cu lock expand
+0 index cmph dm, purge dummy CU
+0 memopt r fail to pin buffer
+0 memopt r entries deleted
+0 memopt r lookups
+0 memopt r hits
+0 memopt r misses
+0 memopt r tag collisions
+0 memopt r lookup skipped deleted rows
+0 memopt r lookup skipped locked rows
+0 memopt r lookup skipped chained rows
+0 memopt r failed reads on buckets
+0 memopt r failed reads on blocks
+0 memopt r lookup detected CR buffer
+0 memopt r puts
+0 memopt r puts:buckets full
+0 memopt r successful puts
+0 memopt r successful puts:with evictions
+0 memopt r successful puts:with cuckoo
+0 memopt r successful puts:cuckoo deadend
+0 memopt r successful puts:max cuckoo
+0 memopt r failed puts
+0 memopt r failed puts:bucket in flux
+0 memopt r failed puts:no space
+0 memopt r populate tasks accepted
+0 memopt r populate tasks not accepted
+0 memopt r populate skipped locked rows
+0 memopt r populate skipped deleted rows
+0 memopt r populate skipped chained rows
+0 memopt r rows populated
+0 memopt r populate
+0 memopt r blocks populated
+0 memopt r failed to get tbs drop EQ
+0 memopt r failed to get tbs offline EQ
+0 memopt r failed to get segment drop EQ
+0 memopt r repopulate tasks accepted
+0 memopt r repopulate tasks not accepted
+0 memopt r repopulate
+0 memopt r rows repopulated
+0 memopt r blocks repopulated
+0 memopt r repopulate skipped locked rows
+0 memopt r repopulate skipped deleted rows
+0 memopt r repopulate skipped chained rows
+0 memopt r repopulate invalidated entries
+0 memopt r cleanup
+0 memopt r NO IM tasks accepted
+0 memopt r NO IM tasks not accepted
+0 memopt r DROP IM tasks accepted
+0 memopt r DROP IM tasks not accepted
+0 memopt w buffer gets
+0 memopt w rows written
+0 memopt w rows flushed
+0 memopt w flush tasks
+0 memopt w flush tasks deferred
+0 memopt w buffer miss space
+0 memopt w buffer miss latch
+0 memopt w buffer miss waits
+0 memopt w buffer miss spc nolatch
+0 memopt w buffer miss wait unq
+0 memopt w buffer gotcur
+0 memopt w buffer miss spc unq nolat
+0 memopt w buffer miss nobuf
+0 memopt w buffer hit bucket 0
+0 memopt w buffer wake post
+0 memopt w drain sleep work
+0 memopt w drain sleep
+0 memopt w drain sleep wake post
+169 sql area purged
+1982 sql area evicted
+1688 CCursor + sql area evicted
+0 No. of Encrypt ops
+0 No. of Decrypt ops
+0 No. of XS Sessions Created
+0 No. of XS Sessions Attached
+0 No. of Namespaces Created
+0 No. of User Callbacks Executed
+0 No. of Roles Enabled or Disabled
+0 No. of Principal Cache Misses
+0 No. of Principal Invalidations
+0 Number of NONE redactions
+0 Number of FULL redactions
+0 Number of PARTIAL redactions
+0 Number of FORMAT_PRESERVING redactions
+0 Number of RANDOM redactions
+0 Number of REGEXP redactions
+0 Number of NULLIFY redactions
+0 Number of REGEXP_WIDTH redactions
+0 DX/BB enqueue lock foreground requests
+0 DX/BB enqueue lock foreground wait time
+0 DX/BB enqueue lock background gets
+0 DX/BB enqueue lock background get time
+0 Clusterwide global transactions
+0 Clusterwide global transactions spanning RAC nodes
+0 Forwarded 2PC commands across RAC nodes
+0 GTX processes spawned by autotune
+0 GTX processes stopped by autotune
+77389 session cursor cache hits
+3038 session cursor cache count
+7 cursor reload failures
+20 DML statements retried
+0 java call heap total size
+0 java call heap total size max
+0 java call heap used size
+0 java call heap used size max
+0 java call heap live size
+0 java call heap live size max
+0 java call heap object count
+0 java call heap object count max
+0 java call heap live object count
+0 java call heap live object count max
+0 java call heap gc count
+0 java call heap collected count
+0 java call heap collected bytes
+0 java session heap used size
+0 java session heap used size max
+0 java session heap live size
+0 java session heap live size max
+0 java session heap object count
+0 java session heap object count max
+0 java session heap live object count
+0 java session heap live object count max
+0 java session heap gc count
+0 java session heap collected count
+0 java session heap collected bytes
+1187 cursor authentications
+1 queries parallelized
+0 DML statements parallelized
+0 DDL statements parallelized
+5 DFO trees parallelized
+5 Parallel operations not downgraded
+0 Parallel operations downgraded to serial
+0 Parallel operations downgraded 75 to 99 pct
+0 Parallel operations downgraded 50 to 75 pct
+0 Parallel operations downgraded 25 to 50 pct
+0 Parallel operations downgraded 1 to 25 pct
+198 PX local messages sent
+198 PX local messages recv'd
+0 PX remote messages sent
+0 PX remote messages recv'd
+118819 buffer is pinned count
+255584 buffer is not pinned count
+10 no buffer to keep pinned count
+0 workarea memory allocated
+6833 workarea executions - optimal
+0 workarea executions - onepass
+0 workarea executions - multipass
+0 key vector CUs filtered
+0 key vector CUs min/max filtered
+0 key vector CU codes processed
+0 key vector rows processed by value
+0 key vector rows processed by code
+0 key vector CUs processed using cached integer join keys
+0 key vector rows filtered
+0 key vector filtered on cell
+0 key vector probed on cell
+0 key vectors sent to cell
+0 key vectors sent to cell in lite mode due to layout
+0 key vectors sent to cell in lite mode due to quota
+0 key vector serializations for cell
+0 key vector serializations in lite mode for cell
+0 key vector queries
+0 key vectors created
+0 key vectors created (simple layout)
+0 key vectors created (indirect layout)
+0 key vectors created (offset layout)
+0 key vectors created (doubly indirect layout)
+0 key vectors created (hash layout)
+0 key vectors created (paged)
+0 key vectors created (bit wide)
+0 key vectors created (nibble wide)
+0 key vectors created (byte wide)
+0 key vectors created (2 byte wide)
+0 key vectors created (4 byte wide)
+0 key vectors created with payload
+0 key vectors bypassed
+0 key vector stubs created
+0 key vector cas merge locking retrial
+0 key vector cas merge abort
+0 key vector cas merge operations
+0 key vector non cas merge operations
+0 key vector dgk batch parcels
+0 key vector dgk range parcels
+0 key vector hash probes
+0 key vector hash inserts
+0 key vector hash cells scanned
+0 key vector hash locks encountered
+0 key vector hash copied encountered
+0 key vector efilters created
+0 vector group by operations sent to cell
+0 vector group by operations not sent to cell due to key vector
+0 vector group by operations not sent to cell due to cardinality
+0 vector group by rows processed on cell
+0 vector group by rows returned by cell
+0 vector group by used
+0 vector group by rowsources adapted
+0 vector group by accumspace cardinality
+0 vector group by accumspace size
+0 vector group by out of line rows
+0 vector group by out of line size
+0 vector group by string allocations size
+0 vector group by string allocations
+0 vector group by string resizes
+0 vector group by rowsets processed on cell
+0 vector encoded rows
+0 vector encoded rows decoded
+0 vector encoded row operations
+0 vector encoded rowsets
+0 vector encoded rowsets decoded
+0 vector encoded rowset operations
+0 vector encoded arithmetic exceptions
+0 vector encoded adaptively disabled
+7 LOB table id lookup cache misses
+1067 parse time cpu
+1485 parse time elapsed
+29762 parse count (total)
+5872 parse count (hard)
+52 parse count (failures)
+2 parse count (describe)
+0 frame signature mismatch
+68457 execute count
+126752 bytes sent via SQL*Net to client
+215617 bytes received via SQL*Net from client
+445 SQL*Net roundtrips to/from client
+0 bytes sent via SQL*Net to dblink
+0 bytes received via SQL*Net from dblink
+0 SQL*Net roundtrips to/from dblink
+0 bytes via SQL*Net vector to client
+0 bytes via SQL*Net vector from client
+0 bytes via SQL*Net vector to dblink
+0 bytes via SQL*Net vector from dblink
+12023 sorts (memory)
+0 sorts (disk)
+224010 sorts (rows)
+0 OTC commit optimization attempts
+0 OTC commit optimization hits
+0 OTC commit optimization failure - setup
+0 cumulative begin requests
+0 cumulative end requests
+0 cumulative user calls in requests
+0 cumulative user calls protected by Application Continuity
+0 OLAP Paging Manager Cache Hit
+0 OLAP Paging Manager Cache Miss
+0 OLAP Paging Manager New Page
+0 OLAP Paging Manager Cache Write
+0 OLAP Session Cache Hit
+0 OLAP Session Cache Miss
+0 OLAP Aggregate Function Calc
+0 OLAP Aggregate Function Precompute
+0 OLAP Aggregate Function Logical NA
+0 OLAP Paging Manager Pool Size
+0 OLAP Import Rows Pushed
+0 OLAP Import Rows Loaded
+0 OLAP Row Source Rows Processed
+0 OLAP Engine Calls
+0 OLAP Temp Segments
+0 OLAP Temp Segment Read
+0 OLAP Perm LOB Read
+0 OLAP Paging Manager Cache Changed Page
+0 OLAP Fast Limit
+0 OLAP GID Limit
+0 OLAP Unique Key Attribute Limit
+0 OLAP INHIER Limit
+0 OLAP Full Limit
+0 OLAP Custom Member Limit
+0 OLAP Row Id Limit
+0 OLAP Limit Time
+0 OLAP Row Load Time
+0 cell flash cache read hits
+0 cell flash cache read hits for controlfile reads
+0 cell flash cache read hits for smart IO
+0 cell flash cache read hits for temp IO
+0 cell ram cache read hits
+0 cell persistent memory IO read requests - local
+0 cell persistent memory IO read requests - remote
+0 cell persistent memory IO read requests - smart IO
+0 Workload Capture: size (in bytes) of recording
+0 Workload Capture: dbtime
+0 Workload Capture: user calls
+0 Workload Capture: user calls flushed
+0 Workload Capture: unreplayable user calls
+0 Workload Capture: user txns
+0 Workload Capture: user logins
+0 Workload Capture: unsupported user calls
+0 Workload Capture: errors
+0 Workload Capture: PL/SQL user subcalls
+0 Workload Capture: PL/SQL user calls
+0 Workload Capture: PL/SQL subcall size of recording
+0 Workload Capture: PL/SQL dbtime
+0 Workload Replay: dbtime
+0 Workload Replay: network time
+0 Workload Replay: think time
+0 Workload Replay: time gain
+0 Workload Replay: time loss
+0 Workload Replay: user calls
+0 Workload Replay: deadlocks resolved
+0 Workload Replay: PL/SQL user calls
+0 Workload Replay: PL/SQL user subcalls
+0 Workload Replay: PL/SQL dbtime
+0 cell physical write IO bytes eligible for offload
+0 cell physical write IO host network bytes written during offload
+0 cell logical write IO requests
+0 cell logical write IO requests eligible for offload
+0 Infiniband HCA Transmit Loadavg
+0 Infiniband HCA Receive Loadavg
+0 Infiniband HCA Max. Rate
+0 Infiniband HCA Transmit Data
+0 Infiniband HCA Receive Data
+0 backup pieces compressed locally
+0 backup data compressed locally
+0 backup compressed data written locally
+0 backup piece local processing time
+0 backup pieces compressed remotely
+0 backup data compressed remotely
+0 backup compressed data written remotely
+0 backup piece remote processing time
+OS File I/O Limits/Stats:
+OFS DUMP BEGIN
+wcache buf allocd=0 freelist=0 total=0 bytes 
+OFS DUMP END
+****************************************************
+    DUMPING BUFFER CACHE WORKING SET INFO
+****************************************************
+ (WS) size: 26432 (0) wsid: 17 state: 2 pool: 3
+ (WS) bsi: 0 bsz: 8192 pg: 0 dbwr: 0
+ (WS) bgotten: 4630 fbwanted: 0
+ (WS) sumwrt: 681 sumscn: 0
+ (WS) Waits fb: 0 wc: 0 bb: 5 sl: 0
+ (WS) inspected fb: 0 db: 0 pn: 0
+ (WS) hotmvs: 0, dbbchg: 19239
+ (WS) dbbget: 20294, conget: 43955
+ (WS) pread: 4126, pwrite: 681
+ (WS) xkcbsfs: 11356, tgtclean: 1606
+ (WS) pwbcnt: 0, protcnt: 0 lastdecr: 0
+ (WS) L2 rd: 0 wr: 0 inv: 0 invc: 0 aout: 0
+   (WS_REPL_LIST) main_prev: 0x00007FFEE6FE3908 main_next: 0x00007FFEE5FEC710 aux_prev: 0x00007FFEE5FEC5A8 aux_next: 0x00007FFEE5FEF140
+   curnum: 26432 auxnum: 21871
+   cold: 7ffee5fec710 hbmax: 13216 hbpct: 50 hbufs: 0
+   (WS_WRITE_LIST) main_prev: 0x00007FFE799410C0 main_next: 0x00007FFE799410C0 aux_prev: 0x00007FFE799410D0 aux_next: 0x00007FFE799410D0
+   curnum: 0 auxnum: 0
+   (WS_XOBJ_LIST) main_prev: 0x00007FFE79941108 main_next: 0x00007FFE79941108 aux_prev: 0x00007FFE79941118 aux_next: 0x00007FFE79941118
+   curnum: 0 auxnum: 0
+   (WS_XRNG_LIST) main_prev: 0x00007FFE79941150 main_next: 0x00007FFE79941150 aux_prev: 0x00007FFE79941160 aux_next: 0x00007FFE79941160
+   curnum: 0 auxnum: 0
+   (WS_REQ_LIST) main_prev: 0x00007FFE79941198 main_next: 0x00007FFE79941198 aux_prev: 0x00007FFE799411A8 aux_next: 0x00007FFE799411A8
+   curnum: 0 auxnum: 0
+   (WS_L2WRT_LIST) main_prev: 0x00007FFE799411E0 main_next: 0x00007FFE799411E0 aux_prev: 0x00007FFE799411F0 aux_next: 0x00007FFE799411F0
+   curnum: 0 auxnum: 0
+   (WS_L2REPL_LIST) main_prev: 0x00007FFE79941228 main_next: 0x00007FFE79941228 aux_prev: 0x00007FFE79941238 aux_next: 0x00007FFE79941238
+   curnum: 0 auxnum: 0
+   (WS_L2KEEP_LIST) main_prev: 0x00007FFE79941270 main_next: 0x00007FFE79941270 aux_prev: 0x00007FFE79941280 aux_next: 0x00007FFE79941280
+   curnum: 0 auxnum: 0
+   (WS_DWB_LIST) main_prev: 0x00007FFE799412B8 main_next: 0x00007FFE799412B8 aux_prev: 0x00007FFE799412C8 aux_next: 0x00007FFE799412C8
+   curnum: 0 auxnum: 0
+   (WS_DWL2B_LIST) main_prev: 0x00007FFE79941300 main_next: 0x00007FFE79941300 aux_prev: 0x00007FFE79941310 aux_next: 0x00007FFE79941310
+   curnum: 0 auxnum: 0
+ (WS) size: 26432 (0) wsid: 18 state: 2 pool: 3
+ (WS) bsi: 0 bsz: 8192 pg: 0 dbwr: 0
+ (WS) bgotten: 4617 fbwanted: 0
+ (WS) sumwrt: 636 sumscn: 0
+ (WS) Waits fb: 0 wc: 0 bb: 13 sl: 0
+ (WS) inspected fb: 0 db: 0 pn: 0
+ (WS) hotmvs: 0, dbbchg: 17938
+ (WS) dbbget: 13482, conget: 45085
+ (WS) pread: 4142, pwrite: 636
+ (WS) xkcbsfs: 11356, tgtclean: 1606
+ (WS) pwbcnt: 0, protcnt: 0 lastdecr: 0
+ (WS) L2 rd: 0 wr: 0 inv: 0 invc: 0 aout: 0
+   (WS_REPL_LIST) main_prev: 0x00007FFEE5F563C8 main_next: 0x00007FFEE5F57340 aux_prev: 0x00007FFEE5F582B8 aux_next: 0x00007FFEE5F589C0
+   curnum: 26432 auxnum: 21881
+   cold: 7ffee5f57340 hbmax: 13216 hbpct: 50 hbufs: 0
+   (WS_WRITE_LIST) main_prev: 0x00007FFE79941978 main_next: 0x00007FFE79941978 aux_prev: 0x00007FFE79941988 aux_next: 0x00007FFE79941988
+   curnum: 0 auxnum: 0
+   (WS_XOBJ_LIST) main_prev: 0x00007FFE799419C0 main_next: 0x00007FFE799419C0 aux_prev: 0x00007FFE799419D0 aux_next: 0x00007FFE799419D0
+   curnum: 0 auxnum: 0
+   (WS_XRNG_LIST) main_prev: 0x00007FFE79941A08 main_next: 0x00007FFE79941A08 aux_prev: 0x00007FFE79941A18 aux_next: 0x00007FFE79941A18
+   curnum: 0 auxnum: 0
+   (WS_REQ_LIST) main_prev: 0x00007FFE79941A50 main_next: 0x00007FFE79941A50 aux_prev: 0x00007FFE79941A60 aux_next: 0x00007FFE79941A60
+   curnum: 0 auxnum: 0
+   (WS_L2WRT_LIST) main_prev: 0x00007FFE79941A98 main_next: 0x00007FFE79941A98 aux_prev: 0x00007FFE79941AA8 aux_next: 0x00007FFE79941AA8
+   curnum: 0 auxnum: 0
+   (WS_L2REPL_LIST) main_prev: 0x00007FFE79941AE0 main_next: 0x00007FFE79941AE0 aux_prev: 0x00007FFE79941AF0 aux_next: 0x00007FFE79941AF0
+   curnum: 0 auxnum: 0
+   (WS_L2KEEP_LIST) main_prev: 0x00007FFE79941B28 main_next: 0x00007FFE79941B28 aux_prev: 0x00007FFE79941B38 aux_next: 0x00007FFE79941B38
+   curnum: 0 auxnum: 0
+   (WS_DWB_LIST) main_prev: 0x00007FFE79941B70 main_next: 0x00007FFE79941B70 aux_prev: 0x00007FFE79941B80 aux_next: 0x00007FFE79941B80
+   curnum: 0 auxnum: 0
+   (WS_DWL2B_LIST) main_prev: 0x00007FFE79941BB8 main_next: 0x00007FFE79941BB8 aux_prev: 0x00007FFE79941BC8 aux_next: 0x00007FFE79941BC8
+   curnum: 0 auxnum: 0
+ (WS) size: 26432 (0) wsid: 19 state: 2 pool: 3
+ (WS) bsi: 0 bsz: 8192 pg: 0 dbwr: 0
+ (WS) bgotten: 4604 fbwanted: 0
+ (WS) sumwrt: 638 sumscn: 0
+ (WS) Waits fb: 0 wc: 0 bb: 10 sl: 0
+ (WS) inspected fb: 0 db: 0 pn: 0
+ (WS) hotmvs: 0, dbbchg: 18815
+ (WS) dbbget: 16052, conget: 51616
+ (WS) pread: 4132, pwrite: 638
+ (WS) xkcbsfs: 11356, tgtclean: 1606
+ (WS) pwbcnt: 0, protcnt: 0 lastdecr: 0
+ (WS) L2 rd: 0 wr: 0 inv: 0 invc: 0 aout: 0
+   (WS_REPL_LIST) main_prev: 0x00007FFEE5F70DE0 main_next: 0x00007FFEE5F6E680 aux_prev: 0x00007FFEE5F6E518 aux_next: 0x00007FFEE5F70570
+   curnum: 26432 auxnum: 21909
+   cold: 7ffee5f6e680 hbmax: 13216 hbpct: 50 hbufs: 0
+   (WS_WRITE_LIST) main_prev: 0x00007FFE79942230 main_next: 0x00007FFE79942230 aux_prev: 0x00007FFE79942240 aux_next: 0x00007FFE79942240
+   curnum: 0 auxnum: 0
+   (WS_XOBJ_LIST) main_prev: 0x00007FFE79942278 main_next: 0x00007FFE79942278 aux_prev: 0x00007FFE79942288 aux_next: 0x00007FFE79942288
+   curnum: 0 auxnum: 0
+   (WS_XRNG_LIST) main_prev: 0x00007FFE799422C0 main_next: 0x00007FFE799422C0 aux_prev: 0x00007FFE799422D0 aux_next: 0x00007FFE799422D0
+   curnum: 0 auxnum: 0
+   (WS_REQ_LIST) main_prev: 0x00007FFE79942308 main_next: 0x00007FFE79942308 aux_prev: 0x00007FFE79942318 aux_next: 0x00007FFE79942318
+   curnum: 0 auxnum: 0
+   (WS_L2WRT_LIST) main_prev: 0x00007FFE79942350 main_next: 0x00007FFE79942350 aux_prev: 0x00007FFE79942360 aux_next: 0x00007FFE79942360
+   curnum: 0 auxnum: 0
+   (WS_L2REPL_LIST) main_prev: 0x00007FFE79942398 main_next: 0x00007FFE79942398 aux_prev: 0x00007FFE799423A8 aux_next: 0x00007FFE799423A8
+   curnum: 0 auxnum: 0
+   (WS_L2KEEP_LIST) main_prev: 0x00007FFE799423E0 main_next: 0x00007FFE799423E0 aux_prev: 0x00007FFE799423F0 aux_next: 0x00007FFE799423F0
+   curnum: 0 auxnum: 0
+   (WS_DWB_LIST) main_prev: 0x00007FFE79942428 main_next: 0x00007FFE79942428 aux_prev: 0x00007FFE79942438 aux_next: 0x00007FFE79942438
+   curnum: 0 auxnum: 0
+   (WS_DWL2B_LIST) main_prev: 0x00007FFE79942470 main_next: 0x00007FFE79942470 aux_prev: 0x00007FFE79942480 aux_next: 0x00007FFE79942480
+   curnum: 0 auxnum: 0
+ (WS) size: 26434 (0) wsid: 20 state: 2 pool: 3
+ (WS) bsi: 0 bsz: 8192 pg: 0 dbwr: 0
+ (WS) bgotten: 4595 fbwanted: 0
+ (WS) sumwrt: 670 sumscn: 0
+ (WS) Waits fb: 0 wc: 0 bb: 10 sl: 0
+ (WS) inspected fb: 1 db: 0 pn: 0
+ (WS) hotmvs: 0, dbbchg: 21709
+ (WS) dbbget: 23178, conget: 51110
+ (WS) pread: 4119, pwrite: 670
+ (WS) xkcbsfs: 11356, tgtclean: 1608
+ (WS) pwbcnt: 0, protcnt: 0 lastdecr: 0
+ (WS) L2 rd: 0 wr: 0 inv: 0 invc: 0 aout: 0
+   (WS_REPL_LIST) main_prev: 0x00007FFEE6F641F8 main_next: 0x00007FFEE5F82B58 aux_prev: 0x00007FFEE6F6D9D8 aux_next: 0x00007FFEE5F84D18
+   curnum: 26434 auxnum: 21895
+   cold: 7ffee5f82b58 hbmax: 13217 hbpct: 50 hbufs: 0
+   (WS_WRITE_LIST) main_prev: 0x00007FFE79942AE8 main_next: 0x00007FFE79942AE8 aux_prev: 0x00007FFE79942AF8 aux_next: 0x00007FFE79942AF8
+   curnum: 0 auxnum: 0
+   (WS_XOBJ_LIST) main_prev: 0x00007FFE79942B30 main_next: 0x00007FFE79942B30 aux_prev: 0x00007FFE79942B40 aux_next: 0x00007FFE79942B40
+   curnum: 0 auxnum: 0
+   (WS_XRNG_LIST) main_prev: 0x00007FFE79942B78 main_next: 0x00007FFE79942B78 aux_prev: 0x00007FFE79942B88 aux_next: 0x00007FFE79942B88
+   curnum: 0 auxnum: 0
+   (WS_REQ_LIST) main_prev: 0x00007FFE79942BC0 main_next: 0x00007FFE79942BC0 aux_prev: 0x00007FFE79942BD0 aux_next: 0x00007FFE79942BD0
+   curnum: 0 auxnum: 0
+   (WS_L2WRT_LIST) main_prev: 0x00007FFE79942C08 main_next: 0x00007FFE79942C08 aux_prev: 0x00007FFE79942C18 aux_next: 0x00007FFE79942C18
+   curnum: 0 auxnum: 0
+   (WS_L2REPL_LIST) main_prev: 0x00007FFE79942C50 main_next: 0x00007FFE79942C50 aux_prev: 0x00007FFE79942C60 aux_next: 0x00007FFE79942C60
+   curnum: 0 auxnum: 0
+   (WS_L2KEEP_LIST) main_prev: 0x00007FFE79942C98 main_next: 0x00007FFE79942C98 aux_prev: 0x00007FFE79942CA8 aux_next: 0x00007FFE79942CA8
+   curnum: 0 auxnum: 0
+   (WS_DWB_LIST) main_prev: 0x00007FFE79942CE0 main_next: 0x00007FFE79942CE0 aux_prev: 0x00007FFE79942CF0 aux_next: 0x00007FFE79942CF0
+   curnum: 0 auxnum: 0
+   (WS_DWL2B_LIST) main_prev: 0x00007FFE79942D28 main_next: 0x00007FFE79942D28 aux_prev: 0x00007FFE79942D38 aux_next: 0x00007FFE79942D38
+   curnum: 0 auxnum: 0
+ (WS) size: 26434 (0) wsid: 21 state: 2 pool: 3
+ (WS) bsi: 0 bsz: 8192 pg: 0 dbwr: 0
+ (WS) bgotten: 4590 fbwanted: 0
+ (WS) sumwrt: 664 sumscn: 0
+ (WS) Waits fb: 0 wc: 0 bb: 6 sl: 0
+ (WS) inspected fb: 0 db: 0 pn: 0
+ (WS) hotmvs: 0, dbbchg: 20354
+ (WS) dbbget: 17459, conget: 43482
+ (WS) pread: 4119, pwrite: 664
+ (WS) xkcbsfs: 11356, tgtclean: 1608
+ (WS) pwbcnt: 0, protcnt: 0 lastdecr: 0
+ (WS) L2 rd: 0 wr: 0 inv: 0 invc: 0 aout: 0
+   (WS_REPL_LIST) main_prev: 0x00007FFEE5F986B0 main_next: 0x00007FFEE5F98278 aux_prev: 0x00007FFEE5F98110 aux_next: 0x00007FFEE5F9A9D8
+   curnum: 26434 auxnum: 21894
+   cold: 7ffee5f98278 hbmax: 13217 hbpct: 50 hbufs: 0
+   (WS_WRITE_LIST) main_prev: 0x00007FFE799433A0 main_next: 0x00007FFE799433A0 aux_prev: 0x00007FFE799433B0 aux_next: 0x00007FFE799433B0
+   curnum: 0 auxnum: 0
+   (WS_XOBJ_LIST) main_prev: 0x00007FFE799433E8 main_next: 0x00007FFE799433E8 aux_prev: 0x00007FFE799433F8 aux_next: 0x00007FFE799433F8
+   curnum: 0 auxnum: 0
+   (WS_XRNG_LIST) main_prev: 0x00007FFE79943430 main_next: 0x00007FFE79943430 aux_prev: 0x00007FFE79943440 aux_next: 0x00007FFE79943440
+   curnum: 0 auxnum: 0
+   (WS_REQ_LIST) main_prev: 0x00007FFE79943478 main_next: 0x00007FFE79943478 aux_prev: 0x00007FFE79943488 aux_next: 0x00007FFE79943488
+   curnum: 0 auxnum: 0
+   (WS_L2WRT_LIST) main_prev: 0x00007FFE799434C0 main_next: 0x00007FFE799434C0 aux_prev: 0x00007FFE799434D0 aux_next: 0x00007FFE799434D0
+   curnum: 0 auxnum: 0
+   (WS_L2REPL_LIST) main_prev: 0x00007FFE79943508 main_next: 0x00007FFE79943508 aux_prev: 0x00007FFE79943518 aux_next: 0x00007FFE79943518
+   curnum: 0 auxnum: 0
+   (WS_L2KEEP_LIST) main_prev: 0x00007FFE79943550 main_next: 0x00007FFE79943550 aux_prev: 0x00007FFE79943560 aux_next: 0x00007FFE79943560
+   curnum: 0 auxnum: 0
+   (WS_DWB_LIST) main_prev: 0x00007FFE79943598 main_next: 0x00007FFE79943598 aux_prev: 0x00007FFE799435A8 aux_next: 0x00007FFE799435A8
+   curnum: 0 auxnum: 0
+   (WS_DWL2B_LIST) main_prev: 0x00007FFE799435E0 main_next: 0x00007FFE799435E0 aux_prev: 0x00007FFE799435F0 aux_next: 0x00007FFE799435F0
+   curnum: 0 auxnum: 0
+ (WS) size: 26434 (0) wsid: 22 state: 2 pool: 3
+ (WS) bsi: 0 bsz: 8192 pg: 0 dbwr: 0
+ (WS) bgotten: 4584 fbwanted: 0
+ (WS) sumwrt: 655 sumscn: 0
+ (WS) Waits fb: 0 wc: 0 bb: 4 sl: 0
+ (WS) inspected fb: 0 db: 0 pn: 0
+ (WS) hotmvs: 0, dbbchg: 19692
+ (WS) dbbget: 23005, conget: 50317
+ (WS) pread: 4115, pwrite: 655
+ (WS) xkcbsfs: 11356, tgtclean: 1608
+ (WS) pwbcnt: 0, protcnt: 0 lastdecr: 0
+ (WS) L2 rd: 0 wr: 0 inv: 0 invc: 0 aout: 0
+   (WS_REPL_LIST) main_prev: 0x00007FFEE5FB00F8 main_next: 0x00007FFEE5FAFF90 aux_prev: 0x00007FFEE5FAFE28 aux_next: 0x00007FFEE5FB1E80
+   curnum: 26434 auxnum: 21918
+   cold: 7ffee5faff90 hbmax: 13217 hbpct: 50 hbufs: 0
+   (WS_WRITE_LIST) main_prev: 0x00007FFE79943C58 main_next: 0x00007FFE79943C58 aux_prev: 0x00007FFE79943C68 aux_next: 0x00007FFE79943C68
+   curnum: 0 auxnum: 0
+   (WS_XOBJ_LIST) main_prev: 0x00007FFE79943CA0 main_next: 0x00007FFE79943CA0 aux_prev: 0x00007FFE79943CB0 aux_next: 0x00007FFE79943CB0
+   curnum: 0 auxnum: 0
+   (WS_XRNG_LIST) main_prev: 0x00007FFE79943CE8 main_next: 0x00007FFE79943CE8 aux_prev: 0x00007FFE79943CF8 aux_next: 0x00007FFE79943CF8
+   curnum: 0 auxnum: 0
+   (WS_REQ_LIST) main_prev: 0x00007FFE79943D30 main_next: 0x00007FFE79943D30 aux_prev: 0x00007FFE79943D40 aux_next: 0x00007FFE79943D40
+   curnum: 0 auxnum: 0
+   (WS_L2WRT_LIST) main_prev: 0x00007FFE79943D78 main_next: 0x00007FFE79943D78 aux_prev: 0x00007FFE79943D88 aux_next: 0x00007FFE79943D88
+   curnum: 0 auxnum: 0
+   (WS_L2REPL_LIST) main_prev: 0x00007FFE79943DC0 main_next: 0x00007FFE79943DC0 aux_prev: 0x00007FFE79943DD0 aux_next: 0x00007FFE79943DD0
+   curnum: 0 auxnum: 0
+   (WS_L2KEEP_LIST) main_prev: 0x00007FFE79943E08 main_next: 0x00007FFE79943E08 aux_prev: 0x00007FFE79943E18 aux_next: 0x00007FFE79943E18
+   curnum: 0 auxnum: 0
+   (WS_DWB_LIST) main_prev: 0x00007FFE79943E50 main_next: 0x00007FFE79943E50 aux_prev: 0x00007FFE79943E60 aux_next: 0x00007FFE79943E60
+   curnum: 0 auxnum: 0
+   (WS_DWL2B_LIST) main_prev: 0x00007FFE79943E98 main_next: 0x00007FFE79943E98 aux_prev: 0x00007FFE79943EA8 aux_next: 0x00007FFE79943EA8
+   curnum: 0 auxnum: 0
+ (WS) size: 26434 (0) wsid: 23 state: 2 pool: 3
+ (WS) bsi: 0 bsz: 8192 pg: 0 dbwr: 0
+ (WS) bgotten: 4578 fbwanted: 0
+ (WS) sumwrt: 656 sumscn: 0
+ (WS) Waits fb: 0 wc: 0 bb: 4 sl: 0
+ (WS) inspected fb: 0 db: 0 pn: 0
+ (WS) hotmvs: 0, dbbchg: 17653
+ (WS) dbbget: 16098, conget: 42572
+ (WS) pread: 4083, pwrite: 656
+ (WS) xkcbsfs: 11356, tgtclean: 1608
+ (WS) pwbcnt: 0, protcnt: 0 lastdecr: 0
+ (WS) L2 rd: 0 wr: 0 inv: 0 invc: 0 aout: 0
+   (WS_REPL_LIST) main_prev: 0x00007FFEE6FAB940 main_next: 0x00007FFEE5FC6D30 aux_prev: 0x00007FFEE5FC6BC8 aux_next: 0x00007FFEE5FC9328
+   curnum: 26434 auxnum: 21933
+   cold: 7ffee5fc6d30 hbmax: 13217 hbpct: 50 hbufs: 0
+   (WS_WRITE_LIST) main_prev: 0x00007FFE79944510 main_next: 0x00007FFE79944510 aux_prev: 0x00007FFE79944520 aux_next: 0x00007FFE79944520
+   curnum: 0 auxnum: 0
+   (WS_XOBJ_LIST) main_prev: 0x00007FFE79944558 main_next: 0x00007FFE79944558 aux_prev: 0x00007FFE79944568 aux_next: 0x00007FFE79944568
+   curnum: 0 auxnum: 0
+   (WS_XRNG_LIST) main_prev: 0x00007FFE799445A0 main_next: 0x00007FFE799445A0 aux_prev: 0x00007FFE799445B0 aux_next: 0x00007FFE799445B0
+   curnum: 0 auxnum: 0
+   (WS_REQ_LIST) main_prev: 0x00007FFE799445E8 main_next: 0x00007FFE799445E8 aux_prev: 0x00007FFE799445F8 aux_next: 0x00007FFE799445F8
+   curnum: 0 auxnum: 0
+   (WS_L2WRT_LIST) main_prev: 0x00007FFE79944630 main_next: 0x00007FFE79944630 aux_prev: 0x00007FFE79944640 aux_next: 0x00007FFE79944640
+   curnum: 0 auxnum: 0
+   (WS_L2REPL_LIST) main_prev: 0x00007FFE79944678 main_next: 0x00007FFE79944678 aux_prev: 0x00007FFE79944688 aux_next: 0x00007FFE79944688
+   curnum: 0 auxnum: 0
+   (WS_L2KEEP_LIST) main_prev: 0x00007FFE799446C0 main_next: 0x00007FFE799446C0 aux_prev: 0x00007FFE799446D0 aux_next: 0x00007FFE799446D0
+   curnum: 0 auxnum: 0
+   (WS_DWB_LIST) main_prev: 0x00007FFE79944708 main_next: 0x00007FFE79944708 aux_prev: 0x00007FFE79944718 aux_next: 0x00007FFE79944718
+   curnum: 0 auxnum: 0
+   (WS_DWL2B_LIST) main_prev: 0x00007FFE79944750 main_next: 0x00007FFE79944750 aux_prev: 0x00007FFE79944760 aux_next: 0x00007FFE79944760
+   curnum: 0 auxnum: 0
+ (WS) size: 26432 (0) wsid: 24 state: 2 pool: 3
+ (WS) bsi: 0 bsz: 8192 pg: 0 dbwr: 0
+ (WS) bgotten: 4566 fbwanted: 0
+ (WS) sumwrt: 644 sumscn: 0
+ (WS) Waits fb: 0 wc: 0 bb: 4 sl: 0
+ (WS) inspected fb: 0 db: 0 pn: 0
+ (WS) hotmvs: 0, dbbchg: 20253
+ (WS) dbbget: 19325, conget: 43524
+ (WS) pread: 4080, pwrite: 644
+ (WS) xkcbsfs: 11356, tgtclean: 1608
+ (WS) pwbcnt: 0, protcnt: 0 lastdecr: 0
+ (WS) L2 rd: 0 wr: 0 inv: 0 invc: 0 aout: 0
+   (WS_REPL_LIST) main_prev: 0x00007FFEE6FB9BA8 main_next: 0x00007FFEE5FDB370 aux_prev: 0x00007FFEE5FDB208 aux_next: 0x00007FFEE5FDE070
+   curnum: 26432 auxnum: 21918
+   cold: 7ffee5fdb370 hbmax: 13216 hbpct: 50 hbufs: 0
+   (WS_WRITE_LIST) main_prev: 0x00007FFE79944DC8 main_next: 0x00007FFE79944DC8 aux_prev: 0x00007FFE79944DD8 aux_next: 0x00007FFE79944DD8
+   curnum: 0 auxnum: 0
+   (WS_XOBJ_LIST) main_prev: 0x00007FFE79944E10 main_next: 0x00007FFE79944E10 aux_prev: 0x00007FFE79944E20 aux_next: 0x00007FFE79944E20
+   curnum: 0 auxnum: 0
+   (WS_XRNG_LIST) main_prev: 0x00007FFE79944E58 main_next: 0x00007FFE79944E58 aux_prev: 0x00007FFE79944E68 aux_next: 0x00007FFE79944E68
+   curnum: 0 auxnum: 0
+   (WS_REQ_LIST) main_prev: 0x00007FFE79944EA0 main_next: 0x00007FFE79944EA0 aux_prev: 0x00007FFE79944EB0 aux_next: 0x00007FFE79944EB0
+   curnum: 0 auxnum: 0
+   (WS_L2WRT_LIST) main_prev: 0x00007FFE79944EE8 main_next: 0x00007FFE79944EE8 aux_prev: 0x00007FFE79944EF8 aux_next: 0x00007FFE79944EF8
+   curnum: 0 auxnum: 0
+   (WS_L2REPL_LIST) main_prev: 0x00007FFE79944F30 main_next: 0x00007FFE79944F30 aux_prev: 0x00007FFE79944F40 aux_next: 0x00007FFE79944F40
+   curnum: 0 auxnum: 0
+   (WS_L2KEEP_LIST) main_prev: 0x00007FFE79944F78 main_next: 0x00007FFE79944F78 aux_prev: 0x00007FFE79944F88 aux_next: 0x00007FFE79944F88
+   curnum: 0 auxnum: 0
+   (WS_DWB_LIST) main_prev: 0x00007FFE79944FC0 main_next: 0x00007FFE79944FC0 aux_prev: 0x00007FFE79944FD0 aux_next: 0x00007FFE79944FD0
+   curnum: 0 auxnum: 0
+   (WS_DWL2B_LIST) main_prev: 0x00007FFE79945008 main_next: 0x00007FFE79945008 aux_prev: 0x00007FFE79945018 aux_next: 0x00007FFE79945018
+   curnum: 0 auxnum: 0
+
+*** 2021-06-17T12:36:59.347032+05:30 (CDB$ROOT(1))
+PROCESS 1: 

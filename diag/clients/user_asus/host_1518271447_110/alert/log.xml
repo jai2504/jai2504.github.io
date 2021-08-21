@@ -1,0 +1,236 @@
+<msg time='2021-06-17T11:51:37.230+05:30' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-6NN7RR4' host_addr='fe80::f844:e468:944f:aafe%6'
+ pid='18816' version='2'>
+ <txt>Create Relation ADR_CONTROL
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.319+05:30' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-6NN7RR4' host_addr='fe80::f844:e468:944f:aafe%6'
+ pid='18816'>
+ <txt>Create Relation ADR_INVALIDATION
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.386+05:30' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-6NN7RR4' host_addr='fe80::f844:e468:944f:aafe%6'
+ pid='18816'>
+ <txt>Create Relation INC_METER_IMPT_DEF
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.527+05:30' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-6NN7RR4' host_addr='fe80::f844:e468:944f:aafe%6'
+ pid='18816'>
+ <txt>Create Relation INC_METER_PK_IMPTS
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.626+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.633+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=)(CID=(PROGRAM=C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\bin\sqlplus.exe)(HOST=DESKTOP-6NN7RR4)(USER=asus)))(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.9.200)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.645+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 19.0.0.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 19.0.0.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 19.0.0.0.0 - Production
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.655+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>  Version 19.3.0.0.0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.662+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>  Time: 17-JUN-2021 11:51:37
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.671+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.678+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.685+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>    ns main err code: 12543
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.692+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.701+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>TNS-12543: TNS:destination host unreachable
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.708+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.715+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>    nt main err code: 513
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.721+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.730+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>TNS-00513: Destination host unreachable
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.737+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>    nt secondary err code: 51
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:37.746+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='18816'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.340+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.348+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=)(CID=(PROGRAM=C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\bin\sqlplus.exe)(HOST=DESKTOP-6NN7RR4)(USER=asus)))(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.9.200)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.354+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 19.0.0.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 19.0.0.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 19.0.0.0.0 - Production
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.362+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>  Version 19.3.0.0.0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.367+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>  Time: 17-JUN-2021 11:52:15
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.373+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.379+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.386+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>    ns main err code: 12543
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.394+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.400+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>TNS-12543: TNS:destination host unreachable
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.406+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.412+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>    nt main err code: 513
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.419+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.425+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>TNS-00513: Destination host unreachable
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.432+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>    nt secondary err code: 51
+ </txt>
+</msg>
+<msg time='2021-06-17T11:52:15.438+05:30' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='20312'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>

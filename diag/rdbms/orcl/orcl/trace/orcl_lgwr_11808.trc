@@ -1,0 +1,33 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_lgwr_11808.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:435M/8070M, Ph+PgF:2204M/17909M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 11808, image: 
+
+
+*** 2021-06-17T11:33:10.978288+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:33:13.054498+05:30 (CDB$ROOT(1))
+*** SESSION ID:(2.64784) 2021-06-17T11:33:13.054498+05:30
+*** SERVICE NAME:() 2021-06-17T11:33:13.054498+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:33:13.054498+05:30
+ 
+Created 2 redo writer workers (2 groups of 1 each)
+
+*** 2021-06-17T11:39:49.720404+05:30 (CDB$ROOT(1))
+*** 2021-06-17 11:39:49.719408 [krsv.c:2729]
+krso_proc_stop: Clearing start ARCH error state
+
+*** 2021-06-17T11:39:49.725390+05:30 (CDB$ROOT(1))
+Waking up the heartbeat redo informer process

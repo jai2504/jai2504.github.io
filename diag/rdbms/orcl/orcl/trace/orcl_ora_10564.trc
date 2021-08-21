@@ -1,0 +1,56 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10564.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:634M/8070M, Ph+PgF:2282M/17909M 
+Instance name: orcl
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 10564, image: 
+
+
+*** 2021-06-17T11:29:34.147862+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:29:35.092436+05:30 (CDB$ROOT(1))
+*** SESSION ID:(498.35450) 2021-06-17T11:29:35.092436+05:30
+*** SERVICE NAME:(SYS$USERS) 2021-06-17T11:29:35.092436+05:30
+*** MODULE NAME:(xtt restore) 2021-06-17T11:29:35.092436+05:30
+*** ACTION NAME:(0000013 STARTED197) 2021-06-17T11:29:35.092436+05:30
+*** CLIENT DRIVER:() 2021-06-17T11:29:35.092436+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:29:35.092436+05:30
+ 
+kcbtse_print_kod: printing kcbtekod structure 0x000000BDCF77408C
+--kcbtekod_ena=0 kcbtekod_flag=0x0 kcbtekod_mkloc=0x0
+--kcbtekod_key=0000000000000000000000000000000000000000000000000000000000000000
+--kcbtekod_mkeyid=00000000000000000000000000000000
+kcbtse_print_kod: printing kcbtekod structure 0x000000BDCF77408C
+--kcbtekod_ena=0 kcbtekod_flag=0x0 kcbtekod_mkloc=0x0
+--kcbtekod_key=0000000000000000000000000000000000000000000000000000000000000000
+--kcbtekod_mkeyid=00000000000000000000000000000000
+kcbtse_print_kod: printing kcbtekod structure 0x000000BDCF77408C
+--kcbtekod_ena=0 kcbtekod_flag=0x0 kcbtekod_mkloc=0x0
+--kcbtekod_key=0000000000000000000000000000000000000000000000000000000000000000
+--kcbtekod_mkeyid=00000000000000000000000000000000
+
+*** 2021-06-17T11:29:36.080790+05:30 (CDB$ROOT(1))
+*** ACTION NAME:(0000018 STARTED197) 2021-06-17T11:29:36.081788+05:30
+ 
+kcbtse_print_kod: printing kcbtekod structure 0x000000BDCF77408C
+--kcbtekod_ena=0 kcbtekod_flag=0x0 kcbtekod_mkloc=0x0
+--kcbtekod_key=0000000000000000000000000000000000000000000000000000000000000000
+--kcbtekod_mkeyid=00000000000000000000000000000000
+kcbtse_print_kod: printing kcbtekod structure 0x000000BDCF77408C
+--kcbtekod_ena=0 kcbtekod_flag=0x0 kcbtekod_mkloc=0x0
+--kcbtekod_key=0000000000000000000000000000000000000000000000000000000000000000
+--kcbtekod_mkeyid=00000000000000000000000000000000
+kcbtse_print_kod: printing kcbtekod structure 0x000000BDCF77408C
+--kcbtekod_ena=0 kcbtekod_flag=0x0 kcbtekod_mkloc=0x0
+--kcbtekod_key=0000000000000000000000000000000000000000000000000000000000000000
+--kcbtekod_mkeyid=00000000000000000000000000000000

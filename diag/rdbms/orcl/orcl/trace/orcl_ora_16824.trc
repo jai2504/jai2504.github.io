@@ -1,0 +1,45 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_16824.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:486M/8070M, Ph+PgF:2065M/17827M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 16824, image: 
+
+
+*** 2021-06-17T11:24:16.169003+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:24:16.758914+05:30 (CDB$ROOT(1))
+*** SESSION ID:(250.19808) 2021-06-17T11:24:16.758914+05:30
+*** SERVICE NAME:() 2021-06-17T11:24:16.758914+05:30
+*** MODULE NAME:(sqlplus.exe) 2021-06-17T11:24:16.758914+05:30
+*** ACTION NAME:() 2021-06-17T11:24:16.758914+05:30
+*** CLIENT DRIVER:(SQL*PLUS) 2021-06-17T11:24:16.758914+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:24:16.758914+05:30
+ 
+2021-06-17 11:24:16.758 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:24:16.758 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2021-06-17T11:24:20.800853+05:30 (CDB$ROOT(1))
+Set as converted control file due to db_unique_name mismatch
+Changing di2dbun from seeddata to orcl
+kcrrmnt: RT: Role transition work is not done
+*** 2021-06-17 11:24:20.836315 [krsh.c:6348]
+Redo network throttle feature is disabled at mount time
+2021-06-17 11:24:20.881 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:24:20.881 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:24:20.881 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:24:20.881 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:24:20.881 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:24:20.881 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+krsd_cb_role_change: role 1
+krsd_dest32_eval: Using STANDBY_ARCHIVE_DEST parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS [krsd.c:18141]

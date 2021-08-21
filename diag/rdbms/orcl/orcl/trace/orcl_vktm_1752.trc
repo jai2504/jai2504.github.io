@@ -1,0 +1,32 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_vktm_1752.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:823M/8070M, Ph+PgF:2430M/17905M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 1752, image: 
+
+
+*** 2021-06-17T11:26:53.453690+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+*** SESSION ID:(616.7409) 2021-06-17T11:26:53.456621+05:30
+*** SERVICE NAME:() 2021-06-17T11:26:53.456621+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:26:53.456621+05:30
+ 
+kstmmainvktm: succeeded in setting elevated priority
+highres_enabled
+VKTM running at (5)millisec precision with DBRM quantum (100)ms
+[Start] HighResTick = 619581535112
+kstmrmtickcnt = 0 : ksudbrmseccnt[0] = 1623909413
+
+*** 2021-06-17T11:27:28.013970+05:30 (CDB$ROOT(1))
+[End] HighResTick = 619616085431
+kstmrmtickcnt = 336 : ksudbrmseccnt[34] = 1623909447

@@ -1,0 +1,536 @@
+<msg time='2021-06-17T11:22:11.645+05:30' org_id='oracle' comp_id='tnslsnr'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-6NN7RR4' host_addr='fe80::f844:e468:944f:aafe%6'
+ pid='14476' version='2'>
+ <txt>Create Relation ADR_CONTROL
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:11.749+05:30' org_id='oracle' comp_id='tnslsnr'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-6NN7RR4' host_addr='fe80::f844:e468:944f:aafe%6'
+ pid='14476'>
+ <txt>Create Relation ADR_INVALIDATION
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:11.822+05:30' org_id='oracle' comp_id='tnslsnr'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-6NN7RR4' host_addr='fe80::f844:e468:944f:aafe%6'
+ pid='14476'>
+ <txt>Create Relation INC_METER_IMPT_DEF
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:11.927+05:30' org_id='oracle' comp_id='tnslsnr'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='DESKTOP-6NN7RR4' host_addr='fe80::f844:e468:944f:aafe%6'
+ pid='14476'>
+ <txt>Create Relation INC_METER_PK_IMPTS
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:12.013+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>
+LISTENER for 64-bit Windows: Version 19.0.0.0.0 - Production 
+Version 19.3.0.0.0
+
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:12.023+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>System parameter file is C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\network\admin\listener.ora
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:12.024+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Log messages written to C:\Users\asus\Downloads\Compressed\diag\tnslsnr\DESKTOP-6NN7RR4\listener\alert\log.xml
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:12.026+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Trace information written to C:\Users\asus\Downloads\Compressed\diag\tnslsnr\DESKTOP-6NN7RR4\listener\trace\ora_14476_13696.trc
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:12.027+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:12.028+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:15.631+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Started with pid=14476
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:15.647+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:15.653+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(PIPENAME=\\.\pipe\EXTPROC1521ipc)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:23.916+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:23.923+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:23.947+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:22:23 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=)(USER=asus))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=318767104)) * status * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:36.941+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:22:36 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=)(USER=asus))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=318767104)) * status * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:37.044+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:22:37 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=)(USER=asus))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=318767104)) * status * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:37.142+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:22:37 * oracle_home * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:22:37.507+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:22:37 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=)(USER=asus))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=318767104)) * status * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:24:07.993+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:24:07.999+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:24:07 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=50054)) * service_register * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:24:11.063+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:24:11 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:24:23.065+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:24:23 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:25:57.352+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:25:57 * service_died * orcl * 12537
+ </txt>
+</msg>
+<msg time='2021-06-17T11:27:04.880+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:27:04.884+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:27:04 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=58430)) * service_register * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:27:08.027+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:27:08 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:27:17.030+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:27:17 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:27:23.744+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:27:23 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:27:28.036+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:27:28 * service_died * orcl * 12537
+ </txt>
+</msg>
+<msg time='2021-06-17T11:28:41.500+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:28:41.506+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:28:41 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=49531)) * service_register * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:28:44.625+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:28:44 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:28:50.626+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:28:50 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:28:53.666+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:28:53 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:29:04.337+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:29:04 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:29:56.375+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:29:56 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:29:56.789+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:29:56 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:31:39.962+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:31:39 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:31:49.218+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:31:49 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:31:53.389+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:31:53 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:31:54.146+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:31:54 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:31:56.345+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:31:56 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:31:58.417+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:31:58 * service_died * orcl * 12537
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:17.132+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:17.136+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:17 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=51140)) * service_register * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:20.258+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:20 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:31.403+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:31 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:35.101+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:35 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:35.279+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:35 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:56.398+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:56 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:57.694+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:57 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:57.733+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:57 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:33:57.937+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:33:57 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:34:15.533+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:34:15 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:34:16.177+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:34:16 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:34:20.199+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:34:20 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:34:21.893+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:34:21 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:34:23.672+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:34:23 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:36:08.690+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:36:08 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:39:42.699+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:39:42 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:39:46.945+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:39:46 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:39:47.574+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:39:47 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:39:49.891+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:39:49 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:39:50.994+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:39:50 * service_died * orcl * 12537
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:22.648+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:22.650+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:22 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=63664)) * service_register * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:26.757+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:26 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:36.950+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:36 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:39.405+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:39 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:44.005+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcps)(HOST=DESKTOP-6NN7RR4)(PORT=5500))(Security=(my_wallet_directory=C:\USERS\ASUS\DOWNLOADS\COMPRESSED\admin\orcl\xdb_wallet))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:44.007+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:43 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:44.010+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:44 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:51.786+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:51 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:52.351+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:52 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:52.654+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:52 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:56.848+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:56 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:41:57.017+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:41:57 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:42:00.017+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:42:00 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:42:03.018+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:42:03 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T11:51:42.120+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 11:51:42 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T12:01:42.282+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 12:01:42 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T12:11:42.392+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 12:11:42 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T12:21:42.532+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 12:21:42 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T12:31:42.656+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 12:31:42 * service_update * orcl * 0
+ </txt>
+</msg>
+<msg time='2021-06-17T12:36:59.299+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>No longer listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcps)(HOST=DESKTOP-6NN7RR4)(PORT=5500))(Security=(my_wallet_directory=C:\USERS\ASUS\DOWNLOADS\COMPRESSED\admin\orcl\xdb_wallet))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2021-06-17T12:36:59.406+05:30' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='DESKTOP-6NN7RR4'
+ host_addr='fe80::f844:e468:944f:aafe%6' pid='14476'>
+ <txt>17-JUN-2021 12:36:59 * service_died * orcl * 12537
+ </txt>
+</msg>

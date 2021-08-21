@@ -1,0 +1,392 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_dia0_20820_base_1.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:441M/8070M, Ph+PgF:2257M/17909M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 14
+Windows thread id: 20820, image: ORACLE.EXE (DIA0)
+
+*** SESSION ID:(740.62730) 2021-06-17T11:33:08.963406+05:30
+*** CLIENT ID:() 2021-06-17T11:33:08.963406+05:30
+*** SERVICE NAME:() 2021-06-17T11:33:08.963406+05:30
+*** MODULE NAME:() 2021-06-17T11:33:08.963406+05:30
+*** ACTION NAME:() 2021-06-17T11:33:08.963406+05:30
+*** CLIENT DRIVER:() 2021-06-17T11:33:08.963406+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:33:08.963406+05:30
+ 
+
+*** 2021-06-17T11:33:08.961410+05:30 (CDB$ROOT(1))
+HM: Tracing moved from default trace file: orcl_dia0_20820.trc
+HM: This is a single non-RAC instance.  Hang detection is enabled.
+HM: Hang resolution scope is OFF.
+HM: Cross Boundary hang detection is enabled.
+HM: Cross Cluster hang detection is enabled.
+HM: Deadlock resolution is enabled.
+HM: Application related hang resolution is disabled.
+HM: Session/Hang fast-tracking is disabled.
+HM: Singleton hang detection is enabled
+HM: Singleton hang resolution is disabled
+HM: CPU load is not being monitored.
+HM: IO load is NOT abnormally high - 0% outliers.
+
+*** 2021-06-17T11:33:08.964654+05:30 (CDB$ROOT(1))
+HM: Early Warning and/or Long Waiting Session (LWS) is enabled.
+    The output can be found in trace files of the form:
+    orcl_dia0_20820_lws_n.trc where n is a number between 1 and 5.
+
+*** 2021-06-17T11:33:33.029934+05:30 (CDB$ROOT(1))
+HM: Detected incompatible setting 'INSTANCE' for Hang Resolution Scope
+    - disabling hang resolution.
+
+*** 2021-06-17T11:37:43.120928+05:30 (CDB$ROOT(1))
+HM: Session with ID 372 serial # 49813 (SMON) on single instance 1 is hung
+    and is waiting on 'smon timer' for 201 seconds.
+    Session was previously waiting on 'smon timer'.
+    Session ID 372 is blocking 1 session
+ 
+
+*** 2021-06-17T11:37:43.126911+05:30 (CDB$ROOT(1))
+HM: Hung Sessions (local detect) - output local chains
+===============================================================================
+Non-intersecting chains:
+ 
+-------------------------------------------------------------------------------
+Chain 1:
+-------------------------------------------------------------------------------
+    Oracle session identified by:
+    {
+                instance: 1 (orcl.orcl)
+                   os id: 19968
+              process id: 45, ORACLE.EXE (SHAD)
+              session id: 622
+        session serial #: 409
+             module name: 2 (catcon(pid=12888))
+                  pdb id: 2 (PDB$SEED)
+    }
+    is waiting for 'enq: TS - contention' with wait info:
+    {
+                      p1: 'name|mode'=0x54530006
+                      p2: 'tablespace ID'=0x20003
+                      p3: 'dba'=0x1
+            time in wait: 2.341800 sec
+           timeout after: never
+                 wait id: 9867
+                blocking: 0 sessions
+          current sql_id: 911185664
+            wait history:
+              * time between current wait and wait #1: 0.029518 sec
+              1.       event: 'enq: CR - block range reuse ckpt'
+                 time waited: 0.001433 sec
+                     wait id: 9866             p1: 'name|mode'=0x43520006
+                                               p2: '2'=0x1002d
+                                               p3: '0'=0x1
+              * time between wait #1 and #2: 0.000005 sec
+              2.       event: 'reliable message'
+                 time waited: 0.000085 sec
+                     wait id: 9865             p1: 'channel context'=0x7ffe7b403de8
+                                               p2: 'channel handle'=0x7ffe7b3cb2c8
+                                               p3: 'broadcast message'=0x7ffe7b5a4ac8
+              * time between wait #2 and #3: 0.000059 sec
+              3.       event: 'db file sequential read'
+                 time waited: 0.000900 sec
+                     wait id: 9864             p1: 'file#'=0x5
+                                               p2: 'block#'=0x7de8
+                                               p3: 'blocks'=0x1
+    }
+    and is blocked by
+ => Oracle session identified by:
+    {
+                instance: 1 (orcl.orcl)
+                   os id: 17776
+              process id: 19, ORACLE.EXE (SMON)
+              session id: 372
+        session serial #: 49813
+                  pdb id: 1 (CDB$ROOT)
+    }
+    which is waiting for 'smon timer' with wait info:
+    {
+                      p1: 'sleep time'=0x12c
+                      p2: 'failed'=0x0
+            time in wait: 3 min 20 sec
+      heur. time in wait: 4 min 10 sec
+           timeout after: 1 min 39 sec
+                 wait id: 39
+                blocking: 1 session
+          current sql_id: 0
+            wait history:
+              * time between current wait and wait #1: 0.000049 sec
+              1.       event: 'smon timer'
+                 time waited: 0.019853 sec
+                     wait id: 38               p1: 'sleep time'=0x12c
+                                               p2: 'failed'=0x0
+              * time between wait #1 and #2: 0.000049 sec
+              2.       event: 'smon timer'
+                 time waited: 0.013684 sec
+                     wait id: 37               p1: 'sleep time'=0x12c
+                                               p2: 'failed'=0x0
+              * time between wait #2 and #3: 0.000048 sec
+              3.       event: 'smon timer'
+                 time waited: 0.009731 sec
+                     wait id: 36               p1: 'sleep time'=0x12c
+                                               p2: 'failed'=0x0
+    }
+ 
+Chain 1 Signature: 'smon timer'<='enq: TS - contention'
+Chain 1 Signature Hash: 0xe0434048
+-------------------------------------------------------------------------------
+ 
+===============================================================================
+Sessions in an involuntary wait or not in a wait:
+ 
+-------------------------------------------------------------------------------
+Chain 2:
+-------------------------------------------------------------------------------
+    Oracle session identified by:
+    {
+                instance: 1 (orcl.orcl)
+                   os id: 8540
+              process id: 47, ORACLE.EXE (MZ00)
+              session id: 868
+        session serial #: 33062
+             module name: 1 (MMON_SLAVEe19792))
+                  pdb id: 1 (CDB$ROOT)
+    }
+    is waiting for 'JOX Jit Process Sleep' with wait info:
+    {
+            time in wait: 4.503371 sec
+      heur. time in wait: 11.556802 sec
+           timeout after: never
+                 wait id: 3077
+                blocking: 0 sessions
+          current sql_id: 0
+            wait history:
+              * time between current wait and wait #1: 0.054210 sec
+              1.       event: 'JOX Jit Process Sleep'
+                 time waited: 6.999221 sec
+                     wait id: 3076            
+              * time between wait #1 and #2: 0.003322 sec
+              2.       event: 'PGA memory operation'
+                 time waited: 0.000016 sec
+                     wait id: 3075             p1: ''=0x210000
+                                               p2: ''=0x1
+              * time between wait #2 and #3: 0.003198 sec
+              3.       event: 'PGA memory operation'
+                 time waited: 0.000023 sec
+                     wait id: 3074             p1: ''=0x210000
+                                               p2: ''=0x1
+    }
+ 
+Chain 2 Signature: 'JOX Jit Process Sleep'
+Chain 2 Signature Hash: 0x8db97c5b
+-------------------------------------------------------------------------------
+ 
+===============================================================================
+
+*** 2021-06-17T11:39:16.272233+05:30 (CDB$ROOT(1))
+HM: Session with ID 622 serial # 409 (FG) on single instance 1 is hung
+    and is waiting on 'enq: TS - contention' for 96 seconds.
+    Session was previously waiting on 'PGA memory operation'.
+    Final Blocker is Session ID 372 serial# 49813 on instance 1
+     which is waiting on 'smon timer' for 294 seconds
+     p1: 'sleep time'=0x12c, p2: 'failed'=0x0, p3: ''=0x0
+ 
+
+*** 2021-06-17T11:39:16.272233+05:30 (CDB$ROOT(1))
+HM: Hung Sessions (local detect) - output local chains
+===============================================================================
+Non-intersecting chains:
+ 
+-------------------------------------------------------------------------------
+Chain 1:
+-------------------------------------------------------------------------------
+    Oracle session identified by:
+    {
+                instance: 1 (orcl.orcl)
+                   os id: 19968
+              process id: 45, ORACLE.EXE (SHAD)
+              session id: 622
+        session serial #: 409
+             module name: 2 (catcon(pid=12888))
+                  pdb id: 2 (PDB$SEED)
+    }
+    is waiting for 'enq: TS - contention' with wait info:
+    {
+                      p1: 'name|mode'=0x54530006
+                      p2: 'tablespace ID'=0x20003
+                      p3: 'dba'=0x1
+            time in wait: 1 min 7 sec (last interval)
+            time in wait: 1 min 34 sec (total)
+           timeout after: never
+                 wait id: 9867
+                blocking: 0 sessions
+          current sql_id: 911185664
+            wait history:
+              * time between current wait and wait #1: 0.000000 sec
+              1.       event: 'PGA memory operation'
+                 time waited: 0.002293 sec
+                     wait id: 9868            
+              * time between wait #1 and #2: 0.000000 sec
+              2.       event: 'enq: TS - contention'
+                 time waited: 27.006096 sec
+                     wait id: 9867             p1: 'name|mode'=0x54530006
+                                               p2: 'tablespace ID'=0x20003
+                                               p3: 'dba'=0x1
+              * time between wait #2 and #3: 0.029518 sec
+              3.       event: 'enq: CR - block range reuse ckpt'
+                 time waited: 0.001433 sec
+                     wait id: 9866             p1: 'name|mode'=0x43520006
+                                               p2: '2'=0x1002d
+                                               p3: '0'=0x1
+    }
+    and is blocked by
+ => Oracle session identified by:
+    {
+                instance: 1 (orcl.orcl)
+                   os id: 17776
+              process id: 19, ORACLE.EXE (SMON)
+              session id: 372
+        session serial #: 49813
+                  pdb id: 1 (CDB$ROOT)
+    }
+    which is waiting for 'smon timer' with wait info:
+    {
+                      p1: 'sleep time'=0x12c
+                      p2: 'failed'=0x0
+            time in wait: 4 min 52 sec
+      heur. time in wait: 5 min 42 sec
+           timeout after: 7.625932 sec
+                 wait id: 39
+                blocking: 1 session
+          current sql_id: 0
+            wait history:
+              * time between current wait and wait #1: 0.000049 sec
+              1.       event: 'smon timer'
+                 time waited: 0.019853 sec
+                     wait id: 38               p1: 'sleep time'=0x12c
+                                               p2: 'failed'=0x0
+              * time between wait #1 and #2: 0.000049 sec
+              2.       event: 'smon timer'
+                 time waited: 0.013684 sec
+                     wait id: 37               p1: 'sleep time'=0x12c
+                                               p2: 'failed'=0x0
+              * time between wait #2 and #3: 0.000048 sec
+              3.       event: 'smon timer'
+                 time waited: 0.009731 sec
+                     wait id: 36               p1: 'sleep time'=0x12c
+                                               p2: 'failed'=0x0
+    }
+ 
+Chain 1 Signature: 'smon timer'<='enq: TS - contention'
+Chain 1 Signature Hash: 0xe0434048
+-------------------------------------------------------------------------------
+ 
+===============================================================================
+
+*** 2021-06-17T11:39:16.275226+05:30 (CDB$ROOT(1))
+DIA0 Critical Database Process As Root: Hang ID 1 blocks 1 sessions
+     Final blocker is session ID 372 serial# 49813 OSPID 17776 on Instance 1
+     No resolution will be attempted by Hang Manager
+
+*** 2021-06-17T11:39:16.282147+05:30 (CDB$ROOT(1))
+All Current Hang Statistics
+ 
+                      current number of hangs 1
+    hangs:current number of impacted sessions 2
+                  current number of deadlocks 0
+deadlocks:current number of impacted sessions 0
+                 current number of singletons 0
+      current number of local active sessions 2
+        current number of local hung sessions 1
+ 
+Suspected Hangs in the System
+and possibly Rebuilt Hangs
+                     Root       Chain Total               Hang               
+  Hang Hang          Inst Root  #hung #hung  Hang   Hang  Resolution         
+    ID Type Status   Num  Sess   Sess  Sess  Conf   Span  Action             
+ ----- ---- -------- ---- ----- ----- ----- ------ ------ -------------------
+     1 HANG    VALID    1   372     2     2   HIGH  LOCAL Terminate Process  
+ 
+  Inst  Sess   Ser             Proc  Wait    Wait 
+   Num    ID    Num      OSPID  Name Time(s) Event
+  ----- ------ ----- --------- ----- ------- -----
+        PDBID PDBNm           
+        ----- --------------- 
+      1    622   409     19968    FG      96 enq: TS - contention
+            2 PDB$SEED        
+      1    372 49813     17776  SMON     294 smon timer
+            1 CDB$ROOT        
+ 
+ 
+                                                     IO           
+ Total  Self-         Total  Total  Outlr  Outlr  Outlr           
+  Hung  Rslvd  Rslvd   Wait WaitTm   Wait WaitTm   Wait           
+  Sess  Hangs  Hangs  Count   Secs  Count   Secs  Count Wait Event
+------ ------ ------ ------ ------ ------ ------ ------ -----------
+     1      0      0      0      0      0      0      0 enq: TS - contention
+ 
+
+*** 2021-06-17T11:39:22.295040+05:30 (CDB$ROOT(1))
+HM: Session with ID 372 with serial number 49813 is no longer hung
+
+*** 2021-06-17T11:39:22.296012+05:30 (CDB$ROOT(1))
+ 
+HM: Session ID 622 serial# 409 ospid 19968 on instance 1 in Hang ID 1
+    was considered hung but is now no longer hung
+ 
+ 
+HM: Session ID 372 serial# 49813 ospid 17776 on instance 1 in Hang ID 1
+    was considered hung but is now no longer hung
+ 
+HM: Session with ID 622 with serial number 409 is no longer hung
+
+*** 2021-06-17T11:39:51.224793+05:30 (CDB$ROOT(1))
+HM: Hang Statistics - only statistics with non-zero values are listed
+ 
+                     number of hangs detected 1
+           number of local hangs or deadlocks 1
+                number of self-resolved hangs 1
+     total self-resolved hang time in seconds 300
+   minimum self-resolved hang time in seconds 300
+   maximum self-resolved hang time in seconds 300
+      hangs:total number of impacted sessions 2
+    hangs:minimum number of impacted sessions 2
+    hangs:maximum number of impacted sessions 2
+      current number of local active sessions 2
+  instance health (in terms of hung sessions) 100.00%
+ 
+Dumping Wait Events with non-zero hung session counts
+                       or non-zero outliers wait counts
+(NOTE: IO outliers have wait times greater than 32 ms.
+       non-IO outliers have wait times greater than 64 s.
+       IDLE wait events are not output.)
+ 
+                                                     IO           
+ Total  Self-         Total  Total  Outlr  Outlr  Outlr           
+  Hung  Rslvd  Rslvd   Wait WaitTm   Wait WaitTm   Wait           
+  Sess  Hangs  Hangs  Count   Secs  Count   Secs  Count Wait Event
+------ ------ ------ ------ ------ ------ ------ ------ -----------
+     0      0      0     92      1      0      0      7 Data file init write
+     0      0      0   2722      3      0      0      7 control file sequential read
+     0      0      0    412      1      0      0      4 control file parallel write
+     0      0      0   5492      7      0      0      3 log file parallel write
+     0      0      0  27873     26      0      0     22 db file sequential read
+     0      0      0   1193      1      0      0      3 db file scattered read
+     0      0      0   3014      3      0      0     12 db file parallel write
+     0      0      0    151      0      0      0      2 db file parallel read
+     0      0      0   1314      2      0      0      2 direct path read
+     0      0      0    453      0      0      0      1 direct path write
+     1      0      0      1     96      1     96      0 enq: TS - contention
+ 
+
+*** 2021-06-17T11:39:51.226320+05:30 (CDB$ROOT(1))
+TotalCPUTm:390 ms TotalRunTm:402260 ms %CPU: 0.10%
+
+*** 2021-06-17T11:39:51.226320+05:30 (CDB$ROOT(1))
+HM: Tracing will revert to file orcl_dia0_20820.trc

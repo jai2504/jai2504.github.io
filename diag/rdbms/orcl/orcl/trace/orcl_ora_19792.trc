@@ -1,0 +1,54 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_19792.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:505M/8070M, Ph+PgF:2201M/18036M 
+Instance name: orcl
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 19792, image: 
+
+
+*** 2021-06-17T11:41:36.415049+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:41:36.467279+05:30 (CDB$ROOT(1))
+*** SESSION ID:(373.6485) 2021-06-17T11:41:36.467279+05:30
+*** SERVICE NAME:() 2021-06-17T11:41:36.467279+05:30
+*** MODULE NAME:(sqlplus.exe) 2021-06-17T11:41:36.467279+05:30
+*** ACTION NAME:() 2021-06-17T11:41:36.467909+05:30
+*** CLIENT DRIVER:(SQL*PLUS) 2021-06-17T11:41:36.467909+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:41:36.467909+05:30
+ 
+2021-06-17 11:41:36.467 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:41:36.467 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+kcbifc: Full Database caching mode changed from 0 to 2 dbfsz_DEF 1488977920 bcsz_DEF 1860632576
+2021-06-17 11:41:36.677 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:41:36.677 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2021-06-17T11:41:37.547850+05:30 (CDB$ROOT(1))
+Information: Dictionary Credential Encryption is NOT enabledjoxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 1
+2021-06-17 11:41:38.032 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:41:38.032 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:41:38.032 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:41:38.032 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:41:38.201 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:41:38.201 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:41:38.202 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:41:38.202 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:41:38.202 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:41:38.202 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2021-06-17T11:41:39.259740+05:30 (PDB$SEED(2))
+0DD9FA420A864B85A94A56272FB0E552

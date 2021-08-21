@@ -1,0 +1,85 @@
+
+=====================================================================
+OracleOraDB19Home1MTSRecoveryService
+6/17/2021 11:42:05
+---------------------------------------------------------------------
+[06/17/2021-11:42:05:928][00003c5c] OracleOraDB19Home1MTSRecoveryService starting on port 2031, tracelvl=4
+[06/17/2021-11:42:05:929][00002830] workerThread() - entering
+[06/17/2021-11:42:05:934][00002830] ai_flags: 0x17 ai_family: 23 ai_socktype: 1 ai_protocol: 6
+[06/17/2021-11:42:05:934][00002830] ai_flags: 0x17 ai_family: 23 ai_socktype: 1 ai_protocol: 6
+[06/17/2021-11:42:05:934][00002830] ai_flags: 0x17 ai_family: 23 ai_socktype: 1 ai_protocol: 6
+[06/17/2021-11:42:05:934][00002830] ai_flags: 0x17 ai_family: 23 ai_socktype: 1 ai_protocol: 6
+[06/17/2021-11:42:05:934][00002830] ai_flags: 0x2 ai_family: 2 ai_socktype: 1 ai_protocol: 6
+[06/17/2021-11:42:05:934][00002830] ai_flags: 0x2 ai_family: 2 ai_socktype: 1 ai_protocol: 6
+[06/17/2021-11:42:05:934][00002830] createHTTPSvrs() - allocated mem for 6 srvrs
+[06/17/2021-11:42:05:934][00002830] CHttpSvrDoc::CHttpSvrDoc() - entering.
+[06/17/2021-11:42:05:934][00002830] CHttpSvrDoc::StartListening() - entering.
+[06/17/2021-11:42:05:934][00002830] CHttpSvrDoc::StopListening() - entering.
+[06/17/2021-11:42:05:934][00002830] CHttpSvrDoc::StopListening() - exiting.
+[06/17/2021-11:42:05:934][00002830] CListenSocket::CListenSocket(0x6f931010, 0xf0903350) - entering.
+[06/17/2021-11:42:05:934][00002830] CListenSocket::CListenSocket(0x6f931010, 0xf0903350) - exiting.
+[06/17/2021-11:42:05:938][00002830] [Debug] m_pListen->Create OK.
+[06/17/2021-11:42:05:938][00002830] CHttpSvrDoc::StartListening() - exiting.
+[06/17/2021-11:42:05:938][00002830] CHttpSvrDoc::CHttpSvrDoc() - exiting.
+[06/17/2021-11:42:05:938][00002830] CHttpSvrDoc::CHttpSvrDoc() - entering.
+[06/17/2021-11:42:05:938][00002830] CHttpSvrDoc::StartListening() - entering.
+[06/17/2021-11:42:05:938][00002830] CHttpSvrDoc::StopListening() - entering.
+[06/17/2021-11:42:05:938][00002830] CHttpSvrDoc::StopListening() - exiting.
+[06/17/2021-11:42:05:938][00002830] CListenSocket::CListenSocket(0x6f930410, 0xf0903350) - entering.
+[06/17/2021-11:42:05:938][00002830] CListenSocket::CListenSocket(0x6f930410, 0xf0903350) - exiting.
+[06/17/2021-11:42:05:939][00002830] [Debug] m_pListen->Create OK.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StopListening() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StopListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CListenSocket::CListenSocket(0x6f9306d0, 0xf0903350) - entering.
+[06/17/2021-11:42:05:939][00002830] CListenSocket::CListenSocket(0x6f9306d0, 0xf0903350) - exiting.
+[06/17/2021-11:42:05:939][00002830] [Debug] m_pListen->Create OK.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StopListening() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StopListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CListenSocket::CListenSocket(0x6f9303d0, 0xf0903350) - entering.
+[06/17/2021-11:42:05:939][00002830] CListenSocket::CListenSocket(0x6f9303d0, 0xf0903350) - exiting.
+[06/17/2021-11:42:05:939][00002830] [Debug] m_pListen->Create OK.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StopListening() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StopListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CListenSocket::CListenSocket(0x6f931050, 0xf0903350) - entering.
+[06/17/2021-11:42:05:939][00002830] CListenSocket::CListenSocket(0x6f931050, 0xf0903350) - exiting.
+[06/17/2021-11:42:05:939][00002830] [Debug] m_pListen->Create OK.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StopListening() - entering.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StopListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CListenSocket::CListenSocket(0x6f931210, 0xf0903350) - entering.
+[06/17/2021-11:42:05:939][00002830] CListenSocket::CListenSocket(0x6f931210, 0xf0903350) - exiting.
+[06/17/2021-11:42:05:939][00002830] [Debug] m_pListen->Create OK.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::StartListening() - exiting.
+[06/17/2021-11:42:05:939][00002830] CHttpSvrDoc::CHttpSvrDoc() - exiting.
+[06/17/2021-11:42:05:939][00003c5c] service_main() - worker thread initialization success
+[06/17/2021-11:59:23:675][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-11:59:23:675][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-11:59:23:677][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-11:59:23:678][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:09:17:843][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:09:17:843][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:37:490][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:37:490][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:37:678][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:37:678][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:37:834][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:37:834][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:38:443][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:38:443][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:38:474][00002830] workerThread() - wait returned due to pending message
+[06/17/2021-12:44:38:474][00002830] workerThread() - wait returned due to pending message

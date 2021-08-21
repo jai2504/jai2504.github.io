@@ -1,0 +1,146 @@
+2021-06-17T11:22:11.647015+05:30
+Create Relation ADR_CONTROL
+Create Relation ADR_INVALIDATION
+Create Relation INC_METER_IMPT_DEF
+Create Relation INC_METER_PK_IMPTS
+
+LISTENER for 64-bit Windows: Version 19.0.0.0.0 - Production 
+Version 19.3.0.0.0
+
+System parameter file is C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\network\admin\listener.ora
+Log messages written to C:\Users\asus\Downloads\Compressed\diag\tnslsnr\DESKTOP-6NN7RR4\listener\alert\log.xml
+Trace information written to C:\Users\asus\Downloads\Compressed\diag\tnslsnr\DESKTOP-6NN7RR4\listener\trace\ora_14476_13696.trc
+Trace level is currently 0
+
+2021-06-17T11:22:15.633345+05:30
+Started with pid=14476
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(PIPENAME=\\.\pipe\EXTPROC1521ipc)))
+2021-06-17T11:22:23.918687+05:30
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+17-JUN-2021 11:22:23 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=)(USER=asus))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=318767104)) * status * 0
+2021-06-17T11:22:36.943583+05:30
+17-JUN-2021 11:22:36 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=)(USER=asus))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=318767104)) * status * 0
+17-JUN-2021 11:22:37 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=)(USER=asus))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=318767104)) * status * 0
+17-JUN-2021 11:22:37 * oracle_home * 0
+17-JUN-2021 11:22:37 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=)(USER=asus))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=318767104)) * status * 0
+2021-06-17T11:24:07.996596+05:30
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+17-JUN-2021 11:24:07 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=50054)) * service_register * orcl * 0
+2021-06-17T11:24:11.065722+05:30
+17-JUN-2021 11:24:11 * service_update * orcl * 0
+2021-06-17T11:24:23.067660+05:30
+17-JUN-2021 11:24:23 * service_update * orcl * 0
+2021-06-17T11:25:57.355471+05:30
+17-JUN-2021 11:25:57 * service_died * orcl * 12537
+2021-06-17T11:27:04.883413+05:30
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+17-JUN-2021 11:27:04 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=58430)) * service_register * orcl * 0
+2021-06-17T11:27:08.029738+05:30
+17-JUN-2021 11:27:08 * service_update * orcl * 0
+2021-06-17T11:27:17.032061+05:30
+17-JUN-2021 11:27:17 * service_update * orcl * 0
+2021-06-17T11:27:23.745826+05:30
+17-JUN-2021 11:27:23 * service_update * orcl * 0
+2021-06-17T11:27:28.038903+05:30
+17-JUN-2021 11:27:28 * service_died * orcl * 12537
+2021-06-17T11:28:41.505327+05:30
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+17-JUN-2021 11:28:41 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=49531)) * service_register * orcl * 0
+2021-06-17T11:28:44.626663+05:30
+17-JUN-2021 11:28:44 * service_update * orcl * 0
+2021-06-17T11:28:50.627442+05:30
+17-JUN-2021 11:28:50 * service_update * orcl * 0
+2021-06-17T11:28:53.667716+05:30
+17-JUN-2021 11:28:53 * service_update * orcl * 0
+2021-06-17T11:29:04.338754+05:30
+17-JUN-2021 11:29:04 * service_update * orcl * 0
+2021-06-17T11:29:56.377372+05:30
+17-JUN-2021 11:29:56 * service_update * orcl * 0
+17-JUN-2021 11:29:56 * service_update * orcl * 0
+2021-06-17T11:31:39.963251+05:30
+17-JUN-2021 11:31:39 * service_update * orcl * 0
+2021-06-17T11:31:49.219223+05:30
+17-JUN-2021 11:31:49 * service_update * orcl * 0
+2021-06-17T11:31:53.393320+05:30
+17-JUN-2021 11:31:53 * service_update * orcl * 0
+17-JUN-2021 11:31:54 * service_update * orcl * 0
+2021-06-17T11:31:56.346487+05:30
+17-JUN-2021 11:31:56 * service_update * orcl * 0
+2021-06-17T11:31:58.420774+05:30
+17-JUN-2021 11:31:58 * service_died * orcl * 12537
+2021-06-17T11:33:17.135760+05:30
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+17-JUN-2021 11:33:17 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=51140)) * service_register * orcl * 0
+2021-06-17T11:33:20.259817+05:30
+17-JUN-2021 11:33:20 * service_update * orcl * 0
+2021-06-17T11:33:31.404034+05:30
+17-JUN-2021 11:33:31 * service_update * orcl * 0
+2021-06-17T11:33:35.102548+05:30
+17-JUN-2021 11:33:35 * service_update * orcl * 0
+17-JUN-2021 11:33:35 * service_update * orcl * 0
+2021-06-17T11:33:56.399740+05:30
+17-JUN-2021 11:33:56 * service_update * orcl * 0
+2021-06-17T11:33:57.695106+05:30
+17-JUN-2021 11:33:57 * service_update * orcl * 0
+17-JUN-2021 11:33:57 * service_update * orcl * 0
+17-JUN-2021 11:33:57 * service_update * orcl * 0
+2021-06-17T11:34:15.535633+05:30
+17-JUN-2021 11:34:15 * service_update * orcl * 0
+17-JUN-2021 11:34:16 * service_update * orcl * 0
+2021-06-17T11:34:20.201509+05:30
+17-JUN-2021 11:34:20 * service_update * orcl * 0
+2021-06-17T11:34:21.894137+05:30
+17-JUN-2021 11:34:21 * service_update * orcl * 0
+2021-06-17T11:34:23.674573+05:30
+17-JUN-2021 11:34:23 * service_update * orcl * 0
+2021-06-17T11:36:08.692847+05:30
+17-JUN-2021 11:36:08 * service_update * orcl * 0
+2021-06-17T11:39:42.701185+05:30
+17-JUN-2021 11:39:42 * service_update * orcl * 0
+2021-06-17T11:39:46.947483+05:30
+17-JUN-2021 11:39:46 * service_update * orcl * 0
+17-JUN-2021 11:39:47 * service_update * orcl * 0
+2021-06-17T11:39:49.892643+05:30
+17-JUN-2021 11:39:49 * service_update * orcl * 0
+2021-06-17T11:39:51.001118+05:30
+17-JUN-2021 11:39:50 * service_died * orcl * 12537
+2021-06-17T11:41:22.650388+05:30
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1521)))
+17-JUN-2021 11:41:22 * (ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=63664)) * service_register * orcl * 0
+2021-06-17T11:41:26.758871+05:30
+17-JUN-2021 11:41:26 * service_update * orcl * 0
+2021-06-17T11:41:36.951611+05:30
+17-JUN-2021 11:41:36 * service_update * orcl * 0
+2021-06-17T11:41:39.406082+05:30
+17-JUN-2021 11:41:39 * service_update * orcl * 0
+2021-06-17T11:41:44.006766+05:30
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcps)(HOST=DESKTOP-6NN7RR4)(PORT=5500))(Security=(my_wallet_directory=C:\USERS\ASUS\DOWNLOADS\COMPRESSED\admin\orcl\xdb_wallet))(Presentation=HTTP)(Session=RAW))
+17-JUN-2021 11:41:43 * service_update * orcl * 0
+17-JUN-2021 11:41:44 * service_update * orcl * 0
+2021-06-17T11:41:51.788533+05:30
+17-JUN-2021 11:41:51 * service_update * orcl * 0
+17-JUN-2021 11:41:52 * service_update * orcl * 0
+17-JUN-2021 11:41:52 * service_update * orcl * 0
+2021-06-17T11:41:56.849785+05:30
+17-JUN-2021 11:41:56 * service_update * orcl * 0
+17-JUN-2021 11:41:57 * service_update * orcl * 0
+2021-06-17T11:42:00.043155+05:30
+17-JUN-2021 11:42:00 * service_update * orcl * 0
+2021-06-17T11:42:03.019017+05:30
+17-JUN-2021 11:42:03 * service_update * orcl * 0
+2021-06-17T11:51:42.122356+05:30
+17-JUN-2021 11:51:42 * service_update * orcl * 0
+2021-06-17T12:01:42.285975+05:30
+17-JUN-2021 12:01:42 * service_update * orcl * 0
+2021-06-17T12:11:42.393623+05:30
+17-JUN-2021 12:11:42 * service_update * orcl * 0
+2021-06-17T12:21:42.534373+05:30
+17-JUN-2021 12:21:42 * service_update * orcl * 0
+2021-06-17T12:31:42.657558+05:30
+17-JUN-2021 12:31:42 * service_update * orcl * 0
+2021-06-17T12:36:59.302734+05:30
+No longer listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcps)(HOST=DESKTOP-6NN7RR4)(PORT=5500))(Security=(my_wallet_directory=C:\USERS\ASUS\DOWNLOADS\COMPRESSED\admin\orcl\xdb_wallet))(Presentation=HTTP)(Session=RAW))
+17-JUN-2021 12:36:59 * service_died * orcl * 12537

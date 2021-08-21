@@ -1,0 +1,312 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10156.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:426M/8070M, Ph+PgF:2212M/17905M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 10156, image: 
+
+
+*** 2021-06-17T11:27:13.047949+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:27:13.845343+05:30 (CDB$ROOT(1))
+*** SESSION ID:(373.58290) 2021-06-17T11:27:13.845343+05:30
+*** SERVICE NAME:() 2021-06-17T11:27:13.845343+05:30
+*** MODULE NAME:(sqlplus.exe) 2021-06-17T11:27:13.845343+05:30
+*** ACTION NAME:() 2021-06-17T11:27:13.845343+05:30
+*** CLIENT DRIVER:(SQL*PLUS) 2021-06-17T11:27:13.845343+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:27:13.845343+05:30
+ 
+Control file created with size 1136 blocks
+kcrrmnt: RT: Role transition work is not done
+Control file resized from 1136 to 1142 blocks
+kccrsd_append: rectype = 32, lbn = 568, recs = 88
+*** 2021-06-17 11:27:13.951054 [krsh.c:6348]
+Redo network throttle feature is disabled at mount time
+2021-06-17 11:27:14.471 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:14.471 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:27:14.473 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:14.473 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:27:14.473 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:14.473 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2021-06-17T11:27:14.675008+05:30 (CDB$ROOT(1))
+*** ACTION NAME:(0000001 FINISHED88) 2021-06-17T11:27:14.675008+05:30
+ 
+KJHA:2phase 001 prepare ctx action:1 env usecnt:1 ctx usecnt:1
+KJHA:2phase 215 usecnt:1 tha stop prepare
+
+*** 2021-06-17T11:27:16.694520+05:30 (CDB$ROOT(1))
+2021-06-17 11:27:16.694 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE6B10B028, req 000001EE6B10C6B8, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+2021-06-17 11:27:16.694 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+2021-06-17 11:27:16.694 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+2021-06-17 11:27:16.694 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+2021-06-17 11:27:16.694 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE6B10C830
+[ default][ default]u_set_comp_error: comptype '103' : error '29'
+2021-06-17 11:27:16.694 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+
+*** 2021-06-17T11:27:18.699413+05:30 (CDB$ROOT(1))
+2021-06-17 11:27:18.699 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE6AE1E598, req 000001EE6AE1FEF8, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+2021-06-17 11:27:18.699 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+2021-06-17 11:27:18.699 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+2021-06-17 11:27:18.699 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+2021-06-17 11:27:18.699 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE6B102230
+2021-06-17 11:27:18.699 : [GIPCXCPT][GIPCXCPT] gipcInternalConnectSync: failed sync request, addr 000001EE6AE1F620 [000000000000001d] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, ret gipcretConnectionRefused (29)
+2021-06-17 11:27:18.699 : [GIPCXCPT][GIPCXCPT] gipcConnectSyncF [clscrsconGipcConnect : clscrscon.c : 686]: EXCEPTION[ ret gipcretConnectionRefused (29) ]  failed sync connect endp 000001EE6AE1E598 [000000000000001a] { gipcEndpoint : localAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=58442)(GIPCID=00000000-00000000-0))', remoteAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', numPend 0, numReady 0, numDone 0, numDead 0, numTransfer 0, objFlags 0x0, pidPeer 0, readyRef 0000000000000000, ready 0, wobj 000001EE6B102F88, sendp 000001EE6B102C70 status 13flags 0x2008071a, flags-2 0x0, usrFlags 0x0 }, addr 000001EE6AE1F620 [000000000000001d] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, flags 0x0
+
+*** 2021-06-17T11:27:20.702087+05:30 (CDB$ROOT(1))
+2021-06-17 11:27:20.702 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE6B102B68, req 000001EE6B1041C0, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+2021-06-17 11:27:20.702 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+2021-06-17 11:27:20.702 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+2021-06-17 11:27:20.702 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+2021-06-17 11:27:20.702 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE6B104338
+[ default][ default]u_set_comp_error: comptype '103' : error '29'
+2021-06-17 11:27:20.702 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+
+*** 2021-06-17T11:27:22.703014+05:30 (CDB$ROOT(1))
+2021-06-17 11:27:22.703 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE6AE1E098, req 000001EE6B0FA558, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+2021-06-17 11:27:22.703 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+2021-06-17 11:27:22.703 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+2021-06-17 11:27:22.703 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+2021-06-17 11:27:22.703 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE6B0FA680
+2021-06-17 11:27:22.703 : [GIPCXCPT][GIPCXCPT] gipcInternalConnectSync: failed sync request, addr 000001EE6B0FA150 [000000000000002b] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, ret gipcretConnectionRefused (29)
+2021-06-17 11:27:22.703 : [GIPCXCPT][GIPCXCPT] gipcConnectSyncF [clscrsconGipcConnect : clscrscon.c : 686]: EXCEPTION[ ret gipcretConnectionRefused (29) ]  failed sync connect endp 000001EE6AE1E098 [0000000000000028] { gipcEndpoint : localAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=58444)(GIPCID=00000000-00000000-0))', remoteAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', numPend 0, numReady 0, numDone 0, numDead 0, numTransfer 0, objFlags 0x0, pidPeer 0, readyRef 0000000000000000, ready 0, wobj 000001EE6B0FB360, sendp 000001EE6B0FB048 status 13flags 0x2008071a, flags-2 0x0, usrFlags 0x0 }, addr 000001EE6B0FA150 [000000000000002b] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, flags 0x0
+KJHA: kjha_doDBAction2 400 clsrapi_stop_db prepare ret:184
+KJHA: kjha_doDBAction2 990 clscrs_stat:184
+KJHA:2phase 660 clscrs_stat statret:184 usecnt:1 env id: ctx id:
+
+*** 2021-06-17T11:27:22.733287+05:30 (CDB$ROOT(1))
+Stopping background process SMCO
+
+*** 2021-06-17T11:27:23.744822+05:30 (CDB$ROOT(1))
+2021-06-17 11:27:23.744 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:23.744 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+kwsbgshms: Shutdown all masters complete
+
+*** 2021-06-17T11:27:23.756793+05:30 (CDB$ROOT(1))
+Stopping background process MMNL
+
+*** 2021-06-17T11:27:24.758107+05:30 (CDB$ROOT(1))
+Stopping background process MMON
+
+*** 2021-06-17T11:27:26.934829+05:30 (CDB$ROOT(1))
+ksukia: Starting kill, flags = 1
+ksukia: killed 0 out of 0 processes.
+KJHA:2phase 003 finish ctx opi_error:0 action:1 env usecnt:1 id: ctx usecnt:1 id: envp:cd255720
+KJHA:2phase 215 usecnt:2 tha stop finish
+kwsbgshms: Shutdown all masters complete
+Shutting down AQ Process Coordinator 
+*** 2021-06-17 11:27:26.955773 [krsv.c:2729]
+krso_proc_stop: Clearing start ARCH error state
+2021-06-17 11:27:26.976 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:26.976 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:27:26.977 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:26.977 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+KJHA:2phase 002 prepare ctx opi_error:0 action:1 env usecnt:1 id: ctx usecnt:3 id: envp:cd254640
+KJHA:2phase 215 usecnt:3 tha stop prepare
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:27:26.985 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+*** 2021-06-17 11:27:26.988785 [krsh.c:6348]
+Archival disabled due to shutdown: 1089
+*** 2021-06-17 11:27:26.990780 [krsv.c:2729]
+krso_proc_stop: Clearing start ARCH error state
+
+*** 2021-06-17T11:27:26.991780+05:30 (CDB$ROOT(1))
+Waiting for LGWR worker groups to be ready
+
+*** 2021-06-17T11:27:26.991780+05:30 (CDB$ROOT(1))
+Stopping LGWR worker group 0
+
+*** 2021-06-17T11:27:26.992779+05:30 (CDB$ROOT(1))
+Stopping LGWR worker group 1
+
+*** 2021-06-17T11:27:26.992779+05:30 (CDB$ROOT(1))
+Waiting for LGWR worker 1 (29)
+
+*** 2021-06-17T11:27:27.993615+05:30 (CDB$ROOT(1))
+Destroying LGWR worker groups
+
+*** 2021-06-17T11:27:28.006990+05:30 (CDB$ROOT(1))
+JIT: pid 2832 requesting stop
+*** 2021-06-17 11:27:28.025939 [krsh.c:6348]
+Archival disabled due to shutdown: 1089
+*** 2021-06-17 11:27:28.029928 [krsv.c:2729]
+krso_proc_stop: Clearing start ARCH error state
+
+*** 2021-06-17T11:27:28.033916+05:30 (CDB$ROOT(1))
+JIT: pid 2832 requesting stop
+
+*** 2021-06-17T11:27:42.088292+05:30 (CDB$ROOT(1))
+Deallocate SGA space 
+Deallocation successful 
+dbkdParseCmd uga not mapped event not set 10222 trace name context forever, level 32768 
+dbkdParseCmd uga not mapped event not set 10222 trace name context forever, level 0 
+ksaclfreesga: freeing SGA..
+KJHA:2phase 003 finish ctx opi_error:0 action:1 env usecnt:0 id: ctx usecnt:3 id: envp:cd255720
+
+*** 2021-06-17T11:27:42.456211+05:30
+KJHA:2phase 215 usecnt:4 tha stop finish
+
+*** 2021-06-17T11:27:44.461703+05:30
+2021-06-17 11:27:44.461 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE6B14BCA0, req 000001EE6B14D330, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+
+*** 2021-06-17T11:27:44.461703+05:30
+2021-06-17 11:27:44.461 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+
+*** 2021-06-17T11:27:44.461703+05:30
+2021-06-17 11:27:44.461 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+
+*** 2021-06-17T11:27:44.461703+05:30
+2021-06-17 11:27:44.461 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+
+*** 2021-06-17T11:27:44.461703+05:30
+2021-06-17 11:27:44.461 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE6B14D4A8
+
+*** 2021-06-17T11:27:44.461703+05:30
+[ default][ default]u_set_comp_error: comptype '103' : error '29'
+
+*** 2021-06-17T11:27:44.462697+05:30
+2021-06-17 11:27:44.462 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+
+*** 2021-06-17T11:27:46.465127+05:30
+2021-06-17 11:27:46.465 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE6B10A740, req 000001EE6B10C2D0, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+
+*** 2021-06-17T11:27:46.465127+05:30
+2021-06-17 11:27:46.465 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+
+*** 2021-06-17T11:27:46.465127+05:30
+2021-06-17 11:27:46.465 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+
+*** 2021-06-17T11:27:46.465127+05:30
+2021-06-17 11:27:46.465 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+
+*** 2021-06-17T11:27:46.465127+05:30
+2021-06-17 11:27:46.465 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE6B10C448
+
+*** 2021-06-17T11:27:46.465127+05:30
+2021-06-17 11:27:46.465 : [GIPCXCPT][GIPCXCPT] gipcInternalConnectSync: failed sync request, addr 000001EE6B10BAA8 [000000000000003b] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, ret gipcretConnectionRefused (29)
+
+*** 2021-06-17T11:27:46.465127+05:30
+2021-06-17 11:27:46.465 : [GIPCXCPT][GIPCXCPT] gipcConnectSyncF [clscrsconGipcConnect : clscrscon.c : 686]: EXCEPTION[ ret gipcretConnectionRefused (29) ]  failed sync connect endp 000001EE6B10A740 [0000000000000038] { gipcEndpoint : localAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=58454)(GIPCID=00000000-00000000-0))', remoteAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', numPend 0, numReady 0, numDone 0, numDead 0, numTransfer 0, objFlags 0x0, pidPeer 0, readyRef 0000000000000000, ready 0, wobj 000001EE6B10D188, sendp 000001EE6B10CE70 status 13flags 0x2008071a, flags-2 0x0, usrFlags 0x0 }, addr 000001EE6B10BAA8 [000000000000003b] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, flags 0x0
+
+*** 2021-06-17T11:27:48.473103+05:30
+2021-06-17 11:27:48.473 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE6B143EF0, req 000001EE6B145580, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+
+*** 2021-06-17T11:27:48.473103+05:30
+2021-06-17 11:27:48.473 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+
+*** 2021-06-17T11:27:48.473103+05:30
+2021-06-17 11:27:48.473 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+
+*** 2021-06-17T11:27:48.473103+05:30
+2021-06-17 11:27:48.473 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+
+*** 2021-06-17T11:27:48.473103+05:30
+2021-06-17 11:27:48.473 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE6B1456F8
+
+*** 2021-06-17T11:27:48.473103+05:30
+[ default][ default]u_set_comp_error: comptype '103' : error '29'
+
+*** 2021-06-17T11:27:48.474146+05:30
+2021-06-17 11:27:48.474 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+
+*** 2021-06-17T11:27:50.478135+05:30
+2021-06-17 11:27:50.478 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE6B10A3F8, req 000001EE6B10C5D8, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+
+*** 2021-06-17T11:27:50.478135+05:30
+2021-06-17 11:27:50.478 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+
+*** 2021-06-17T11:27:50.478135+05:30
+2021-06-17 11:27:50.478 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+
+*** 2021-06-17T11:27:50.478135+05:30
+2021-06-17 11:27:50.478 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+
+*** 2021-06-17T11:27:50.478135+05:30
+2021-06-17 11:27:50.478 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE6B10C750
+
+*** 2021-06-17T11:27:50.478135+05:30
+2021-06-17 11:27:50.478 : [GIPCXCPT][GIPCXCPT] gipcInternalConnectSync: failed sync request, addr 000001EE6B10C048 [0000000000000049] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, ret gipcretConnectionRefused (29)
+
+*** 2021-06-17T11:27:50.478135+05:30
+2021-06-17 11:27:50.478 : [GIPCXCPT][GIPCXCPT] gipcConnectSyncF [clscrsconGipcConnect : clscrscon.c : 686]: EXCEPTION[ ret gipcretConnectionRefused (29) ]  failed sync connect endp 000001EE6B10A3F8 [0000000000000046] { gipcEndpoint : localAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=50613)(GIPCID=00000000-00000000-0))', remoteAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', numPend 0, numReady 0, numDone 0, numDead 0, numTransfer 0, objFlags 0x0, pidPeer 0, readyRef 0000000000000000, ready 0, wobj 000001EE6B10D490, sendp 000001EE6B10D178 status 13flags 0x2008071a, flags-2 0x0, usrFlags 0x0 }, addr 000001EE6B10C048 [0000000000000049] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61003)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, flags 0x0
+
+*** 2021-06-17T11:27:50.478135+05:30
+KJHA: kjha_doDBAction2 400 clsrapi_stop_db finish ret:184
+
+*** 2021-06-17T11:27:50.478135+05:30
+KJHA: kjha_doDBAction2 990 clscrs_stat:184
+
+*** 2021-06-17T11:27:50.478135+05:30
+KJHA:2phase 660 clscrs_stat statret:184 usecnt:4 env id: ctx id:
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10156.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:340M/8070M, Ph+PgF:2093M/17909M 
+Instance name: orcl
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 10156, image: 
+
+
+*** 2021-06-17T11:33:57.572434+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+*** SESSION ID:(622.33969) 2021-06-17T11:33:57.696102+05:30
+*** SERVICE NAME:(SYS$USERS) 2021-06-17T11:33:57.696102+05:30
+*** MODULE NAME:(sqlplus.exe) 2021-06-17T11:33:57.696102+05:30
+*** ACTION NAME:() 2021-06-17T11:33:57.696102+05:30
+*** CLIENT DRIVER:(SQL*PLUS) 2021-06-17T11:33:57.696102+05:30
+*** CONTAINER ID:(2) 2021-06-17T11:33:57.696102+05:30
+ 
+
+*** 2021-06-17T11:33:57.696102+05:30 (PDB$SEED(2))
+JIT: pid 2832 requesting stop
+
+*** 2021-06-17T11:34:15.392124+05:30 (PDB$SEED(2))
+0DD9FA420A864B85A94A56272FB0E552
+joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 2
+*** CONTAINER ID:(2) 2021-06-17T11:34:16.177618+05:30
+ 
+
+*** 2021-06-17T11:34:16.177618+05:30 (PDB$SEED(2))
+JIT: pid 2832 requesting stop
+
+*** 2021-06-17T11:34:23.301561+05:30 (PDB$SEED(2))
+0DD9FA420A864B85A94A56272FB0E552
+
+*** 2021-06-17T11:34:23.732902+05:30 (PDB$SEED(2))
+joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 2
+kss_del_cb: Pdb sga version mismatch. Cleaning up SO:0x00007FFE6FA16FC8 with KSSAFAIL
+kss_del_cb: Pdb sga version mismatch. Cleaning up SO:0x00007FFE6F9E76C8 with KSSAFAIL
+kss_del_cb: Pdb sga version mismatch. Cleaning up SO:0x00007FFE6FA333C8 with KSSAFAIL
+kss_del_cb: Pdb sga version mismatch. Cleaning up SO:0x00007FFE6FA32F48 with KSSAFAIL
+kss_del_cb: Pdb sga version mismatch. Cleaning up SO:0x00007FFE6FA175C8 with KSSAFAIL
+kss_del_cb: Pdb sga version mismatch. Cleaning up SO:0x00007FFE6FA168C8 with KSSAFAIL
+kss_del_cb: Pdb sga version mismatch. Cleaning up SO:0x00007FFE72F29CD0 with KSSAFAIL
+kss_del_cb: Pdb sga version mismatch. Cleaning up SO:0x00007FFE6FA184C8 with KSSAFAIL

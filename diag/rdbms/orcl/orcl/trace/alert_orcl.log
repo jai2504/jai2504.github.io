@@ -1,0 +1,1885 @@
+2021-06-17T11:23:35.864002+05:30
+WARNING: Waiting on CRSD for password file, for 8 seconds, check CRS and OS logs
+Starting ORACLE instance (normal) (OS id: 8424)
+2021-06-17T11:23:36.180253+05:30
+All SGA segments were allocated at startup
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Initial number of CPU is 8
+Number of processor cores in the system is 4
+Number of processor sockets in the system is 1
+Shared memory segment for instance monitoring created
+Capability Type : Network 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Runtime Environment 
+capabilities requested : 400000FF detected : 40000000 Simulated : 0
+Capability Type : Engineered Systems 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Database Test 
+capabilities requested : 3 detected : 0 Simulated : 0
+2021-06-17T11:23:36.872221+05:30
+Using LOG_ARCHIVE_DEST_1 parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =108
+LICENSE_MAX_USERS = 0
+SYS auditing is enabled
+2021-06-17T11:23:37.255871+05:30
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+2021-06-17T11:23:46.303630+05:30
+NOTE: Using default ASM root directory ASM
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+NOTE: Cluster configuration type = NONE [2]
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0.
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:588M/8070M, Ph+PgF:2205M/17827M 
+Using parameter settings in client-side pfile C:\USERS\ASUS\DOWNLOADS\COMPRESSED\CFGTOOLLOGS\DBCA\ORCL\INITORCLTEMPOMF.ORA on machine DESKTOP-6NN7RR4
+System parameters with non-default values:
+  processes                = 640
+  nls_language             = "AMERICAN"
+  nls_territory            = "AMERICA"
+  sga_target               = 2432M
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\CFGTOOLLOGS\DBCA\ORCL\TEMPCONTROL.CTL"
+  db_block_size            = 8192
+  compatible               = "19.0.0"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=orclXDB)"
+  local_listener           = "LISTENER_ORCL"
+  audit_file_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ADMIN\ORCL\ADUMP"
+  audit_trail              = "DB"
+  db_name                  = "seeddata"
+  db_unique_name           = "orcl"
+  open_cursors             = 300
+  pga_aggregate_target     = 807M
+  _diag_hm_rc_enabled      = FALSE
+  diagnostic_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED"
+  enable_pluggable_database= TRUE
+2021-06-17T11:23:47.832386+05:30
+============================================================
+NOTE: PatchLevel of this instance 0
+============================================================
+2021-06-17T11:23:56.166274+05:30
+Starting background process PMON
+2021-06-17T11:23:56.189211+05:30
+PMON started with pid=2, OS id=9480 
+Starting background process CLMN
+2021-06-17T11:23:56.210170+05:30
+CLMN started with pid=3, OS id=8552 
+Starting background process PSP0
+2021-06-17T11:23:56.223024+05:30
+PSP0 started with pid=4, OS id=2720 
+2021-06-17T11:23:57.223980+05:30
+Starting background process VKTM
+2021-06-17T11:23:57.234949+05:30
+VKTM started with pid=5, OS id=9616 at elevated (Time Critical) priority
+2021-06-17T11:23:57.237941+05:30
+VKTM running at (5)millisec precision with DBRM quantum (100)ms
+2021-06-17T11:23:58.235877+05:30
+Starting background process GEN0
+Starting background process MMAN
+2021-06-17T11:23:58.268790+05:30
+MMAN started with pid=7, OS id=12392 
+Starting background process GEN1
+2021-06-17T11:23:58.281754+05:30
+GEN1 started with pid=8, OS id=9368 
+2021-06-17T11:23:59.255341+05:30
+GEN0 started with pid=6, OS id=11896 
+2021-06-17T11:23:59.282873+05:30
+Starting background process DIAG
+2021-06-17T11:23:59.297834+05:30
+DIAG started with pid=9, OS id=1816 
+Starting background process DBRM
+Starting background process VKRM
+Starting background process SVCB
+Starting background process PMAN
+2021-06-17T11:23:59.371687+05:30
+PMAN started with pid=14, OS id=14036 
+2021-06-17T11:24:00.352577+05:30
+VKRM started with pid=12, OS id=9780 
+2021-06-17T11:24:00.364540+05:30
+SVCB started with pid=13, OS id=12120 
+2021-06-17T11:24:00.376506+05:30
+Starting background process DIA0
+2021-06-17T11:24:01.357742+05:30
+DBRM started with pid=11, OS id=20620 
+2021-06-17T11:24:01.602269+05:30
+DIA0 started with pid=15, OS id=484 
+2021-06-17T11:24:01.671084+05:30
+Starting background process DBW0
+2021-06-17T11:24:02.813683+05:30
+DBW0 started with pid=16, OS id=11548 
+2021-06-17T11:24:02.818635+05:30
+Starting background process LGWR
+2021-06-17T11:24:03.816805+05:30
+LGWR started with pid=17, OS id=20744 
+2021-06-17T11:24:03.825691+05:30
+Starting background process CKPT
+2021-06-17T11:24:04.224087+05:30
+CKPT started with pid=18, OS id=4824 
+2021-06-17T11:24:04.244067+05:30
+LGWR slave LG00 created with pid=10, OS pid=18916
+Starting background process SMON
+2021-06-17T11:24:04.263018+05:30
+SMON started with pid=19, OS id=6940 
+LGWR slave LG01 created with pid=20, OS pid=8284
+2021-06-17T11:24:04.987127+05:30
+Using default pga_aggregate_limit of 2048 MB
+2021-06-17T11:24:05.305788+05:30
+Starting background process SMCO
+2021-06-17T11:24:05.774716+05:30
+SMCO started with pid=21, OS id=6876 
+Starting background process RECO
+2021-06-17T11:24:05.797619+05:30
+RECO started with pid=22, OS id=8540 
+Starting background process LREG
+2021-06-17T11:24:05.814572+05:30
+LREG started with pid=23, OS id=11700 
+2021-06-17T11:24:06.815538+05:30
+Starting background process PXMN
+2021-06-17T11:24:06.830497+05:30
+PXMN started with pid=24, OS id=8896 
+Starting background process FENC
+2021-06-17T11:24:06.858420+05:30
+FENC started with pid=26, OS id=14692 
+Starting background process MMON
+2021-06-17T11:24:06.884351+05:30
+MMON started with pid=28, OS id=84 
+2021-06-17T11:24:07.885856+05:30
+Starting background process MMNL
+2021-06-17T11:24:07.897824+05:30
+MMNL started with pid=29, OS id=6288 
+2021-06-17T11:24:07.898822+05:30
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+starting up 1 shared server(s) ...
+Starting background process TMON
+2021-06-17T11:24:07.959663+05:30
+TMON started with pid=32, OS id=12264 
+Setting CPU count to 8
+ORACLE_BASE from environment = C:\Users\asus\Downloads\Compressed
+2021-06-17T11:24:16.746877+05:30
+ALTER DATABASE   MOUNT
+2021-06-17T11:24:20.802813+05:30
+Set as converted control file due to db_unique_name mismatch
+Changing di2dbun from seeddata to orcl
+.... (PID:16824): RT: Role transition work is not done
+.... (PID:16824): Redo network throttle feature is disabled at mount time
+2021-06-17T11:24:20.872075+05:30
+Successful mount of redo thread 1, with mount id 109210784
+2021-06-17T11:24:20.877063+05:30
+Database mounted in Exclusive Mode
+Lost write protection disabled
+.... (PID:16824): Using STANDBY_ARCHIVE_DEST parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS [krsd.c:18141]
+Create Relation IPS_PACKAGE_UNPACK_HISTORY
+Completed: ALTER DATABASE   MOUNT
+2021-06-17T11:25:21.105994+05:30
+Full restore complete of datafile 1 to datafile copy C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSTEM01.DBF.  Elapsed time: 0:00:49
+  checkpoint is 1928874
+  last deallocation scn is 1927730
+  Undo Optimization current scn is 1925953
+2021-06-17T11:25:48.473042+05:30
+Full restore complete of datafile 3 to datafile copy C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSAUX01.DBF.  Elapsed time: 0:00:20
+  checkpoint is 1928874
+  last deallocation scn is 1927714
+2021-06-17T11:25:54.059219+05:30
+Full restore complete of datafile 4 to datafile copy C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\UNDOTBS01.DBF.  Elapsed time: 0:00:01
+  checkpoint is 1928874
+  last deallocation scn is 3
+2021-06-17T11:25:56.446772+05:30
+Full restore complete of datafile 7 to datafile copy C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\USERS01.DBF.  Elapsed time: 0:00:00
+  checkpoint is 1928874
+  last deallocation scn is 3
+2021-06-17T11:25:57.333926+05:30
+Shutting down ORACLE instance (abort) (OS id: 8232)
+License high water mark = 4
+2021-06-17T11:25:57.341485+05:30
+USER (ospid: 8232): terminating the instance
+2021-06-17T11:26:16.302459+05:30
+Instance terminated by USER, pid = 8232
+2021-06-17T11:26:16.930547+05:30
+Instance shutdown complete (OS id: 8232)
+2021-06-17T11:26:36.907368+05:30
+WARNING: Waiting on CRSD for password file, for 8 seconds, check CRS and OS logs
+Starting ORACLE instance (normal) (OS id: 6800)
+2021-06-17T11:26:37.154312+05:30
+All SGA segments were allocated at startup
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Initial number of CPU is 8
+Number of processor cores in the system is 4
+Number of processor sockets in the system is 1
+Capability Type : Network 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Runtime Environment 
+capabilities requested : 400000FF detected : 40000000 Simulated : 0
+Capability Type : Engineered Systems 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Database Test 
+capabilities requested : 3 detected : 0 Simulated : 0
+Using LOG_ARCHIVE_DEST_1 parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =108
+LICENSE_MAX_USERS = 0
+SYS auditing is enabled
+2021-06-17T11:26:37.970313+05:30
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+2021-06-17T11:26:46.294833+05:30
+NOTE: Using default ASM root directory ASM
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+NOTE: Cluster configuration type = NONE [2]
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0.
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:800M/8070M, Ph+PgF:2410M/17905M 
+Using parameter settings in client-side pfile C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ADMIN\ORCL\PFILE\INIT.ORA on machine DESKTOP-6NN7RR4
+System parameters with non-default values:
+  processes                = 640
+  nls_language             = "AMERICAN"
+  nls_territory            = "AMERICA"
+  sga_target               = 2432M
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\CONTROL01.CTL"
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\CONTROL02.CTL"
+  db_block_size            = 8192
+  compatible               = "19.0.0"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=orclXDB)"
+  local_listener           = "LISTENER_ORCL"
+  audit_file_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ADMIN\ORCL\ADUMP"
+  audit_trail              = "DB"
+  db_name                  = "orcl"
+  open_cursors             = 300
+  pga_aggregate_target     = 807M
+  diagnostic_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED"
+  enable_pluggable_database= TRUE
+2021-06-17T11:26:46.470288+05:30
+============================================================
+NOTE: PatchLevel of this instance 0
+============================================================
+2021-06-17T11:26:52.388886+05:30
+Starting background process PMON
+2021-06-17T11:26:52.403874+05:30
+PMON started with pid=2, OS id=1896 
+Starting background process CLMN
+2021-06-17T11:26:52.424791+05:30
+CLMN started with pid=3, OS id=12588 
+Starting background process PSP0
+2021-06-17T11:26:52.443742+05:30
+PSP0 started with pid=4, OS id=20404 
+2021-06-17T11:26:53.444653+05:30
+Starting background process VKTM
+2021-06-17T11:26:53.456621+05:30
+VKTM started with pid=5, OS id=1752 at elevated (Time Critical) priority
+2021-06-17T11:26:53.458617+05:30
+VKTM running at (5)millisec precision with DBRM quantum (100)ms
+2021-06-17T11:26:54.494412+05:30
+Starting background process GEN0
+Starting background process MMAN
+2021-06-17T11:26:54.530606+05:30
+MMAN started with pid=7, OS id=20616 
+Starting background process GEN1
+Starting background process DIAG
+2021-06-17T11:26:54.564232+05:30
+DIAG started with pid=9, OS id=15376 
+2021-06-17T11:26:55.516513+05:30
+GEN0 started with pid=6, OS id=12996 
+2021-06-17T11:26:55.548551+05:30
+GEN1 started with pid=8, OS id=1756 
+2021-06-17T11:26:55.565985+05:30
+Starting background process DBRM
+2021-06-17T11:26:55.576000+05:30
+DBRM started with pid=10, OS id=7680 
+Starting background process VKRM
+2021-06-17T11:26:55.603541+05:30
+VKRM started with pid=12, OS id=9564 
+Starting background process SVCB
+2021-06-17T11:26:55.615792+05:30
+SVCB started with pid=13, OS id=15556 
+2021-06-17T11:26:56.651316+05:30
+Starting background process PMAN
+2021-06-17T11:26:57.260980+05:30
+PMAN started with pid=14, OS id=12356 
+Starting background process DIA0
+2021-06-17T11:26:57.376052+05:30
+DIA0 started with pid=15, OS id=14736 
+2021-06-17T11:26:58.378704+05:30
+Starting background process DBW0
+2021-06-17T11:26:59.358411+05:30
+Using default pga_aggregate_limit of 2048 MB
+2021-06-17T11:26:59.716786+05:30
+DBW0 started with pid=16, OS id=15504 
+2021-06-17T11:26:59.723326+05:30
+Starting background process LGWR
+2021-06-17T11:26:59.735293+05:30
+LGWR started with pid=11, OS id=5916 
+2021-06-17T11:27:00.735690+05:30
+Starting background process CKPT
+2021-06-17T11:27:00.747655+05:30
+CKPT started with pid=17, OS id=21456 
+Starting background process SMON
+2021-06-17T11:27:00.762521+05:30
+LGWR slave LG00 created with pid=18, OS pid=16252
+2021-06-17T11:27:00.774373+05:30
+SMON started with pid=19, OS id=4360 
+Starting background process SMCO
+2021-06-17T11:27:00.794647+05:30
+SMCO started with pid=21, OS id=2804 
+2021-06-17T11:27:01.786494+05:30
+LGWR slave LG01 created with pid=20, OS pid=7688
+2021-06-17T11:27:01.796512+05:30
+Starting background process RECO
+2021-06-17T11:27:01.812130+05:30
+RECO started with pid=22, OS id=15752 
+Starting background process LREG
+2021-06-17T11:27:01.837422+05:30
+LREG started with pid=24, OS id=11820 
+Starting background process PXMN
+2021-06-17T11:27:01.858268+05:30
+PXMN started with pid=26, OS id=4408 
+2021-06-17T11:27:02.859625+05:30
+Starting background process FENC
+2021-06-17T11:27:02.871592+05:30
+FENC started with pid=27, OS id=19056 
+2021-06-17T11:27:03.872343+05:30
+Starting background process MMON
+2021-06-17T11:27:03.883701+05:30
+MMON started with pid=28, OS id=19356 
+2021-06-17T11:27:04.884409+05:30
+Starting background process MMNL
+2021-06-17T11:27:04.897399+05:30
+MMNL started with pid=29, OS id=20532 
+2021-06-17T11:27:04.902521+05:30
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+starting up 1 shared server(s) ...
+Starting background process TMON
+2021-06-17T11:27:04.940464+05:30
+TMON started with pid=32, OS id=19192 
+Setting CPU count to 8
+ORACLE_BASE from environment = C:\Users\asus\Downloads\Compressed
+2021-06-17T11:27:13.486846+05:30
+Create controlfile reuse set database "orcl"
+MAXINSTANCES 8
+MAXLOGHISTORY 1
+MAXLOGFILES 16
+MAXLOGMEMBERS 3
+MAXDATAFILES 1024
+Datafile
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSAUX01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSTEM01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\UNDOTBS01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\USERS01.DBF'
+LOGFILE GROUP 1 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo01.log') SIZE 200M,
+GROUP 2 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo02.log') SIZE 200M,
+GROUP 3 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo03.log') SIZE 200M RESETLOGS
+2021-06-17T11:27:13.493827+05:30
+WARNING: Default Temporary Tablespace not specified in CREATE DATABASE command
+Default Temporary Tablespace will be necessary for a locally managed database in future release
+.... (PID:10156): RT: Role transition work is not done
+Expanded controlfile section 32 from 31 to 128 records
+Requested to grow by 97 records; added 3 blocks of records
+.... (PID:10156): Redo network throttle feature is disabled at mount time
+2021-06-17T11:27:14.456619+05:30
+Successful mount of redo thread 1, with mount id 1603277841
+Completed: Create controlfile reuse set database "orcl"
+MAXINSTANCES 8
+MAXLOGHISTORY 1
+MAXLOGFILES 16
+MAXLOGMEMBERS 3
+MAXDATAFILES 1024
+Datafile
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSAUX01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSTEM01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\UNDOTBS01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\USERS01.DBF'
+LOGFILE GROUP 1 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo01.log') SIZE 200M,
+GROUP 2 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo02.log') SIZE 200M,
+GROUP 3 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo03.log') SIZE 200M RESETLOGS
+2021-06-17T11:27:14.636074+05:30
+zeroing database id of data file (0): C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSTEM01.DBF
+zeroing database id of data file (0): C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSAUX01.DBF
+zeroing database id of data file (0): C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\UNDOTBS01.DBF
+zeroing database id of data file (0): C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\USERS01.DBF
+2021-06-17T11:27:22.720321+05:30
+Shutting down ORACLE instance (immediate) (OS id: 10156)
+Stopping background process SMCO
+2021-06-17T11:27:23.745826+05:30
+Shutting down instance: further logons disabled
+Stopping background process MMNL
+2021-06-17T11:27:24.758107+05:30
+Stopping background process MMON
+2021-06-17T11:27:26.763459+05:30
+License high water mark = 1
+2021-06-17T11:27:26.926851+05:30
+Dispatchers and shared servers shutdown
+
+Data Pump shutdown on PDB: 1 in progress
+ALTER DATABASE CLOSE NORMAL
+Stopping Emon pool
+ORA-1109 signalled during: ALTER DATABASE CLOSE NORMAL...
+ALTER DATABASE DISMOUNT
+Shutting down archive processes
+Archiving is disabled
+Completed: ALTER DATABASE DISMOUNT
+.... (PID:10156): Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+2021-06-17T11:27:27.998060+05:30
+
+IM on ADG: Start of Empty Journal 
+
+IM on ADG: End of Empty Journal 
+JIT: pid 2832 requesting stop
+2021-06-17T11:27:28.015964+05:30
+Stopping background process VKTM
+2021-06-17T11:27:28.025939+05:30
+.... (PID:10156): Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+JIT: pid 2832 requesting stop
+2021-06-17T11:27:42.456211+05:30
+Instance shutdown complete (OS id: 10156)
+2021-06-17T11:28:09.991294+05:30
+WARNING: Waiting on CRSD for password file, for 8 seconds, check CRS and OS logs
+Starting ORACLE instance (normal) (OS id: 15924)
+2021-06-17T11:28:10.182290+05:30
+All SGA segments were allocated at startup
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Initial number of CPU is 8
+Number of processor cores in the system is 4
+Number of processor sockets in the system is 1
+Capability Type : Network 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Runtime Environment 
+capabilities requested : 400000FF detected : 40000000 Simulated : 0
+Capability Type : Engineered Systems 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Database Test 
+capabilities requested : 3 detected : 0 Simulated : 0
+Using LOG_ARCHIVE_DEST_1 parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =108
+LICENSE_MAX_USERS = 0
+SYS auditing is enabled
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+2021-06-17T11:28:19.113940+05:30
+NOTE: Using default ASM root directory ASM
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+NOTE: Cluster configuration type = NONE [2]
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0.
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:903M/8070M, Ph+PgF:2425M/17909M 
+Using parameter settings in client-side pfile C:\USERS\ASUS\DOWNLOADS\COMPRESSED\CFGTOOLLOGS\DBCA\ORCL\INITORCLTEMP.ORA on machine DESKTOP-6NN7RR4
+System parameters with non-default values:
+  processes                = 640
+  nls_language             = "AMERICAN"
+  nls_territory            = "AMERICA"
+  sga_target               = 2432M
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\CONTROL01.CTL"
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\CONTROL02.CTL"
+  db_block_size            = 8192
+  compatible               = "19.0.0"
+  _no_recovery_through_resetlogs= TRUE
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=orclXDB)"
+  local_listener           = "LISTENER_ORCL"
+  job_queue_processes      = 0
+  audit_file_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ADMIN\ORCL\ADUMP"
+  audit_trail              = "DB"
+  db_name                  = "orcl"
+  open_cursors             = 300
+  pga_aggregate_target     = 807M
+  aq_tm_processes          = 0
+  _enable_automatic_maintenance= 0
+  _diag_hm_rc_enabled      = FALSE
+  diagnostic_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED"
+  enable_pluggable_database= TRUE
+2021-06-17T11:28:19.257066+05:30
+============================================================
+NOTE: PatchLevel of this instance 0
+============================================================
+2021-06-17T11:28:24.955102+05:30
+Starting background process PMON
+2021-06-17T11:28:24.968029+05:30
+PMON started with pid=2, OS id=21120 
+Starting background process CLMN
+2021-06-17T11:28:24.981991+05:30
+CLMN started with pid=3, OS id=9992 
+Starting background process PSP0
+2021-06-17T11:28:24.995953+05:30
+PSP0 started with pid=4, OS id=10572 
+2021-06-17T11:28:25.996659+05:30
+Starting background process VKTM
+2021-06-17T11:28:26.017613+05:30
+VKTM started with pid=5, OS id=21300 at elevated (Time Critical) priority
+2021-06-17T11:28:26.019597+05:30
+VKTM running at (5)millisec precision with DBRM quantum (100)ms
+2021-06-17T11:28:27.018575+05:30
+Starting background process GEN0
+2021-06-17T11:28:27.034533+05:30
+GEN0 started with pid=6, OS id=10848 
+2021-06-17T11:28:28.034875+05:30
+Starting background process MMAN
+2021-06-17T11:28:28.048835+05:30
+MMAN started with pid=7, OS id=19016 
+Starting background process GEN1
+2021-06-17T11:28:28.081828+05:30
+GEN1 started with pid=9, OS id=19372 
+2021-06-17T11:28:29.089142+05:30
+Starting background process DIAG
+2021-06-17T11:28:30.633065+05:30
+DIAG started with pid=10, OS id=6488 
+2021-06-17T11:28:30.643075+05:30
+Starting background process DBRM
+2021-06-17T11:28:30.958818+05:30
+DBRM started with pid=11, OS id=17248 
+Starting background process VKRM
+2021-06-17T11:28:30.990858+05:30
+VKRM started with pid=8, OS id=17572 
+2021-06-17T11:28:31.993295+05:30
+Starting background process SVCB
+2021-06-17T11:28:32.004264+05:30
+SVCB started with pid=12, OS id=7236 
+2021-06-17T11:28:33.004910+05:30
+Starting background process PMAN
+2021-06-17T11:28:33.016878+05:30
+PMAN started with pid=13, OS id=20344 
+2021-06-17T11:28:33.985347+05:30
+Using default pga_aggregate_limit of 2048 MB
+2021-06-17T11:28:34.018552+05:30
+Starting background process DIA0
+2021-06-17T11:28:34.028527+05:30
+DIA0 started with pid=14, OS id=14588 
+2021-06-17T11:28:35.029463+05:30
+Starting background process DBW0
+2021-06-17T11:28:35.295624+05:30
+DBW0 started with pid=15, OS id=17256 
+2021-06-17T11:28:36.296356+05:30
+Starting background process LGWR
+2021-06-17T11:28:36.307328+05:30
+LGWR started with pid=16, OS id=2944 
+2021-06-17T11:28:37.308809+05:30
+Starting background process CKPT
+2021-06-17T11:28:37.321774+05:30
+CKPT started with pid=17, OS id=4432 
+Starting background process SMON
+2021-06-17T11:28:37.333742+05:30
+LGWR slave LG00 created with pid=18, OS pid=19164
+2021-06-17T11:28:37.343717+05:30
+SMON started with pid=19, OS id=12200 
+Starting background process SMCO
+2021-06-17T11:28:37.370643+05:30
+SMCO started with pid=21, OS id=7936 
+2021-06-17T11:28:38.359691+05:30
+LGWR slave LG01 created with pid=20, OS pid=12560
+2021-06-17T11:28:38.372655+05:30
+Starting background process RECO
+2021-06-17T11:28:38.407562+05:30
+RECO started with pid=22, OS id=9356 
+Starting background process LREG
+2021-06-17T11:28:38.433493+05:30
+LREG started with pid=24, OS id=15668 
+Starting background process PXMN
+2021-06-17T11:28:38.469398+05:30
+PXMN started with pid=26, OS id=11016 
+2021-06-17T11:28:39.470682+05:30
+Starting background process FENC
+2021-06-17T11:28:39.486639+05:30
+FENC started with pid=27, OS id=16652 
+2021-06-17T11:28:40.483528+05:30
+Starting background process MMON
+2021-06-17T11:28:40.494498+05:30
+MMON started with pid=28, OS id=620 
+2021-06-17T11:28:41.495355+05:30
+Starting background process MMNL
+2021-06-17T11:28:41.510313+05:30
+MMNL started with pid=29, OS id=15188 
+2021-06-17T11:28:41.512309+05:30
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+starting up 1 shared server(s) ...
+Starting background process TMON
+2021-06-17T11:28:41.551205+05:30
+TMON started with pid=32, OS id=13928 
+Setting CPU count to 8
+ORACLE_BASE from environment = C:\Users\asus\Downloads\Compressed
+2021-06-17T11:28:50.086854+05:30
+Create controlfile reuse set database "orcl"
+MAXINSTANCES 8
+MAXLOGHISTORY 1
+MAXLOGFILES 16
+MAXLOGMEMBERS 3
+MAXDATAFILES 1024
+Datafile
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSAUX01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSTEM01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\UNDOTBS01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\USERS01.DBF'
+LOGFILE GROUP 1 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo01.log') SIZE 200M,
+GROUP 2 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo02.log') SIZE 200M,
+GROUP 3 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo03.log') SIZE 200M RESETLOGS
+2021-06-17T11:28:50.092831+05:30
+WARNING: Default Temporary Tablespace not specified in CREATE DATABASE command
+Default Temporary Tablespace will be necessary for a locally managed database in future release
+.... (PID:10556): RT: Role transition work is not done
+Expanded controlfile section 32 from 31 to 128 records
+Requested to grow by 97 records; added 3 blocks of records
+.... (PID:10556): Redo network throttle feature is disabled at mount time
+2021-06-17T11:28:50.595595+05:30
+Successful mount of redo thread 1, with mount id 1603262578
+Completed: Create controlfile reuse set database "orcl"
+MAXINSTANCES 8
+MAXLOGHISTORY 1
+MAXLOGFILES 16
+MAXLOGMEMBERS 3
+MAXDATAFILES 1024
+Datafile
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSAUX01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\SYSTEM01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\UNDOTBS01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\USERS01.DBF'
+LOGFILE GROUP 1 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo01.log') SIZE 200M,
+GROUP 2 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo02.log') SIZE 200M,
+GROUP 3 ('C:\Users\asus\Downloads\Compressed\oradata\ORCL\redo03.log') SIZE 200M RESETLOGS
+Stopping background process MMNL
+2021-06-17T11:28:51.635803+05:30
+Stopping background process MMON
+2021-06-17T11:28:52.637433+05:30
+Starting background process MMNL
+2021-06-17T11:28:52.648193+05:30
+MMNL started with pid=28, OS id=8448 
+2021-06-17T11:28:53.649765+05:30
+Starting background process MMON
+2021-06-17T11:28:53.660735+05:30
+MMON started with pid=29, OS id=11364 
+2021-06-17T11:28:53.662729+05:30
+Stopping Emon pool
+2021-06-17T11:28:53.667716+05:30
+ALTER SYSTEM enable restricted session;
+alter database "orcl" open resetlogs
+RESETLOGS after incomplete recovery UNTIL CHANGE 1928874 time 05/30/2019 06:56:17
+2021-06-17T11:28:53.823364+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+2021-06-17T11:28:53.825355+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+.... (PID:10556): Clearing online redo logfile 1 C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG
+2021-06-17T11:28:53.845299+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+2021-06-17T11:28:53.845989+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+.... (PID:10556): Clearing online redo logfile 2 C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG
+2021-06-17T11:28:53.857953+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+2021-06-17T11:28:53.858950+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+.... (PID:10556): Clearing online redo logfile 3 C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG
+Clearing online log 1 of thread 1 sequence number 0
+2021-06-17T11:28:53.869921+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+2021-06-17T11:28:53.870918+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+Clearing online log 2 of thread 1 sequence number 0
+2021-06-17T11:28:53.873911+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+2021-06-17T11:28:53.874908+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+Clearing online log 3 of thread 1 sequence number 0
+2021-06-17T11:28:53.877900+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+2021-06-17T11:28:53.879895+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc:
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+2021-06-17T11:28:58.993722+05:30
+.... (PID:10556): Clearing online redo logfile 1 complete
+.... (PID:10556): Clearing online redo logfile 2 complete
+.... (PID:10556): Clearing online redo logfile 3 complete
+Online log C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG: Thread 1 Group 1 was previously cleared
+Online log C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG: Thread 1 Group 2 was previously cleared
+Online log C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG: Thread 1 Group 3 was previously cleared
+2021-06-17T11:28:59.126973+05:30
+Setting recovery target incarnation to 2
+2021-06-17T11:28:59.251643+05:30
+Ping without log force is disabled:
+  instance mounted in exclusive mode.
+Buffer Cache Full DB Caching mode changing from FULL CACHING DISABLED to FULL CACHING ENABLED 
+Initializing SCN for created control file
+Database SCN compatibility initialized to 3
+Endian type of dictionary set to little
+2021-06-17T11:28:59.335162+05:30
+Assigning activation ID 1603262578 (0x5f8fd872)
+2021-06-17T11:28:59.355556+05:30
+TT00 (PID:10996): Gap Manager starting
+2021-06-17T11:28:59.381598+05:30
+Redo log for group 1, sequence 1 is not located on DAX storage
+Thread 1 opened at log sequence 1
+  Current log# 1 seq# 1 mem# 0: C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG
+Successful open of redo thread 1
+2021-06-17T11:28:59.426801+05:30
+MTTR advisory is disabled because FAST_START_MTTR_TARGET is not set
+stopping change tracking
+2021-06-17T11:28:59.460698+05:30
+TT03 (PID:9536): Sleep 5 seconds and then try to clear SRLs in 2 time(s)
+2021-06-17T11:29:00.077691+05:30
+Undo initialization recovery: err:0 start: 619575250 end: 619575296 diff: 46 ms (0.0 seconds)
+[10556] Successfully onlined Undo Tablespace 2.
+Undo initialization online undo segments: err:0 start: 619575296 end: 619575546 diff: 250 ms (0.3 seconds)
+Undo initialization finished serial:0 start:619575250 end:619575546 diff:296 ms (0.3 seconds)
+Dictionary check beginning
+Tablespace 'TEMP' #3 found in data dictionary,
+but not in the controlfile. Adding to controlfile.
+Dictionary check complete
+Verifying minimum file header compatibility for tablespace encryption for pdb 1..
+Verifying file header compatibility for tablespace encryption completed for pdb 1
+*********************************************************************
+WARNING: The following temporary tablespaces in container(CDB$ROOT)
+         contain no files.
+         This condition can occur when a backup controlfile has
+         been restored.  It may be necessary to add files to these
+         tablespaces.  That can be done using the SQL statement:
+ 
+         ALTER TABLESPACE <tablespace_name> ADD TEMPFILE
+ 
+         Alternatively, if these temporary tablespaces are no longer
+         needed, then they can be dropped.
+           Empty temporary tablespace: TEMP
+*********************************************************************
+Database Characterset is US7ASCII
+No Resource Manager plan active
+2021-06-17T11:29:01.739849+05:30
+joxcsys_required_dirobj_exists: directory object exists with wrong path C:\ADE\AIME_V\ORACLE\JAVAVM\ADMIN\, required path is C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 1
+joxcsys_ensure_directory_object: created directory object with path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 1
+replication_dependency_tracking turned off (no async multimaster replication found)
+LOGSTDBY: Validating controlfile with logical metadata
+LOGSTDBY: Validation complete
+AQ Processes can not start in restrict mode
+2021-06-17T11:29:02.826647+05:30
+Global Name changed to ORCL
+Starting background process CJQ0
+2021-06-17T11:29:03.150391+05:30
+CJQ0 started with pid=39, OS id=17720 
+Completed: alter database "orcl" open resetlogs
+alter database rename global_name to "orcl"
+Completed: alter database rename global_name to "orcl"
+ALTER TABLESPACE TEMP ADD TEMPFILE 'C:\Users\asus\Downloads\Compressed\oradata\ORCL\TEMP01.DBF' SIZE 20480K REUSE AUTOEXTEND ON NEXT 640K MAXSIZE UNLIMITED
+Completed: ALTER TABLESPACE TEMP ADD TEMPFILE 'C:\Users\asus\Downloads\Compressed\oradata\ORCL\TEMP01.DBF' SIZE 20480K REUSE AUTOEXTEND ON NEXT 640K MAXSIZE UNLIMITED
+ALTER DATABASE DEFAULT TABLESPACE "USERS"
+Completed: ALTER DATABASE DEFAULT TABLESPACE "USERS"
+2021-06-17T11:29:03.844272+05:30
+TABLE AUDSYS.AUD$UNIFIED: ADDED INTERVAL PARTITION SYS_P181 (84) VALUES LESS THAN (TIMESTAMP' 2021-07-01 00:00:00')
+2021-06-17T11:29:26.327645+05:30
+QPI : Found directory objects and ORACLE_HOME out of sync
+QPI : Trying to patch with the current ORACLE_HOME
+QPI: ------QPI Old Directories -------
+QPI: OPATCH_SCRIPT_DIR:c:\ade\aime_v\oracle\QOpatch
+QPI: OPATCH_LOG_DIR:c:\ade\aime_v\oracle\rdbms\log
+QPI: OPATCH_INST_DIR:c:\ade\aime_v\oracle\OPatch
+QPI: op_scpt_path C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\QOpatch
+QPI: Found QPI install at :C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\QOpatch
+QPI: Self adjusting the directories
+QPI: ------QPI New Directories-------
+QPI: OPATCH_SCRIPT_DIR:C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\QOpatch
+QPI: OPATCH_LOG_DIR:C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\rdbms\log
+QPI: OPATCH_INST_DIR:C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\OPatch
+QPI: opatch file present, opatch.bat
+QPI: qopiprep.bat file present
+2021-06-17T11:29:31.020434+05:30
+ALTER SYSTEM SET _catalog_foreign_restore=TRUE SCOPE=MEMORY;
+2021-06-17T11:29:31.022387+05:30
+ALTER SYSTEM SET _restore_create_directory=TRUE SCOPE=MEMORY;
+2021-06-17T11:29:42.158431+05:30
+Full restore complete of datafile 9 to datafile copy C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\UNDOTBS01.DBF.  Elapsed time: 0:00:06
+  checkpoint is 1924423
+2021-06-17T11:29:50.856900+05:30
+Full restore complete of datafile 4 to datafile copy C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSAUX01.DBF.  Elapsed time: 0:00:14
+  checkpoint is 1924423
+Full restore complete of datafile 2 to datafile copy C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSTEM01.DBF.  Elapsed time: 0:00:14
+  checkpoint is 1924423
+2021-06-17T11:29:54.744105+05:30
+ALTER SYSTEM SET _catalog_foreign_restore=FALSE SCOPE=MEMORY;
+2021-06-17T11:29:54.746100+05:30
+ALTER SYSTEM SET _restore_create_directory=FALSE SCOPE=MEMORY;
+CREATE PLUGGABLE DATABASE PDB$SEED AS CLONE  USING 'C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\assistants\dbca\templates\pdbseed.xml'  source_file_name_convert = ('C:\ADE\user_V\ORACLE\ORADATA\SEEDDATA\PDBSEED\SYSTEM01.DBF','C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSTEM01.DBF',
+'C:\ADE\user_V\ORACLE\ORADATA\SEEDDATA\PDBSEED\SYSAUX01.DBF','C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSAUX01.DBF',
+'C:\ADE\user_V\ORACLE\ORADATA\SEEDDATA\PDBSEED\UNDOTBS01.DBF','C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\UNDOTBS01.DBF',
+'C:\ADE\user_V\ORACLE\ORADATA\SEEDDATA\PDBSEED\TEMP01.DBF','C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\temp012021-06-17_11-29-54-749-AM.dbf') NOCOPY  STORAGE ( MAXSIZE UNLIMITED MAX_SHARED_TEMP_SIZE UNLIMITED)
+2021-06-17T11:29:54.960891+05:30
+PDB$SEED(2):Endian type of dictionary set to little
+****************************************************************
+Pluggable Database PDB$SEED with pdb id - 2 is created as UNUSABLE.
+If any errors are encountered before the pdb is marked as NEW,
+then the pdb must be dropped
+local undo-1, localundoscn-0x000000000000012e
+****************************************************************
+2021-06-17T11:29:55.840279+05:30
+PDB$SEED(2):Autotune of undo retention is turned on. 
+2021-06-17T11:29:56.218841+05:30
+PDB$SEED(2):Undo initialization recovery: err:0 start: 619631421 end: 619631437 diff: 16 ms (0.0 seconds)
+PDB$SEED(2):[3232] Successfully onlined Undo Tablespace 2.
+PDB$SEED(2):Undo initialization online undo segments: err:0 start: 619631437 end: 619631500 diff: 63 ms (0.1 seconds)
+PDB$SEED(2):Undo initialization finished serial:0 start:619631421 end:619631500 diff:79 ms (0.1 seconds)
+PDB$SEED(2):Database Characterset for PDB$SEED is US7ASCII
+2021-06-17T11:29:56.338310+05:30
+Buffer Cache Full DB Caching mode changing from FULL CACHING ENABLED to FULL CACHING DISABLED 
+Full DB Caching disabled: DEFAULT_CACHE_SIZE should be at least 145 MBs bigger than current size. 
+2021-06-17T11:29:56.387345+05:30
+PDB$SEED(2):JIT: pid 2832 requesting stop
+PDB$SEED(2):Buffer Cache flush started: 2
+PDB$SEED(2):Buffer Cache flush finished: 2
+2021-06-17T11:29:56.826949+05:30
+Completed: CREATE PLUGGABLE DATABASE PDB$SEED AS CLONE  USING 'C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\assistants\dbca\templates\pdbseed.xml'  source_file_name_convert = ('C:\ADE\user_V\ORACLE\ORADATA\SEEDDATA\PDBSEED\SYSTEM01.DBF','C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSTEM01.DBF',
+'C:\ADE\user_V\ORACLE\ORADATA\SEEDDATA\PDBSEED\SYSAUX01.DBF','C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSAUX01.DBF',
+'C:\ADE\user_V\ORACLE\ORADATA\SEEDDATA\PDBSEED\UNDOTBS01.DBF','C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\UNDOTBS01.DBF',
+'C:\ADE\user_V\ORACLE\ORADATA\SEEDDATA\PDBSEED\TEMP01.DBF','C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\temp012021-06-17_11-29-54-749-AM.dbf') NOCOPY  STORAGE ( MAXSIZE UNLIMITED MAX_SHARED_TEMP_SIZE UNLIMITED)
+alter pluggable database PDB$SEED open restricted
+PDB$SEED(2):Autotune of undo retention is turned on. 
+PDB$SEED(2):Endian type of dictionary set to little
+PDB$SEED(2):Undo initialization recovery: err:0 start: 619632546 end: 619632546 diff: 0 ms (0.0 seconds)
+2021-06-17T11:29:57.443891+05:30
+PDB$SEED(2):[3232] Successfully onlined Undo Tablespace 2.
+PDB$SEED(2):Undo initialization online undo segments: err:0 start: 619632546 end: 619632656 diff: 110 ms (0.1 seconds)
+PDB$SEED(2):Undo initialization finished serial:0 start:619632546 end:619632656 diff:110 ms (0.1 seconds)
+PDB$SEED(2):Deleting old file#2 from file$ 
+PDB$SEED(2):Deleting old file#4 from file$ 
+PDB$SEED(2):Deleting old file#6 from file$ 
+PDB$SEED(2):Deleting old file#8 from file$ 
+PDB$SEED(2):Deleting old file#9 from file$ 
+PDB$SEED(2):Adding new file#5 to file$(old file#2).             fopr-0, newblks-33280, oldblks-19200
+PDB$SEED(2):Adding new file#6 to file$(old file#4).             fopr-0, newblks-32000, oldblks-15360
+PDB$SEED(2):Adding new file#8 to file$(old file#9).             fopr-0, newblks-12800, oldblks-12800
+****************************************************************
+Post plug operations are now complete.
+Pluggable database PDB$SEED with pdb id - 2 is now marked as NEW.
+****************************************************************
+PDB$SEED(2):Database Characterset for PDB$SEED is US7ASCII
+2021-06-17T11:31:39.887493+05:30
+PDB$SEED(2):Opening pdb with no Resource Manager plan active
+PDB$SEED(2):joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 2
+Pluggable database PDB$SEED opened read write
+Completed: alter pluggable database PDB$SEED open restricted
+2021-06-17T11:31:48.191505+05:30
+Shutting down ORACLE instance (immediate) (OS id: 9812)
+Stopping background process SMCO
+2021-06-17T11:31:49.219223+05:30
+Shutting down instance: further logons disabled
+2021-06-17T11:31:49.322237+05:30
+Stopping background process CJQ0
+2021-06-17T11:31:50.322880+05:30
+Stopping background process MMNL
+2021-06-17T11:31:51.326861+05:30
+Stopping background process MMON
+2021-06-17T11:31:53.335470+05:30
+alter pluggable database all close immediate
+Completed: alter pluggable database all close immediate
+2021-06-17T11:31:53.370377+05:30
+PDB$SEED(2):JIT: pid 2832 requesting stop
+PDB$SEED(2):Buffer Cache flush deferred for PDB 2
+License high water mark = 7
+Dispatchers and shared servers shutdown
+
+Data Pump shutdown on PDB: 1 in progress
+ALTER DATABASE CLOSE NORMAL
+Stopping Emon pool
+alter pluggable database all close immediate
+Completed: alter pluggable database all close immediate
+2021-06-17T11:31:55.161984+05:30
+
+IM on ADG: Start of Empty Journal 
+
+IM on ADG: End of Empty Journal 
+Stopping Emon pool
+stopping change tracking
+2021-06-17T11:31:55.266387+05:30
+Shutting down archive processes
+2021-06-17T11:31:55.269383+05:30
+TT00 (PID:10996): Gap Manager exiting
+2021-06-17T11:31:56.268671+05:30
+Archiving is disabled
+2021-06-17T11:31:56.277644+05:30
+Thread 1 closed at log sequence 1
+Successful close of redo thread 1
+2021-06-17T11:31:56.292632+05:30
+Buffer Cache invalidation for all PDBs started
+Buffer Cache invalidation for all PDBs complete
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Shutting down archive processes
+Archiving is disabled
+Completed: ALTER DATABASE DISMOUNT
+2021-06-17T11:31:57.382635+05:30
+.... (PID:9812): Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+2021-06-17T11:31:58.396844+05:30
+JIT: pid 2832 requesting stop
+.... (PID:9812): Archival disabled due to shutdown: 1089
+2021-06-17T11:31:58.403819+05:30
+Stopping background process VKTM
+Shutting down archive processes
+Archiving is disabled
+2021-06-17T11:31:58.416784+05:30
+JIT: pid 2832 requesting stop
+2021-06-17T11:32:09.883515+05:30
+Instance shutdown complete (OS id: 9812)
+2021-06-17T11:32:46.387026+05:30
+WARNING: Waiting on CRSD for password file, for 8 seconds, check CRS and OS logs
+Starting ORACLE instance (restrict) (OS id: 20008)
+2021-06-17T11:32:46.466846+05:30
+All SGA segments were allocated at startup
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Initial number of CPU is 8
+Number of processor cores in the system is 4
+Number of processor sockets in the system is 1
+Capability Type : Network 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Runtime Environment 
+capabilities requested : 400000FF detected : 40000000 Simulated : 0
+Capability Type : Engineered Systems 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Database Test 
+capabilities requested : 3 detected : 0 Simulated : 0
+Using LOG_ARCHIVE_DEST_1 parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =108
+LICENSE_MAX_USERS = 0
+SYS auditing is enabled
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+2021-06-17T11:32:55.380954+05:30
+NOTE: Using default ASM root directory ASM
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+NOTE: Cluster configuration type = NONE [2]
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0.
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:1887M/8070M, Ph+PgF:2243M/17909M 
+Using parameter settings in client-side pfile C:\USERS\ASUS\DOWNLOADS\COMPRESSED\CFGTOOLLOGS\DBCA\ORCL\INITORCLTEMP.ORA on machine DESKTOP-6NN7RR4
+System parameters with non-default values:
+  processes                = 640
+  nls_language             = "AMERICAN"
+  nls_territory            = "AMERICA"
+  sga_target               = 2432M
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\CONTROL01.CTL"
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\CONTROL02.CTL"
+  db_block_size            = 8192
+  compatible               = "19.0.0"
+  _no_recovery_through_resetlogs= TRUE
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=orclXDB)"
+  local_listener           = "LISTENER_ORCL"
+  job_queue_processes      = 0
+  audit_file_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ADMIN\ORCL\ADUMP"
+  audit_trail              = "DB"
+  db_name                  = "orcl"
+  open_cursors             = 300
+  pga_aggregate_target     = 807M
+  aq_tm_processes          = 0
+  _enable_automatic_maintenance= 0
+  _diag_hm_rc_enabled      = FALSE
+  diagnostic_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED"
+  enable_pluggable_database= TRUE
+2021-06-17T11:32:55.472217+05:30
+============================================================
+NOTE: PatchLevel of this instance 0
+============================================================
+2021-06-17T11:33:01.121441+05:30
+Starting background process PMON
+2021-06-17T11:33:01.132413+05:30
+PMON started with pid=2, OS id=16752 
+Starting background process CLMN
+2021-06-17T11:33:01.146375+05:30
+CLMN started with pid=3, OS id=14176 
+Starting background process PSP0
+2021-06-17T11:33:01.165121+05:30
+PSP0 started with pid=4, OS id=7180 
+2021-06-17T11:33:02.165630+05:30
+Starting background process VKTM
+2021-06-17T11:33:02.183582+05:30
+VKTM started with pid=5, OS id=5748 at elevated (Time Critical) priority
+2021-06-17T11:33:02.185575+05:30
+VKTM running at (5)millisec precision with DBRM quantum (100)ms
+2021-06-17T11:33:03.183693+05:30
+Starting background process GEN0
+Starting background process MMAN
+2021-06-17T11:33:03.211617+05:30
+MMAN started with pid=7, OS id=14064 
+Starting background process GEN1
+2021-06-17T11:33:03.224585+05:30
+GEN1 started with pid=8, OS id=19004 
+2021-06-17T11:33:04.201916+05:30
+GEN0 started with pid=6, OS id=6516 
+2021-06-17T11:33:04.226301+05:30
+Starting background process DIAG
+2021-06-17T11:33:04.240264+05:30
+DIAG started with pid=9, OS id=828 
+Starting background process DBRM
+2021-06-17T11:33:04.267048+05:30
+DBRM started with pid=11, OS id=1660 
+2021-06-17T11:33:05.273538+05:30
+Starting background process VKRM
+2021-06-17T11:33:06.527595+05:30
+VKRM started with pid=12, OS id=21052 
+2021-06-17T11:33:06.541243+05:30
+Starting background process SVCB
+2021-06-17T11:33:06.929170+05:30
+SVCB started with pid=13, OS id=13196 
+2021-06-17T11:33:07.297955+05:30
+Using default pga_aggregate_limit of 2048 MB
+2021-06-17T11:33:07.930348+05:30
+Starting background process PMAN
+2021-06-17T11:33:07.941310+05:30
+PMAN started with pid=10, OS id=13772 
+2021-06-17T11:33:08.942426+05:30
+Starting background process DIA0
+2021-06-17T11:33:08.953906+05:30
+DIA0 started with pid=14, OS id=20820 
+2021-06-17T11:33:09.954859+05:30
+Starting background process DBW0
+2021-06-17T11:33:09.968930+05:30
+DBW0 started with pid=15, OS id=5244 
+2021-06-17T11:33:10.969312+05:30
+Starting background process LGWR
+2021-06-17T11:33:10.981333+05:30
+LGWR started with pid=16, OS id=11808 
+2021-06-17T11:33:11.982308+05:30
+Starting background process CKPT
+2021-06-17T11:33:11.997270+05:30
+CKPT started with pid=17, OS id=1804 
+Starting background process SMON
+2021-06-17T11:33:12.032307+05:30
+SMON started with pid=19, OS id=17776 
+2021-06-17T11:33:13.017634+05:30
+LGWR slave LG00 created with pid=18, OS pid=18368
+2021-06-17T11:33:13.033552+05:30
+Starting background process SMCO
+2021-06-17T11:33:13.044523+05:30
+SMCO started with pid=20, OS id=20760 
+LGWR slave LG01 created with pid=21, OS pid=21308
+2021-06-17T11:33:14.055259+05:30
+Starting background process RECO
+2021-06-17T11:33:14.066736+05:30
+RECO started with pid=22, OS id=6576 
+Starting background process LREG
+2021-06-17T11:33:14.087681+05:30
+LREG started with pid=24, OS id=20220 
+Starting background process PXMN
+2021-06-17T11:33:14.112621+05:30
+PXMN started with pid=26, OS id=3328 
+2021-06-17T11:33:15.114115+05:30
+Starting background process FENC
+2021-06-17T11:33:15.126367+05:30
+FENC started with pid=27, OS id=13640 
+2021-06-17T11:33:16.127588+05:30
+Starting background process MMON
+2021-06-17T11:33:16.138558+05:30
+MMON started with pid=28, OS id=1548 
+2021-06-17T11:33:17.139705+05:30
+Starting background process MMNL
+2021-06-17T11:33:17.149678+05:30
+MMNL started with pid=29, OS id=6248 
+2021-06-17T11:33:17.150677+05:30
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+starting up 1 shared server(s) ...
+Starting background process TMON
+2021-06-17T11:33:17.205529+05:30
+TMON started with pid=32, OS id=11644 
+Setting CPU count to 8
+ORACLE_BASE from environment = C:\Users\asus\Downloads\Compressed
+2021-06-17T11:33:25.700022+05:30
+ALTER DATABASE   MOUNT
+2021-06-17T11:33:29.784077+05:30
+.... (PID:17280): Redo network throttle feature is disabled at mount time
+2021-06-17T11:33:29.829344+05:30
+Successful mount of redo thread 1, with mount id 1603233925
+2021-06-17T11:33:29.837324+05:30
+Database mounted in Exclusive Mode
+Lost write protection disabled
+.... (PID:17280): Using STANDBY_ARCHIVE_DEST parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS [krsd.c:18141]
+Completed: ALTER DATABASE   MOUNT
+2021-06-17T11:33:30.319962+05:30
+ALTER DATABASE OPEN
+Ping without log force is disabled:
+  instance mounted in exclusive mode.
+Buffer Cache Full DB Caching mode changing from FULL CACHING DISABLED to FULL CACHING ENABLED 
+2021-06-17T11:33:30.437683+05:30
+Crash Recovery excluding pdb 2 which was cleanly closed.
+Endian type of dictionary set to little
+2021-06-17T11:33:30.493619+05:30
+TT00 (PID:7916): Gap Manager starting
+2021-06-17T11:33:30.522145+05:30
+Redo log for group 1, sequence 1 is not located on DAX storage
+Thread 1 opened at log sequence 1
+  Current log# 1 seq# 1 mem# 0: C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG
+Successful open of redo thread 1
+2021-06-17T11:33:30.556583+05:30
+MTTR advisory is disabled because FAST_START_MTTR_TARGET is not set
+stopping change tracking
+Undo initialization recovery: err:0 start: 619846265 end: 619846296 diff: 31 ms (0.0 seconds)
+2021-06-17T11:33:31.326236+05:30
+[12072] Successfully onlined Undo Tablespace 2.
+Undo initialization online undo segments: err:0 start: 619846296 end: 619846546 diff: 250 ms (0.3 seconds)
+Undo initialization finished serial:0 start:619846265 end:619846546 diff:281 ms (0.3 seconds)
+Verifying minimum file header compatibility for tablespace encryption for pdb 1..
+Verifying file header compatibility for tablespace encryption completed for pdb 1
+Database Characterset is US7ASCII
+2021-06-17T11:33:31.560132+05:30
+No Resource Manager plan active
+2021-06-17T11:33:32.554600+05:30
+joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 1
+2021-06-17T11:33:32.708501+05:30
+replication_dependency_tracking turned off (no async multimaster replication found)
+AQ Processes can not start in restrict mode
+2021-06-17T11:33:34.320245+05:30
+PDB$SEED(2):Autotune of undo retention is turned on. 
+2021-06-17T11:33:34.574552+05:30
+PDB$SEED(2):Endian type of dictionary set to little
+PDB$SEED(2):Undo initialization finished serial:0 start:619849875 end:619849875 diff:0 ms (0.0 seconds)
+PDB$SEED(2):Database Characterset for PDB$SEED is US7ASCII
+PDB$SEED(2):Opening pdb with no Resource Manager plan active
+2021-06-17T11:33:35.567051+05:30
+Starting background process CJQ0
+2021-06-17T11:33:35.579990+05:30
+CJQ0 started with pid=38, OS id=15852 
+2021-06-17T11:33:36.581305+05:30
+Completed: ALTER DATABASE OPEN
+alter database character set INTERNAL_CONVERT AL32UTF8
+2021-06-17T11:33:36.993582+05:30
+Buffer Cache Full DB Caching mode changing from FULL CACHING ENABLED to FULL CACHING DISABLED 
+Full DB Caching disabled: DEFAULT_CACHE_SIZE should be at least 145 MBs bigger than current size. 
+2021-06-17T11:33:45.882600+05:30
+Updating character set in controlfile to AL32UTF8
+Synchronizing connection with database character set information
+ SYS.SCHEDULER$_EVENT_LOG (ADDITIONAL_INFO) - CLOB representation altered
+ SYS.PDB_CREATE$ (SQLSTMT) - CLOB representation altered
+ SYS.PDB_SYNC$ (LONGSQLTXT) - CLOB representation altered
+2021-06-17T11:33:47.166409+05:30
+Resize operation completed for file# 1, old size 901120K, new size 911360K
+ SYS.METASTYLESHEET (STYLESHEET) - CLOB representation altered
+ SYS.MODELALG$ (MDATA) - CLOB representation altered
+ SYS.ATTRIBUTE_TRANSFORMATIONS$ (XSL_TRANSFORMATION) - CLOB representation altered
+ SYS.SMB$CONFIG (PARAMETER_DATA) - CLOB representation altered
+ SYS.WRI$_DBU_FEATURE_METADATA (INST_CHK_LOGIC) - CLOB representation altered
+Shared IO Pool defaulting to 128MB. Trying to get it from Buffer Cache for process 12072.
+ SYS.WRI$_DBU_FEATURE_METADATA (USG_DET_LOGIC) - CLOB representation altered
+ SYS.LOCKDOWN_PROF$ (EXUSERLIST) - CLOB representation altered
+ SYS.WRI$_DBU_HWM_METADATA (LOGIC) - CLOB representation altered
+2021-06-17T11:33:48.194112+05:30
+Resize operation completed for file# 3, old size 409600K, new size 419840K
+2021-06-17T11:33:48.304738+05:30
+Resize operation completed for file# 3, old size 419840K, new size 430080K
+ SYS.WRI$_EMX_FILES (DATA) - CLOB representation altered
+ SYS.WRI$_OPTSTAT_HISTHEAD_HISTORY (EXPRESSION) - CLOB representation altered
+ SYS.RADM_FPTM_LOB$ (CLOBCOL) - CLOB representation altered
+ SYS.EXTERNAL_TAB$ (PARAM_CLOB) - CLOB representation altered
+ SYS.RULE$ (CONDITION) - CLOB representation altered
+ SYS.WRI$_ADV_DIRECTIVE_META (DATA) - CLOB representation altered
+ SYS.WRI$_ADV_OBJECTS (ATTR4) - CLOB representation altered
+ SYS.WRI$_ADV_OBJECTS (OTHER) - CLOB representation altered
+ SYS.WRI$_ADV_RATIONALE (ATTR5) - CLOB representation altered
+ XDB.XDB$RESOURCE (SYS_NC00027$) - CLOB representation altered
+ XDB.XDB$XDB_READY (DATA) - CLOB representation altered
+ MDSYS.SDO_GEOR_XMLSCHEMA_TABLE (XMLSCHEMA) - CLOB representation altered
+2021-06-17T11:33:49.727007+05:30
+Resize operation completed for file# 201, old size 20480K, new size 21504K
+Resize operation completed for file# 201, old size 21504K, new size 22528K
+Resize operation completed for file# 201, old size 22528K, new size 23552K
+Resize operation completed for file# 201, old size 23552K, new size 24576K
+Resize operation completed for file# 201, old size 24576K, new size 25600K
+Resize operation completed for file# 201, old size 25600K, new size 26624K
+Resize operation completed for file# 201, old size 26624K, new size 27648K
+Resize operation completed for file# 201, old size 27648K, new size 28672K
+2021-06-17T11:33:50.229732+05:30
+Resize operation completed for file# 3, old size 430080K, new size 440320K
+2021-06-17T11:33:50.331626+05:30
+Resize operation completed for file# 201, old size 28672K, new size 29696K
+Resize operation completed for file# 201, old size 29696K, new size 30720K
+Resize operation completed for file# 201, old size 30720K, new size 31744K
+Resize operation completed for file# 201, old size 31744K, new size 32768K
+2021-06-17T11:33:50.639729+05:30
+Resize operation completed for file# 3, old size 440320K, new size 450560K
+2021-06-17T11:33:50.766778+05:30
+Resize operation completed for file# 4, old size 25600K, new size 30720K
+ MDSYS.SDO_COORD_OP_PARAM_VALS (PARAM_VALUE_FILE) - CLOB representation altered
+2021-06-17T11:33:52.283527+05:30
+Resize operation completed for file# 3, old size 450560K, new size 460800K
+2021-06-17T11:33:52.364889+05:30
+ MDSYS.SDO_COORD_OP_PARAM_VALS_EXT (PARAM_VALUE_FILE) - CLOB representation altered
+ MDSYS.SDO_STYLES_TABLE (DEFINITION) - CLOB representation altered
+ MDSYS.SDO_XDB_RESOURCES (DATA) - CLOB representation altered
+ MDSYS.SDO_XML_SCHEMAS (XMLSCHEMA) - CLOB representation altered
+2021-06-17T11:33:53.258671+05:30
+Resize operation completed for file# 3, old size 460800K, new size 471040K
+2021-06-17T11:33:53.282645+05:30
+ MDSYS.SDO_XSD_TABLE (XSD_DOC) - CLOB representation altered
+ AUDSYS.AUD$UNIFIED (SQL_TEXT) - CLOB representation altered
+ AUDSYS.AUD$UNIFIED (SQL_BINDS) - CLOB representation altered
+ AUDSYS.AUD$UNIFIED (RLS_INFO) - CLOB representation altered
+2021-06-17T11:33:53.745837+05:30
+Resize operation completed for file# 4, old size 30720K, new size 35840K
+Refreshing type attributes with new character set information
+2021-06-17T11:33:55.766796+05:30
+Completed: alter database character set INTERNAL_CONVERT AL32UTF8
+2021-06-17T11:33:56.399740+05:30
+ALTER SYSTEM disable restricted session;
+Starting background process AQPC
+2021-06-17T11:33:56.487548+05:30
+AQPC started with pid=46, OS id=1896 
+2021-06-17T11:33:57.489027+05:30
+WARNING: AQ_TM_PROCESSES is set to 0. System operation                     using non-sharded queues might be adversely affected.
+2021-06-17T11:33:57.492020+05:30
+WARNING: AQ 12C time manager not started,                     no enabled queue
+2021-06-17T11:33:57.646238+05:30
+alter pluggable database PDB$SEED CLOSE IMMEDIATE
+PDB$SEED(2):JIT: pid 2832 requesting stop
+PDB$SEED(2):Buffer Cache flush started: 2
+PDB$SEED(2):Buffer Cache flush finished: 2
+Pluggable database PDB$SEED closed
+2021-06-17T11:33:58.002862+05:30
+Buffer Cache Full DB Caching mode changing from FULL CACHING DISABLED to FULL CACHING ENABLED 
+Completed: alter pluggable database PDB$SEED CLOSE IMMEDIATE
+alter pluggable database PDB$SEED OPEN RESTRICTED
+PDB$SEED(2):Autotune of undo retention is turned on. 
+2021-06-17T11:33:58.668197+05:30
+PDB$SEED(2):Endian type of dictionary set to little
+PDB$SEED(2):Undo initialization recovery: err:0 start: 619874093 end: 619874109 diff: 16 ms (0.0 seconds)
+PDB$SEED(2):[10156] Successfully onlined Undo Tablespace 2.
+PDB$SEED(2):Undo initialization online undo segments: err:0 start: 619874109 end: 619874296 diff: 187 ms (0.2 seconds)
+PDB$SEED(2):Undo initialization finished serial:0 start:619874093 end:619874296 diff:203 ms (0.2 seconds)
+2021-06-17T11:34:01.037126+05:30
+Buffer Cache Full DB Caching mode changing from FULL CACHING ENABLED to FULL CACHING DISABLED 
+Full DB Caching disabled: DEFAULT_CACHE_SIZE should be at least 347 MBs bigger than current size. 
+2021-06-17T11:34:02.202145+05:30
+QPI: opatch file present, opatch.bat
+QPI: qopiprep.bat file present
+Unable to obtain current patch information due to error: 20001, ORA-20001: Latest xml inventory is not loaded into table
+ORA-06512: at "SYS.DBMS_QOPATCH", line 2327
+ORA-06512: at "SYS.DBMS_QOPATCH", line 854
+ORA-06512: at "SYS.DBMS_QOPATCH", line 937
+ORA-06510: PL/SQL: unhandled user-defined exception
+ORA-06512: at "SYS.DBMS_QOPATCH", line 932
+ORA-29913: error in executing ODCIEXTTABLEOPEN callout
+ORA-29400: data cartridge error
+KUP-04027: file name check failed: qopatch_log.log
+ORA-06512: at "SYS.DBMS_QOPATCH", line 919
+ORA-06512: at "SYS.DBMS_QOPATCH", line 2286
+ORA-06512: at "SYS.DBMS_QOPATCH", line 817
+ORA-06512: at "SYS.DBMS_QOPATCH", line 2309
+
+===========================================================
+Dumping current patch information
+===========================================================
+Unable to obtain current patch information due to error: 20001
+===========================================================
+2021-06-17T11:34:04.894428+05:30
+Resize operation completed for file# 4, old size 35840K, new size 40960K
+2021-06-17T11:34:05.024081+05:30
+PDB$SEED(2): SYS.SCHEDULER$_EVENT_LOG (ADDITIONAL_INFO) - CLOB representation altered
+PDB$SEED(2): SYS.EXTERNAL_TAB$ (PARAM_CLOB) - CLOB representation altered
+PDB$SEED(2): SYS.METASTYLESHEET (STYLESHEET) - CLOB representation altered
+PDB$SEED(2): SYS.MODELALG$ (MDATA) - CLOB representation altered
+PDB$SEED(2): SYS.ATTRIBUTE_TRANSFORMATIONS$ (XSL_TRANSFORMATION) - CLOB representation altered
+PDB$SEED(2): SYS.RADM_FPTM_LOB$ (CLOBCOL) - CLOB representation altered
+PDB$SEED(2): SYS.SMB$CONFIG (PARAMETER_DATA) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_DBU_FEATURE_METADATA (INST_CHK_LOGIC) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_DBU_FEATURE_METADATA (USG_DET_LOGIC) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_DBU_FEATURE_USAGE (FEATURE_INFO) - CLOB representation altered
+2021-06-17T11:34:06.038981+05:30
+PDB$SEED(2): SYS.WRI$_DBU_HWM_METADATA (LOGIC) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_EMX_FILES (DATA) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_OPTSTAT_HISTHEAD_HISTORY (EXPRESSION) - CLOB representation altered
+2021-06-17T11:34:07.113933+05:30
+PDB$SEED(2): SYS.RULE$ (CONDITION) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_ADV_DIRECTIVE_META (DATA) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_ADV_OBJECTS (ATTR4) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_ADV_OBJECTS (OTHER) - CLOB representation altered
+PDB$SEED(2): SYS.WRI$_ADV_RATIONALE (ATTR5) - CLOB representation altered
+PDB$SEED(2): SYS.PDB_SYNC$ (LONGSQLTXT) - CLOB representation altered
+PDB$SEED(2): XDB.XDB$RESOURCE (SYS_NC00027$) - CLOB representation altered
+PDB$SEED(2): XDB.XDB$XDB_READY (DATA) - CLOB representation altered
+PDB$SEED(2): MDSYS.SDO_GEOR_XMLSCHEMA_TABLE (XMLSCHEMA) - CLOB representation altered
+2021-06-17T11:34:08.436071+05:30
+PDB$SEED(2):Resize operation completed for file# 6, old size 256000K, new size 266240K
+PDB$SEED(2): MDSYS.SDO_COORD_OP_PARAM_VALS (PARAM_VALUE_FILE) - CLOB representation altered
+PDB$SEED(2): MDSYS.SDO_STYLES_TABLE (DEFINITION) - CLOB representation altered
+PDB$SEED(2): MDSYS.SDO_XML_SCHEMAS (XMLSCHEMA) - CLOB representation altered
+2021-06-17T11:34:09.809822+05:30
+PDB$SEED(2):Resize operation completed for file# 6, old size 266240K, new size 276480K
+PDB$SEED(2): MDSYS.SDO_XSD_TABLE (XSD_DOC) - CLOB representation altered
+2021-06-17T11:34:10.622456+05:30
+Resize operation completed for file# 4, old size 40960K, new size 46080K
+2021-06-17T11:34:10.839389+05:30
+PDB$SEED(2):Refreshing type attributes with new character set information
+2021-06-17T11:34:15.455866+05:30
+PDB$SEED(2):Opening pdb with no Resource Manager plan active
+PDB$SEED(2):joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 2
+Pluggable database PDB$SEED opened read write
+Completed: alter pluggable database PDB$SEED OPEN RESTRICTED
+PDB$SEED(2):alter pluggable database PDB$SEED set time_zone='+00:00'
+PDB$SEED(2):Completed: alter pluggable database PDB$SEED set time_zone='+00:00'
+PDB$SEED(2):TABLE AUDSYS.AUD$UNIFIED: ADDED INTERVAL PARTITION SYS_P221 (84) VALUES LESS THAN (TIMESTAMP' 2021-07-01 00:00:00')
+alter pluggable database PDB$SEED CLOSE IMMEDIATE
+2021-06-17T11:34:16.169640+05:30
+Thread 1 advanced to log sequence 2 (LGWR switch)
+  Current log# 2 seq# 2 mem# 0: C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG
+2021-06-17T11:34:16.179613+05:30
+PDB$SEED(2):JIT: pid 2832 requesting stop
+2021-06-17T11:34:19.556749+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_mz04_11208.trc:
+ORA-00604: error occurred at recursive SQL level 1
+ORA-04045: errors during recompilation/revalidation of SYS.DBMS_STATS_INTERNAL
+ORA-01089: immediate shutdown or close in progress - no operations are permitted
+2021-06-17T11:34:20.408076+05:30
+PDB$SEED(2):Buffer Cache flush started: 2
+2021-06-17T11:34:21.752652+05:30
+PDB$SEED(2):Buffer Cache flush finished: 2
+Pluggable database PDB$SEED closed
+Completed: alter pluggable database PDB$SEED CLOSE IMMEDIATE
+alter pluggable database PDB$SEED OPEN restricted
+2021-06-17T11:34:22.054911+05:30
+Buffer Cache Full DB Caching mode changing from FULL CACHING DISABLED to FULL CACHING ENABLED 
+PDB$SEED(2):Autotune of undo retention is turned on. 
+2021-06-17T11:34:22.404748+05:30
+PDB$SEED(2):Endian type of dictionary set to little
+PDB$SEED(2):Undo initialization recovery: err:0 start: 619897750 end: 619897765 diff: 15 ms (0.0 seconds)
+PDB$SEED(2):[10156] Successfully onlined Undo Tablespace 2.
+PDB$SEED(2):Undo initialization online undo segments: err:0 start: 619897765 end: 619897890 diff: 125 ms (0.1 seconds)
+PDB$SEED(2):Undo initialization finished serial:0 start:619897750 end:619897906 diff:156 ms (0.2 seconds)
+PDB$SEED(2):Database Characterset for PDB$SEED is AL32UTF8
+2021-06-17T11:34:23.451920+05:30
+PDB$SEED(2):Opening pdb with no Resource Manager plan active
+PDB$SEED(2):joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 2
+Pluggable database PDB$SEED opened read write
+Completed: alter pluggable database PDB$SEED OPEN restricted
+2021-06-17T11:34:25.054362+05:30
+Buffer Cache Full DB Caching mode changing from FULL CACHING ENABLED to FULL CACHING DISABLED 
+Full DB Caching disabled: DEFAULT_CACHE_SIZE should be at least 377 MBs bigger than current size. 
+2021-06-17T11:35:51.555659+05:30
+Resize operation completed for file# 3, old size 471040K, new size 481280K
+2021-06-17T11:35:56.531944+05:30
+PDB$SEED(2):Resize operation completed for file# 6, old size 276480K, new size 286720K
+2021-06-17T11:36:19.226252+05:30
+QPI: opatch file present, opatch.bat
+QPI: qopiprep.bat file present
+2021-06-17T11:36:35.516202+05:30
+SERVER COMPONENT id=UTLRP_BGN: timestamp=2021-06-17 11:36:35 Container=CDB$ROOT Id=1
+2021-06-17T11:36:45.362632+05:30
+Resize operation completed for file# 4, old size 46080K, new size 51200K
+TABLE SYS.WRI$_OPTSTAT_HISTHEAD_HISTORY: ADDED INTERVAL PARTITION SYS_P188 (44363) VALUES LESS THAN (TO_DATE(' 2021-06-18 00:00:00', 'SYYYY-MM-DD HH24:MI:SS', 'NLS_CALENDAR=GREGORIAN'))
+TABLE SYS.WRI$_OPTSTAT_HISTGRM_HISTORY: ADDED INTERVAL PARTITION SYS_P191 (44363) VALUES LESS THAN (TO_DATE(' 2021-06-18 00:00:00', 'SYYYY-MM-DD HH24:MI:SS', 'NLS_CALENDAR=GREGORIAN'))
+2021-06-17T11:36:56.631249+05:30
+Resize operation completed for file# 4, old size 51200K, new size 56320K
+2021-06-17T11:36:58.284298+05:30
+SERVER COMPONENT id=UTLRP_END: timestamp=2021-06-17 11:36:58 Container=CDB$ROOT Id=1
+2021-06-17T11:37:01.130106+05:30
+
+XDB installed.
+
+XDB initialized.
+2021-06-17T11:37:09.362635+05:30
+PDB$SEED(2):SERVER COMPONENT id=UTLRP_BGN: timestamp=2021-06-17 11:37:09 Container=PDB$SEED Id=2
+2021-06-17T11:37:23.337225+05:30
+PDB$SEED(2):TABLE SYS.WRI$_OPTSTAT_HISTHEAD_HISTORY: ADDED INTERVAL PARTITION SYS_P228 (44363) VALUES LESS THAN (TO_DATE(' 2021-06-18 00:00:00', 'SYYYY-MM-DD HH24:MI:SS', 'NLS_CALENDAR=GREGORIAN'))
+PDB$SEED(2):TABLE SYS.WRI$_OPTSTAT_HISTGRM_HISTORY: ADDED INTERVAL PARTITION SYS_P231 (44363) VALUES LESS THAN (TO_DATE(' 2021-06-18 00:00:00', 'SYYYY-MM-DD HH24:MI:SS', 'NLS_CALENDAR=GREGORIAN'))
+2021-06-17T11:37:27.175097+05:30
+TABLE SYS.WRP$_REPORTS: ADDED INTERVAL PARTITION SYS_P208 (4186) VALUES LESS THAN (TO_DATE(' 2021-06-18 01:00:00', 'SYYYY-MM-DD HH24:MI:SS', 'NLS_CALENDAR=GREGORIAN'))
+TABLE SYS.WRP$_REPORTS_DETAILS: ADDED INTERVAL PARTITION SYS_P209 (4186) VALUES LESS THAN (TO_DATE(' 2021-06-18 01:00:00', 'SYYYY-MM-DD HH24:MI:SS', 'NLS_CALENDAR=GREGORIAN'))
+TABLE SYS.WRP$_REPORTS_TIME_BANDS: ADDED INTERVAL PARTITION SYS_P212 (4185) VALUES LESS THAN (TO_DATE(' 2021-06-17 01:00:00', 'SYYYY-MM-DD HH24:MI:SS', 'NLS_CALENDAR=GREGORIAN'))
+2021-06-17T11:39:16.278157+05:30
+DIA0 Critical Database Process As Root: Hang ID 1 blocks 1 sessions
+     Final blocker is session ID 372 serial# 49813 OSPID 17776 on Instance 1
+     No resolution will be attempted by Hang Manager
+2021-06-17T11:39:23.253075+05:30
+PDB$SEED(2):SERVER COMPONENT id=UTLRP_END: timestamp=2021-06-17 11:39:23 Container=PDB$SEED Id=2
+2021-06-17T11:39:26.220391+05:30
+PDB$SEED(2):
+PDB$SEED(2):XDB installed.
+PDB$SEED(2):
+PDB$SEED(2):XDB initialized.
+2021-06-17T11:39:41.673414+05:30
+Shutting down ORACLE instance (immediate) (OS id: 15288)
+Stopping background process SMCO
+2021-06-17T11:39:42.700219+05:30
+Shutting down instance: further logons disabled
+2021-06-17T11:39:43.820889+05:30
+Stopping background process CJQ0
+2021-06-17T11:39:43.826876+05:30
+Stopping background process MMNL
+2021-06-17T11:39:44.854090+05:30
+Stopping background process MMON
+2021-06-17T11:39:46.860631+05:30
+alter pluggable database all close immediate
+Completed: alter pluggable database all close immediate
+2021-06-17T11:39:46.910581+05:30
+PDB$SEED(2):JIT: pid 2832 requesting stop
+PDB$SEED(2):Buffer Cache flush deferred for PDB 2
+License high water mark = 11
+Dispatchers and shared servers shutdown
+
+Data Pump shutdown on PDB: 1 in progress
+ALTER DATABASE CLOSE NORMAL
+Stopping Emon pool
+alter pluggable database all close immediate
+Completed: alter pluggable database all close immediate
+2021-06-17T11:39:48.590391+05:30
+
+IM on ADG: Start of Empty Journal 
+
+IM on ADG: End of Empty Journal 
+Stopping Emon pool
+stopping change tracking
+2021-06-17T11:39:48.717518+05:30
+Shutting down archive processes
+2021-06-17T11:39:48.718475+05:30
+TT00 (PID:7916): Gap Manager exiting
+2021-06-17T11:39:49.719408+05:30
+Archiving is disabled
+2021-06-17T11:39:49.749411+05:30
+Thread 1 closed at log sequence 2
+Successful close of redo thread 1
+2021-06-17T11:39:49.770396+05:30
+Buffer Cache invalidation for all PDBs started
+Buffer Cache invalidation for all PDBs complete
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Shutting down archive processes
+Archiving is disabled
+Completed: ALTER DATABASE DISMOUNT
+.... (PID:15288): Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+2021-06-17T11:39:50.972197+05:30
+JIT: pid 2832 requesting stop
+.... (PID:15288): Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+2021-06-17T11:39:50.981172+05:30
+Stopping background process VKTM
+2021-06-17T11:39:50.984164+05:30
+JIT: pid 2832 requesting stop
+2021-06-17T11:40:04.091938+05:30
+Instance shutdown complete (OS id: 15288)
+2021-06-17T11:40:49.191954+05:30
+WARNING: Waiting on CRSD for password file, for 8 seconds, check CRS and OS logs
+Starting ORACLE instance (normal) (OS id: 9476)
+2021-06-17T11:40:49.260329+05:30
+All SGA segments were allocated at startup
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Initial number of CPU is 8
+Number of processor cores in the system is 4
+Number of processor sockets in the system is 1
+Capability Type : Network 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Runtime Environment 
+capabilities requested : 400000FF detected : 40000000 Simulated : 0
+Capability Type : Engineered Systems 
+capabilities requested : 7 detected : 0 Simulated : 0
+Capability Type : Database Test 
+capabilities requested : 3 detected : 0 Simulated : 0
+Using LOG_ARCHIVE_DEST_1 parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =108
+LICENSE_MAX_USERS = 0
+SYS auditing is enabled
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+2021-06-17T11:40:58.082746+05:30
+NOTE: Using default ASM root directory ASM
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+NOTE: Cluster configuration type = NONE [2]
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0.
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:2648M/8070M, Ph+PgF:2402M/18036M 
+Using parameter settings in server-side spfile C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\DATABASE\SPFILEORCL.ORA
+System parameters with non-default values:
+  processes                = 640
+  nls_language             = "AMERICAN"
+  nls_territory            = "AMERICA"
+  sga_target               = 2432M
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\CONTROL01.CTL"
+  control_files            = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\CONTROL02.CTL"
+  db_block_size            = 8192
+  compatible               = "19.0.0"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=orclXDB)"
+  local_listener           = "LISTENER_ORCL"
+  audit_file_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ADMIN\ORCL\ADUMP"
+  audit_trail              = "DB"
+  db_name                  = "orcl"
+  open_cursors             = 300
+  pga_aggregate_target     = 807M
+  diagnostic_dest          = "C:\USERS\ASUS\DOWNLOADS\COMPRESSED"
+  enable_pluggable_database= TRUE
+2021-06-17T11:40:58.169557+05:30
+============================================================
+NOTE: PatchLevel of this instance 0
+============================================================
+2021-06-17T11:41:04.274697+05:30
+Starting background process PMON
+2021-06-17T11:41:04.286664+05:30
+PMON started with pid=2, OS id=4724 
+Starting background process CLMN
+2021-06-17T11:41:04.309671+05:30
+CLMN started with pid=3, OS id=7760 
+Starting background process PSP0
+2021-06-17T11:41:04.324936+05:30
+PSP0 started with pid=4, OS id=20556 
+2021-06-17T11:41:05.326087+05:30
+Starting background process VKTM
+2021-06-17T11:41:05.345036+05:30
+VKTM started with pid=5, OS id=10116 at elevated (Time Critical) priority
+2021-06-17T11:41:05.348027+05:30
+VKTM running at (5)millisec precision with DBRM quantum (100)ms
+2021-06-17T11:41:06.347432+05:30
+Starting background process GEN0
+2021-06-17T11:41:06.358403+05:30
+GEN0 started with pid=6, OS id=20132 
+2021-06-17T11:41:07.359205+05:30
+Starting background process MMAN
+2021-06-17T11:41:07.372131+05:30
+MMAN started with pid=7, OS id=4640 
+Starting background process GEN1
+2021-06-17T11:41:07.399056+05:30
+GEN1 started with pid=9, OS id=12496 
+2021-06-17T11:41:08.399618+05:30
+Starting background process DIAG
+2021-06-17T11:41:08.410590+05:30
+DIAG started with pid=8, OS id=404 
+2021-06-17T11:41:09.411814+05:30
+Starting background process DBRM
+2021-06-17T11:41:09.425779+05:30
+DBRM started with pid=10, OS id=13388 
+2021-06-17T11:41:10.425522+05:30
+Starting background process VKRM
+2021-06-17T11:41:10.436492+05:30
+VKRM started with pid=11, OS id=5912 
+2021-06-17T11:41:11.438327+05:30
+Starting background process SVCB
+2021-06-17T11:41:11.450295+05:30
+SVCB started with pid=12, OS id=10980 
+2021-06-17T11:41:12.435358+05:30
+Using default pga_aggregate_limit of 2048 MB
+2021-06-17T11:41:12.451317+05:30
+Starting background process PMAN
+2021-06-17T11:41:12.466284+05:30
+PMAN started with pid=13, OS id=18184 
+2021-06-17T11:41:13.465592+05:30
+Starting background process DIA0
+2021-06-17T11:41:13.479563+05:30
+DIA0 started with pid=14, OS id=6872 
+2021-06-17T11:41:14.481511+05:30
+Starting background process DBW0
+2021-06-17T11:41:14.499386+05:30
+DBW0 started with pid=15, OS id=20736 
+2021-06-17T11:41:15.501586+05:30
+Starting background process LGWR
+2021-06-17T11:41:15.512599+05:30
+LGWR started with pid=16, OS id=10564 
+2021-06-17T11:41:16.514277+05:30
+Starting background process CKPT
+2021-06-17T11:41:16.540729+05:30
+CKPT started with pid=17, OS id=11760 
+2021-06-17T11:41:16.560198+05:30
+LGWR slave LG00 created with pid=18, OS pid=12908
+2021-06-17T11:41:17.560397+05:30
+Starting background process SMON
+2021-06-17T11:41:17.572397+05:30
+SMON started with pid=19, OS id=7728 
+2021-06-17T11:41:17.583336+05:30
+LGWR slave LG01 created with pid=20, OS pid=2012
+2021-06-17T11:41:18.584256+05:30
+Starting background process SMCO
+2021-06-17T11:41:18.596223+05:30
+SMCO started with pid=21, OS id=3040 
+2021-06-17T11:41:19.597660+05:30
+Starting background process RECO
+2021-06-17T11:41:19.612119+05:30
+RECO started with pid=22, OS id=15344 
+Starting background process LREG
+2021-06-17T11:41:19.639714+05:30
+LREG started with pid=24, OS id=3460 
+Starting background process PXMN
+2021-06-17T11:41:19.666226+05:30
+PXMN started with pid=26, OS id=5344 
+2021-06-17T11:41:20.667445+05:30
+Starting background process FENC
+2021-06-17T11:41:20.685509+05:30
+FENC started with pid=27, OS id=14980 
+2021-06-17T11:41:21.687262+05:30
+Starting background process MMON
+2021-06-17T11:41:21.702379+05:30
+MMON started with pid=28, OS id=11088 
+2021-06-17T11:41:22.702973+05:30
+Starting background process MMNL
+2021-06-17T11:41:22.716980+05:30
+MMNL started with pid=29, OS id=5844 
+2021-06-17T11:41:23.719354+05:30
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+starting up 1 shared server(s) ...
+Starting background process TMON
+2021-06-17T11:41:23.808183+05:30
+TMON started with pid=32, OS id=20072 
+Setting CPU count to 8
+ORACLE_BASE from environment = C:\Users\asus\Downloads\Compressed
+2021-06-17T11:41:31.930423+05:30
+ALTER DATABASE   MOUNT
+2021-06-17T11:41:35.986134+05:30
+.... (PID:1236): Redo network throttle feature is disabled at mount time
+2021-06-17T11:41:36.040980+05:30
+Successful mount of redo thread 1, with mount id 1603228779
+2021-06-17T11:41:36.047157+05:30
+Database mounted in Exclusive Mode
+Lost write protection disabled
+.... (PID:1236): Using STANDBY_ARCHIVE_DEST parameter default value as C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\RDBMS [krsd.c:18141]
+Completed: ALTER DATABASE   MOUNT
+2021-06-17T11:41:36.433001+05:30
+ALTER DATABASE OPEN
+Ping without log force is disabled:
+  instance mounted in exclusive mode.
+Buffer Cache Full DB Caching mode changing from FULL CACHING DISABLED to FULL CACHING ENABLED 
+2021-06-17T11:41:36.570369+05:30
+Crash Recovery excluding pdb 2 which was cleanly closed.
+Endian type of dictionary set to little
+2021-06-17T11:41:36.628060+05:30
+TT00 (PID:20264): Gap Manager starting
+2021-06-17T11:41:36.638034+05:30
+Redo log for group 2, sequence 2 is not located on DAX storage
+Thread 1 opened at log sequence 2
+  Current log# 2 seq# 2 mem# 0: C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG
+Successful open of redo thread 1
+2021-06-17T11:41:36.672987+05:30
+MTTR advisory is disabled because FAST_START_MTTR_TARGET is not set
+stopping change tracking
+Undo initialization recovery: err:0 start: 620332015 end: 620332015 diff: 0 ms (0.0 seconds)
+[19792] Successfully onlined Undo Tablespace 2.
+Undo initialization online undo segments: err:0 start: 620332031 end: 620332125 diff: 94 ms (0.1 seconds)
+Undo initialization finished serial:0 start:620332015 end:620332140 diff:125 ms (0.1 seconds)
+Verifying minimum file header compatibility for tablespace encryption for pdb 1..
+Verifying file header compatibility for tablespace encryption completed for pdb 1
+Database Characterset is AL32UTF8
+No Resource Manager plan active
+2021-06-17T11:41:37.548849+05:30
+joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 1
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process AQPC
+2021-06-17T11:41:38.063358+05:30
+AQPC started with pid=38, OS id=7388 
+PDB$SEED(2):Autotune of undo retention is turned on. 
+2021-06-17T11:41:38.500433+05:30
+Buffer Cache Full DB Caching mode changing from FULL CACHING ENABLED to FULL CACHING DISABLED 
+Full DB Caching disabled: DEFAULT_CACHE_SIZE should be at least 25 MBs bigger than current size. 
+2021-06-17T11:41:38.562767+05:30
+PDB$SEED(2):Endian type of dictionary set to little
+PDB$SEED(2):Undo initialization finished serial:0 start:620333875 end:620333875 diff:0 ms (0.0 seconds)
+PDB$SEED(2):Database Characterset for PDB$SEED is AL32UTF8
+PDB$SEED(2):Opening pdb with no Resource Manager plan active
+2021-06-17T11:41:39.616519+05:30
+Starting background process CJQ0
+2021-06-17T11:41:39.628487+05:30
+CJQ0 started with pid=39, OS id=3344 
+2021-06-17T11:41:40.629638+05:30
+Completed: ALTER DATABASE OPEN
+2021-06-17T11:41:40.870571+05:30
+QPI: opatch file present, opatch.bat
+QPI: qopiprep.bat file present
+Unable to obtain current patch information due to error: 20001, ORA-20001: Latest xml inventory is not loaded into table
+ORA-06512: at "SYS.DBMS_QOPATCH", line 2327
+ORA-06512: at "SYS.DBMS_QOPATCH", line 854
+ORA-06512: at "SYS.DBMS_QOPATCH", line 937
+ORA-06510: PL/SQL: unhandled user-defined exception
+ORA-06512: at "SYS.DBMS_QOPATCH", line 932
+ORA-29913: error in executing ODCIEXTTABLEOPEN callout
+ORA-29400: data cartridge error
+KUP-04027: file name check failed: qopatch_log.log
+ORA-06512: at "SYS.DBMS_QOPATCH", line 919
+ORA-06512: at "SYS.DBMS_QOPATCH", line 2286
+ORA-06512: at "SYS.DBMS_QOPATCH", line 817
+ORA-06512: at "SYS.DBMS_QOPATCH", line 2309
+
+===========================================================
+Dumping current patch information
+===========================================================
+Unable to obtain current patch information due to error: 20001
+===========================================================
+2021-06-17T11:41:42.798550+05:30
+
+XDB installed.
+
+XDB initialized.
+2021-06-17T11:41:43.275279+05:30
+Resize operation completed for file# 4, old size 56320K, new size 61440K
+Resize operation completed for file# 4, old size 61440K, new size 66560K
+2021-06-17T11:41:45.685382+05:30
+CREATE PLUGGABLE DATABASE orclpdb ADMIN USER PDBADMIN IDENTIFIED BY * ROLES=(CONNECT)  file_name_convert=('C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSAUX01.DBF','C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\SYSAUX01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\UNDOTBS01.DBF','C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\UNDOTBS01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSTEM01.DBF','C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\SYSTEM01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\TEMP012021-06-17_11-29-54-749-AM.DBF','C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\TEMP01.DBF')  STORAGE ( MAXSIZE UNLIMITED MAX_SHARED_TEMP_SIZE UNLIMITED)
+2021-06-17T11:41:46.115818+05:30
+PDB$SEED(2): AUDSYS.AUD$UNIFIED (SQL_TEXT) - CLOB populated
+2021-06-17T11:41:51.504013+05:30
+ORCLPDB(3):Endian type of dictionary set to little
+****************************************************************
+Pluggable Database ORCLPDB with pdb id - 3 is created as UNUSABLE.
+If any errors are encountered before the pdb is marked as NEW,
+then the pdb must be dropped
+local undo-1, localundoscn-0x000000000000012e
+****************************************************************
+ORCLPDB(3):Autotune of undo retention is turned on. 
+ORCLPDB(3):Undo initialization recovery: err:0 start: 620347421 end: 620347421 diff: 0 ms (0.0 seconds)
+ORCLPDB(3):[12556] Successfully onlined Undo Tablespace 2.
+ORCLPDB(3):Undo initialization online undo segments: err:0 start: 620347421 end: 620347484 diff: 63 ms (0.1 seconds)
+ORCLPDB(3):Undo initialization finished serial:0 start:620347421 end:620347484 diff:63 ms (0.1 seconds)
+ORCLPDB(3):Database Characterset for ORCLPDB is AL32UTF8
+ORCLPDB(3):JIT: pid 2832 requesting stop
+ORCLPDB(3):Buffer Cache flush started: 3
+2021-06-17T11:41:52.506551+05:30
+ORCLPDB(3):Buffer Cache flush finished: 3
+Completed: CREATE PLUGGABLE DATABASE orclpdb ADMIN USER PDBADMIN IDENTIFIED BY * ROLES=(CONNECT)  file_name_convert=('C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSAUX01.DBF','C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\SYSAUX01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\UNDOTBS01.DBF','C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\UNDOTBS01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\SYSTEM01.DBF','C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\SYSTEM01.DBF',
+'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\PDBSEED\TEMP012021-06-17_11-29-54-749-AM.DBF','C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\TEMP01.DBF')  STORAGE ( MAXSIZE UNLIMITED MAX_SHARED_TEMP_SIZE UNLIMITED)
+alter pluggable database orclpdb open
+ORCLPDB(3):Autotune of undo retention is turned on. 
+ORCLPDB(3):Endian type of dictionary set to little
+ORCLPDB(3):Undo initialization recovery: err:0 start: 620348421 end: 620348437 diff: 16 ms (0.0 seconds)
+ORCLPDB(3):[12556] Successfully onlined Undo Tablespace 2.
+ORCLPDB(3):Undo initialization online undo segments: err:0 start: 620348437 end: 620348531 diff: 94 ms (0.1 seconds)
+ORCLPDB(3):Undo initialization finished serial:0 start:620348421 end:620348546 diff:125 ms (0.1 seconds)
+ORCLPDB(3):Deleting old file#5 from file$ 
+ORCLPDB(3):Deleting old file#6 from file$ 
+ORCLPDB(3):Deleting old file#8 from file$ 
+ORCLPDB(3):Adding new file#9 to file$(old file#5).             fopr-1, newblks-33280, oldblks-19200
+ORCLPDB(3):Adding new file#10 to file$(old file#6).             fopr-1, newblks-35840, oldblks-15360
+ORCLPDB(3):Adding new file#11 to file$(old file#8).             fopr-1, newblks-12800, oldblks-12800
+ORCLPDB(3):Successfully created internal service ORCLPDB at open
+2021-06-17T11:41:53.721193+05:30
+****************************************************************
+Post plug operations are now complete.
+Pluggable database ORCLPDB with pdb id - 3 is now marked as NEW.
+****************************************************************
+ORCLPDB(3):Database Characterset for ORCLPDB is AL32UTF8
+Violations: Type: 2, Count: 1
+ORCLPDB(3):***************************************************************
+ORCLPDB(3):WARNING: Pluggable Database ORCLPDB with pdb id - 3 is
+ORCLPDB(3):         altered with errors or warnings. Please look into
+ORCLPDB(3):         PDB_PLUG_IN_VIOLATIONS view for more details.
+ORCLPDB(3):***************************************************************
+2021-06-17T11:41:56.807884+05:30
+ORCLPDB(3):Opening pdb with no Resource Manager plan active
+ORCLPDB(3):joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 3
+Pluggable database ORCLPDB opened read write
+Completed: alter pluggable database orclpdb open
+2021-06-17T11:41:58.201137+05:30
+ORCLPDB(3):Resize operation completed for file# 10, old size 286720K, new size 296960K
+2021-06-17T11:41:58.352167+05:30
+ORCLPDB(3):Resize operation completed for file# 10, old size 296960K, new size 307200K
+2021-06-17T11:42:02.147525+05:30
+ORCLPDB(3):CREATE SMALLFILE TABLESPACE "USERS" LOGGING  DATAFILE  'C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\users01.dbf' SIZE 5M REUSE AUTOEXTEND ON NEXT  1280K MAXSIZE UNLIMITED  EXTENT MANAGEMENT LOCAL  SEGMENT SPACE MANAGEMENT  AUTO
+ORCLPDB(3):Completed: CREATE SMALLFILE TABLESPACE "USERS" LOGGING  DATAFILE  'C:\Users\asus\Downloads\Compressed\oradata\ORCL\orclpdb\users01.dbf' SIZE 5M REUSE AUTOEXTEND ON NEXT  1280K MAXSIZE UNLIMITED  EXTENT MANAGEMENT LOCAL  SEGMENT SPACE MANAGEMENT  AUTO
+ORCLPDB(3):ALTER DATABASE DEFAULT TABLESPACE "USERS"
+ORCLPDB(3):Completed: ALTER DATABASE DEFAULT TABLESPACE "USERS"
+2021-06-17T12:30:58.931472+05:30
+Shared IO Pool defaulting to 128MB. Trying to get it from Buffer Cache for process 18900.
+Resize operation completed for file# 3, old size 481280K, new size 491520K
+2021-06-17T12:30:59.617074+05:30
+Resize operation completed for file# 3, old size 491520K, new size 512000K
+2021-06-17T12:36:57.704844+05:30
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_psp0_20556.trc:
+ORA-09314: sltln: error translating logical name
+OSD-04503: Message 4503 not found; No message file for product=RDBMS, facility=SOSD
+Errors in file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_psp0_20556.trc  (incident=20513) (PDBNAME=CDB$ROOT):
+ORA-9314 [] [] [] [] [] [] [] [] [] [] [] []
+Incident details in: C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\incident\incdir_20513\orcl_psp0_20556_i20513.trc
+2021-06-17T12:36:59.261804+05:30
+USER (ospid: ): terminating the instance due to ORA error 
+2021-06-17T12:36:59.307718+05:30
+System state dump requested by (instance=1, osid=20556 (PSP0)), summary=[abnormal instance termination].
+System State dumped to trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_diag_404.trc
+2021-06-17T12:37:16.456646+05:30
+Instance terminated by USER, pid = 20556

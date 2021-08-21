@@ -1,0 +1,45 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_dia0_20820_lws_1.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:415M/8070M, Ph+PgF:2332M/18952M 
+Instance name: orcl
+Redo thread mounted by this instance: 1
+Oracle process number: 14
+Windows thread id: 20820, image: ORACLE.EXE (DIA0)
+
+*** SESSION ID:(740.62730) 2021-06-17T11:38:12.168328+05:30
+*** CLIENT ID:() 2021-06-17T11:38:12.168328+05:30
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-06-17T11:38:12.168328+05:30
+*** MODULE NAME:() 2021-06-17T11:38:12.168328+05:30
+*** ACTION NAME:() 2021-06-17T11:38:12.168328+05:30
+*** CLIENT DRIVER:() 2021-06-17T11:38:12.168328+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:38:12.168328+05:30
+ 
+
+*** 2021-06-17T11:38:12.166330+05:30 (CDB$ROOT(1))
+HM: Early Warning - Session ID 622 serial# 409 OS PID 19968 (FG)
+     is waiting on 'enq: TS - contention' for 32 seconds, wait id 9867
+     p1: 'name|mode'=0x54530006, p2: 'tablespace ID'=0x20003, p3: 'dba'=0x1
+    Final Blocker is Session ID 372 serial# 49813 on instance 1
+     which is waiting on 'smon timer' for 230 seconds
+     p1: 'sleep time'=0x12c, p2: 'failed'=0x0, p3: ''=0x0
+ 
+                                                     IO           
+ Total  Self-         Total  Total  Outlr  Outlr  Outlr           
+  Hung  Rslvd  Rslvd   Wait WaitTm   Wait WaitTm   Wait           
+  Sess  Hangs  Hangs  Count   Secs  Count   Secs  Count Wait Event
+------ ------ ------ ------ ------ ------ ------ ------ -----------
+     0      0      0      0      0      0      0      0 enq: TS - contention
+ 
+HM: Current SQL: DECLARE
+   threads pls_integer := 0;
+BEGIN
+   utl_recomp.recomp_parallel(threads);
+END;
+ 

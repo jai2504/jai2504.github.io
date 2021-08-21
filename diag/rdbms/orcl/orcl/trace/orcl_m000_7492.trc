@@ -1,0 +1,83 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_m000_7492.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:478M/8070M, Ph+PgF:2250M/17909M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 7492, image: 
+
+
+*** 2021-06-17T11:33:19.168959+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+*** SESSION ID:(128.45676) 2021-06-17T11:33:19.169957+05:30
+*** SERVICE NAME:() 2021-06-17T11:33:19.169957+05:30
+*** MODULE NAME:(MMON_SLAVE) 2021-06-17T11:33:19.169957+05:30
+*** ACTION NAME:(Cleanup KGL Handle Action) 2021-06-17T11:33:19.169957+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:33:19.169957+05:30
+ 
+*********** START A RUN OF [Cleanup KGL Handle Action] *************
+
+*** 2021-06-17T11:33:19.245752+05:30 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-06-17T11:33:19.245752+05:30
+*** ACTION NAME:(Sweep incidents slave action) 2021-06-17T11:33:19.245752+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:33:19.245752+05:30
+ 
+*********** START A RUN OF [Sweep incidents slave action] *************
+
+*** 2021-06-17T11:34:02.842574+05:30 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-06-17T11:34:02.842574+05:30
+*** ACTION NAME:(CLI Partition execution) 2021-06-17T11:34:02.842574+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:34:02.842574+05:30
+ 
+*********** START A RUN OF [CLI Partition execution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-06-17T11:34:02.843571+05:30
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-06-17T11:34:02.843571+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:34:02.843571+05:30
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+
+*** 2021-06-17T11:34:21.974038+05:30 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-06-17T11:34:21.974038+05:30
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-06-17T11:34:21.974038+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:34:21.974038+05:30
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-06-17T11:35:24.976353+05:30 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-06-17T11:35:24.976353+05:30
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-06-17T11:36:25.032698+05:30 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-06-17T11:36:25.032698+05:30
+*** ACTION NAME:(KDILM background EXEcution) 2021-06-17T11:36:25.032698+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:36:25.032698+05:30
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-06-17T11:37:25.186367+05:30 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-06-17T11:37:25.186367+05:30
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-06-17T11:38:19.215187+05:30 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-06-17T11:38:19.215187+05:30
+*** ACTION NAME:(CLI Partition execution) 2021-06-17T11:38:19.215187+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:38:19.215187+05:30
+ 
+*********** START A RUN OF [CLI Partition execution] *************
+
+*** 2021-06-17T11:38:25.218859+05:30 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-06-17T11:38:25.218859+05:30
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-06-17T11:38:25.218859+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:38:25.218859+05:30
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************

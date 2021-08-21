@@ -1,0 +1,39 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_12556.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:468M/8070M, Ph+PgF:2165M/18036M 
+Instance name: orcl
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 12556, image: 
+
+
+*** 2021-06-17T11:41:45.553084+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:41:52.048096+05:30 (CDB$ROOT(1))
+*** SESSION ID:(624.29723) 2021-06-17T11:41:52.048096+05:30
+*** SERVICE NAME:(SYS$USERS) 2021-06-17T11:41:52.048096+05:30
+*** MODULE NAME:(sqlplus.exe) 2021-06-17T11:41:52.048096+05:30
+*** ACTION NAME:() 2021-06-17T11:41:52.048096+05:30
+*** CLIENT DRIVER:(SQL*PLUS) 2021-06-17T11:41:52.048096+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:41:52.048096+05:30
+ 
+kcffo_online_chk1: fixing checkpoint count for fno 11.
+kcffo_online_chk1: fixing checkpoint count for fno 10.
+
+*** 2021-06-17T11:41:52.351879+05:30 (ORCLPDB(3))
+JIT: pid 2832 requesting stop
+
+*** 2021-06-17T11:41:54.495120+05:30 (ORCLPDB(3))
+0DD9FA420A864B85A94A56272FB0E552
+
+*** 2021-06-17T11:41:56.865811+05:30 (ORCLPDB(3))
+joxcsys_required_dirobj_exists: directory object exists with required path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 3

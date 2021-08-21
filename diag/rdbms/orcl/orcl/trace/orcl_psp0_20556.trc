@@ -1,0 +1,114 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_psp0_20556.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:2574M/8070M, Ph+PgF:2333M/18036M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 20556, image: 
+
+
+*** 2021-06-17T11:41:04.321639+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+kge_experr : Found error ORA-9314 not in expected list.
+
+*** 2021-06-17T12:36:57.698682+05:30 (CDB$ROOT(1))
+*** SESSION ID:(493.43500) 2021-06-17T12:36:57.698682+05:30
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-06-17T12:36:57.698682+05:30
+*** CONTAINER ID:(1) 2021-06-17T12:36:57.698682+05:30
+ 
+kge_experr: Dumping error frames [top = 2 : barrier top = 0]
+kge_experr : [1] : Error = ORA-9314 : Call stack =   ksedsts()+485<-ksf_short_stack_flags()+98<-kgeade()+1781<-kgeselv()+119<-kgecxd()+94<-kgecss()+126<-ksosp_fork()+9066<-kso_forknew()+166<-ksb_act_run_int()+145<-ksb_act_run()+199<-ksbabs()+912<-ksbrdp()+1502<-opirip()+633<-opidrv()+851<-sou2o()+110<-opim
+kge_experr : [0] : Error = ORA-9314 : Call stack =   ksedsts()+485<-ksf_short_stack_flags()+98<-kgeade()+1781<-kgerscl()+82<-kgecss()+71<-ksosp_fork()+9066<-kso_forknew()+166<-ksb_act_run_int()+145<-ksb_act_run()+199<-ksbabs()+912<-ksbrdp()+1502<-opirip()+633<-opidrv()+851<-sou2o()+110<-opimai_real()+283<-
+kge_experr: Dumping error frames - done 
+error 9314 detected in background process
+ORA-09314: sltln: error translating logical name
+OSD-04503: Message 4503 not found; No message file for product=RDBMS, facility=SOSD
+2021-06-17T12:36:57.800666+05:30
+Incident 20513 created, dump file: C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\incident\incdir_20513\orcl_psp0_20556_i20513.trc
+ORA-9314 [] [] [] [] [] [] [] [] [] [] [] []
+2021-06-17 12:36:59.221 :kjzduptcctx(): Notifying DIAG for crash event
+----- Abridged Call Stack Trace -----
+
+*** 2021-06-17T12:36:59.241580+05:30 (CDB$ROOT(1))
+ksedsts()+485<-kjzdssdmp()+270<-kjzduptcctx()+870<-kjzdicrshnfy()+1268<-ksuitm_opt()+2114<-ksuitm()+27<-ksbrdp()+7303<-opirip()+633<-opidrv()+851<-sou2o()+110<-opimai_real()+283<-opimai()+268<-BackgroundThreadStart()+580<-0x00007FFE5F037034<-0x00007FFE60B42651
+ 
+----- End of Abridged Call Stack Trace -----
+Partial short call stack signature: 0x9740d158b4a140b8
+
+*** 2021-06-17T12:36:59.241580+05:30 (CDB$ROOT(1))
+USER (ospid: 20556): terminating the instance due to ORA error 9314
+------------------- Call Stack Trace ---------------------
+
+*** 2021-06-17T12:37:04.944953+05:30 (CDB$ROOT(1))
+calling location                         entry point                              arg #1           arg #2           arg #3           arg #4          
+---------------------------------------- ---------------------------------------- ---------------- ---------------- ---------------- ----------------
+00007FFE60B8D974                         0000000000000000                         0000000000000000 0000000000000000 0000000000000000 00007ffe60b2e25f
+00007FFE5E8AC5A0                         00007FFE60B8D960                         0000000000000000 0000000000000000 0000000000000000 0000000000000000
+00007FFE5E8AC49E                         00007FFE5E8AC4B0                         0000000000000000 0000000000000000 0000000000000000 0000000000000000
+00007FFE145EF11B                         00007FFE5E8AC490                         0000000000000000 0000000000000000 0000000000000000 0000000000000000
+00007FFE145E7470                         00007FFE145EEFE0                         0000000000000000 0000000000000000 000000001582a124 0000000000000000
+00007FFDE0552B3A                         00007FFE145E73E0                         0000000015829e98 000000001583506e 0000000000002010 ffffffffd529a498
+00007FFDE04733D4                         00007FFDE0552960                         0000000000000000 0000000000000000 ffffffffd529ab00 0000000000000000
+opikndf2()+1116                          00007FFDE0473200                         0000000000000000 0000000000000000 0000000000000000 0000000000000000
+opitsk()+1292                            opikndf2()+719                           0000000000000000 0000000000000000 0000000000000000 0000000000000000
+opiino()+1142                            opitsk()                                 0000000000360400 0000000000000000 0000000000000000 0000000000000000
+opiodr()+1614                            opiino()+942                             0000000000000000 0000000000000000 0000000000000000 0000000000000000
+opidrv()+816                             opiodr()                                 000000000000003c 0000000000000004 ffffffffd529f1c0 0000000000000000
+sou2o()+110                              opidrv()+211                             0000000000000000 0000000000000000 0000000000000000 0000000000000000
+opimai_real()+174                        sou2o()                                  ffffffffd529f1e0 000000000000003c 0000000000000004 ffffffffd529f1c0
+opimai()+268                             opimai_real()                            ffffffffd529f91b ffffffffffffffff 0000000000000000 0000000000000000
+OracleThreadStart()+643                  opimai()                                 0000000000000002 ffffffffd529fa50 000000002508c6c5 0000000000000000
+00007FFE5F037034                         OracleThreadStart()                      0000000000000000 0000000000000000 0000000000000000 0000000000000000
+00007FFE60B42651                         00007FFE5F037020                         0000000000000000 0000000000000000 0000000000000000 0000000000000000
+---------------- End of Call Stack Trace -----------------
+Call stack acquisition performance stats:
+  setup time (lock acquis., memory alloc.): 0 ms
+  frame get time (time the target proc was suspended): 0 ms
+  symbol translation time: 15 ms
+  total time: 15 ms
+------------------- Call Stack Trace ---------------------
+
+*** 2021-06-17T12:37:12.926252+05:30 (CDB$ROOT(1))
+calling location                         entry point                              arg #1           arg #2           arg #3           arg #4          
+---------------------------------------- ---------------------------------------- ---------------- ---------------- ---------------- ----------------
+00007FFE60B8D4A4                         0000000000000000                         0000000000000000 0000000000000000 0000000000000000 00007ffe60b2e25f
+00007FFE5E8A90AE                         00007FFE60B8D490                         0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksuitm_opt()+1324                        00007FFE5E8A9010                         0000000000000000 0000000000000001 0000000000000000 0000000000000000
+ksuitm()+27                              ksuitm_opt()                             0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksliwat()+10516                          ksuitm()                                 0000000000000000 0000000000002462 0000000000000000 0000000000000000
+kslwaitctx()+203                         ksliwat()+2839                           0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksoreq_wait()+910                        kslwaitctx()                             0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksbsrvn_opt()+3679                       ksoreq_wait()+442                        0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksbsrv_opt()+62                          ksbsrvn_opt()                            000000000000002d ffffffffcdfdbe10 0000000000000001 ffffffffcdfdbdf0
+kkjcre1p()+471                           ksbsrv_opt()                             0000000000000000 0000000000000000 0000000000000000 0000000000000000
+kkjcrenp()+302                           kkjcre1p()                               000000006aefd468 0000000000000000 0000000000000000 0000000000000000
+kkjsns()+660                             kkjcrenp()                               0000000000000002 0000000000000000 0000000000000000 000000003ddcf415
+kkjcjexe()+779                           kkjsns()                                 0000000000000002 0000000000000001 0000000000000000 0000000000000000
+kkjssrh()+750                            kkjcjexe()+311                           0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksb_act_run_int()+145                    kkjssrh()                                0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksb_act_run()+199                        ksb_act_run_int()                        0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksbcti()+365                             ksb_act_run()                            ffffffffa45986e0 0000000000000000 0000000000000000 0000000000000001
+ksbabs()+3180                            ksbcti()                                 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+ksbrdp()+1502                            ksbabs()                                 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+opirip()+633                             ksbrdp()                                 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+opidrv()+851                             opirip()                                 0000000000000032 0000000000000004 ffffffffcdfdf270 0000000000000000
+sou2o()+110                              opidrv()+211                             0000000000000000 0000000000000000 0000000000000000 0000000000000000
+opimai_real()+283                        sou2o()                                  ffffffffcdfdf290 0000000000000032 0000000000000004 ffffffffcdfdf270
+opimai()+268                             opimai_real()                            000000000d6c0170 ffffffffffffffff 0000000000000000 0000000000000000
+BackgroundThreadStart()+580              opimai()                                 0000000000000003 ffffffffcdfdf850 000000003ddcc635 0000000000000000
+00007FFE5F037034                         BackgroundThreadStart()                  000000006df57f60 0000000000000000 0000000000000000 0000000000000000
+00007FFE60B42651                         00007FFE5F037020                         0000000000000000 0000000000000000 0000000000000000 0000000000000000
+---------------- End of Call Stack Trace -----------------
+Call stack acquisition performance stats:
+  setup time (lock acquis., memory alloc.): 0 ms
+  frame get time (time the target proc was suspended): 0 ms
+  symbol translation time: 0 ms
+  total time: 0 ms

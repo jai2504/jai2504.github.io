@@ -1,0 +1,54 @@
+2021-06-17T11:51:37.239213+05:30
+Create Relation ADR_CONTROL
+Create Relation ADR_INVALIDATION
+Create Relation INC_METER_IMPT_DEF
+Create Relation INC_METER_PK_IMPTS
+
+
+***********************************************************************
+
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=)(CID=(PROGRAM=C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\bin\sqlplus.exe)(HOST=DESKTOP-6NN7RR4)(USER=asus)))(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.9.200)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 19.0.0.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 19.0.0.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 19.0.0.0.0 - Production
+  Version 19.3.0.0.0
+  Time: 17-JUN-2021 11:51:37
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12543
+    
+TNS-12543: TNS:destination host unreachable
+    ns secondary err code: 12560
+    nt main err code: 513
+    
+TNS-00513: Destination host unreachable
+    nt secondary err code: 51
+    nt OS err code: 0
+2021-06-17T11:52:15.347380+05:30
+
+
+***********************************************************************
+
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=)(CID=(PROGRAM=C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\bin\sqlplus.exe)(HOST=DESKTOP-6NN7RR4)(USER=asus)))(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.9.200)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 19.0.0.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 19.0.0.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 19.0.0.0.0 - Production
+  Version 19.3.0.0.0
+  Time: 17-JUN-2021 11:52:15
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12543
+    
+TNS-12543: TNS:destination host unreachable
+    ns secondary err code: 12560
+    nt main err code: 513
+    
+TNS-00513: Destination host unreachable
+    nt secondary err code: 51
+    nt OS err code: 0

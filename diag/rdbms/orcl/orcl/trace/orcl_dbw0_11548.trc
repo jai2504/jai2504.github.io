@@ -1,0 +1,61 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_dbw0_11548.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:403M/8070M, Ph+PgF:2089M/17827M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 11548, image: 
+
+
+*** 2021-06-17T11:24:02.575556+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:24:31.628822+05:30
+*** SESSION ID:(2.53338) 2021-06-17T11:24:31.631814+05:30
+*** SERVICE NAME:() 2021-06-17T11:24:31.631814+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:24:31.631814+05:30
+ 
+DDE rules only execution for: ORA 1110
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+----- START DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (Async) -----
+Successfully dispatched
+----- END DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (SUCCESS, 0 csec) -----
+Executing ASYNC actions
+----- END DDE Actions Dump (total 0 csec) -----
+
+*** 2021-06-17T11:25:27.960270+05:30
+DDE: Problem Key 'ORA 1110' was flood controlled (0x1) (no incident)
+ORA-01110: data file 3: 'C:\ADE\AIME_V\ORACLE\ORADATA\SEEDDATA\SYSAUX01.DBF'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 3) The system cannot find the path specified.
+
+*** 2021-06-17T11:25:53.492753+05:30
+DDE rules only execution for: ORA 1110
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+----- START DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (Async) -----
+Successfully dispatched
+----- END DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (SUCCESS, 0 csec) -----
+Executing ASYNC actions
+----- END DDE Actions Dump (total 0 csec) -----
+
+*** 2021-06-17T11:25:55.557309+05:30
+DDE: Problem Key 'ORA 1110' was flood controlled (0x1) (no incident)
+ORA-01110: data file 7: 'C:\ADE\AIME_V\ORACLE\ORADATA\SEEDDATA\USERS01.DBF'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 3) The system cannot find the path specified.

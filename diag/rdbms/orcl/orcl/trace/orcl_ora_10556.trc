@@ -1,0 +1,291 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:454M/8070M, Ph+PgF:2405M/17909M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 10556, image: 
+
+
+*** 2021-06-17T11:28:49.673160+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:28:50.370603+05:30 (CDB$ROOT(1))
+*** SESSION ID:(373.3523) 2021-06-17T11:28:50.370603+05:30
+*** SERVICE NAME:() 2021-06-17T11:28:50.370603+05:30
+*** MODULE NAME:(sqlplus.exe) 2021-06-17T11:28:50.370603+05:30
+*** ACTION NAME:() 2021-06-17T11:28:50.370603+05:30
+*** CLIENT DRIVER:(SQL*PLUS) 2021-06-17T11:28:50.370603+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:28:50.370603+05:30
+ 
+Control file created with size 1136 blocks
+kcrrmnt: RT: Role transition work is not done
+Control file resized from 1136 to 1142 blocks
+kccrsd_append: rectype = 32, lbn = 568, recs = 88
+*** 2021-06-17 11:28:50.544797 [krsh.c:6348]
+Redo network throttle feature is disabled at mount time
+2021-06-17 11:28:50.608 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:28:50.608 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:28:50.610 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:28:50.610 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:28:50.610 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:28:50.611 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2021-06-17T11:28:50.634425+05:30 (CDB$ROOT(1))
+Stopping background process MMNL
+
+*** 2021-06-17T11:28:51.635803+05:30 (CDB$ROOT(1))
+Stopping background process MMON
+
+*** 2021-06-17T11:28:53.665761+05:30 (CDB$ROOT(1))
+kwsbgshms: Shutdown all masters complete
+Shutting down AQ Process Coordinator 
+2021-06-17 11:28:53.665 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:28:53.665 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+krsq_arch_backup_ctrl_file: Prior to RESETLOGS processing
+krsq_arch_backup_ctrl_file: ALTER SYSTEM ARCHIVE LOG ALL USING BACKUP CONTROLFILE start
+krsq_ubci: Database is not in ARCHIVELOG mode
+krsq_arch_backup_ctrl_file: ALTER SYSTEM ARCHIVE LOG ALL USING BACKUP CONTROLFILE complete
+DDE rules only execution for: ORA 312
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+----- START DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (Async) -----
+Successfully dispatched
+----- END DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (SUCCESS, 0 csec) -----
+Executing ASYNC actions
+----- END DDE Actions Dump (total 0 csec) -----
+DDE rules only execution for: ORA 313
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+----- START DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (Async) -----
+DDE Action 'DB_STRUCTURE_INTEGRITY_CHECK' was flood controlled
+----- END DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (FLOOD CONTROLLED, 0 csec) -----
+Executing ASYNC actions
+----- END DDE Actions Dump (total 0 csec) -----
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+<error barrier> at 0x000000BDCCEEEBE8 placed kcrf.c@3149
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+*** 2021-06-17 11:28:53.828803 [krsh.c:6348]
+Clearing online redo logfile 1 C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG
+DDE: Problem Key 'ORA 312' was flood controlled (0x1) (no incident)
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+<error barrier> at 0x000000BDCCEEEBE8 placed kcrf.c@3149
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+*** 2021-06-17 11:28:53.848977 [krsh.c:6348]
+Clearing online redo logfile 2 C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG
+DDE: Problem Key 'ORA 312' was flood controlled (0x1) (no incident)
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+<error barrier> at 0x000000BDCCEEEBE8 placed kcrf.c@3149
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+*** 2021-06-17 11:28:53.861943 [krsh.c:6348]
+Clearing online redo logfile 3 C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG
+DDE: Problem Key 'ORA 312' was flood controlled (0x1) (no incident)
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+<error barrier> at 0x000000BDCCEED9F0 placed kcrf.c@6383
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00312: online log 1 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO01.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+DDE: Problem Key 'ORA 312' was flood controlled (0x1) (no incident)
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+<error barrier> at 0x000000BDCCEED9F0 placed kcrf.c@6383
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00312: online log 2 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO02.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+DDE: Problem Key 'ORA 312' was flood controlled (0x1) (no incident)
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+<error barrier> at 0x000000BDCCEED9F0 placed kcrf.c@6383
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00312: online log 3 thread 1: 'C:\USERS\ASUS\DOWNLOADS\COMPRESSED\ORADATA\ORCL\REDO03.LOG'
+ORA-27041: unable to open file
+OSD-04002: unable to open file
+O/S-Error: (OS 2) The system cannot find the file specified.
+
+*** 2021-06-17T11:28:58.993722+05:30 (CDB$ROOT(1))
+*** 2021-06-17 11:28:58.993722 [krsh.c:6348]
+Clearing online redo logfile 1 complete
+*** 2021-06-17 11:28:58.994699 [krsh.c:6348]
+Clearing online redo logfile 2 complete
+*** 2021-06-17 11:28:58.996493 [krsh.c:6348]
+Clearing online redo logfile 3 complete
+
+*** 2021-06-17T11:28:59.007203+05:30 (CDB$ROOT(1))
+
+*** 2021-06-17T11:28:59.172890+05:30 (CDB$ROOT(1))
+2021-06-17 11:28:59.172 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:28:59.172 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+kcbifc: Full Database caching mode changed from 0 to 2 dbfsz_DEF 1373634560 bcsz_DEF 1860632576
+2021-06-17 11:28:59.439 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:28:59.439 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2021-06-17T11:29:01.737854+05:30 (CDB$ROOT(1))
+Information: Dictionary Credential Encryption is NOT enabledjoxcsys_required_dirobj_exists: directory object exists with wrong path C:\ADE\AIME_V\ORACLE\JAVAVM\ADMIN\, required path is C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 1
+joxcsys_ensure_directory_object: created directory object with path C:\USERS\ASUS\DOWNLOADS\COMPRESSED\WINDOWS.X64_193000_DB_HOME\JAVAVM\ADMIN\, pid 2832 cid 1
+
+*** 2021-06-17T11:29:02.596093+05:30 (CDB$ROOT(1))
+2021-06-17 11:29:02.596 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:29:02.596 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:29:02.596 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:29:02.596 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+dglcm: Validating controlfile with logical metadata
+dglcm: Initial controlfile state
+dglcm:   kccdiflg [400000] kccdifl2 [1000]
+dglcm:   kccdi2ldscn [0x0000000000000000]
+dglcm:   kccdi2lrscn [0x0000000000000000]
+dglcm: Inspecting logical metadata
+dglcm: Metadata state
+dglcm:   hasPrepSwitchSta [0]
+dglcm:   hasPrepSwitchPri [0]
+dglcm:   hasReceivedDict [0]
+dglcm:   hasDumpedDict [0]
+dglcm:   hasCommittedBor [0]
+dglcm:   hasSwitchedFromPri [0]
+dglcm:   hasStartedTa [0]
+dglcm:   hasValidSess [0]
+dglcm:   hasTxnConsistency [0]
+dglcm:   hasCleanlyShutdown [0]
+dglcm: Generating new controlfile state from metadata
+dglcm: Updating controlfile with new state
+dglcm: New controlfile state
+dglcm:   kccdiflg [400000] kccdifl2 [1000]
+dglcm:   kccdi2ldscn [0x0000000000000000]
+dglcm:   kccdi2lrscn [0x0000000000000000]
+dglcm: Updating SGA associated with controlfile state
+dglcm: Validation complete
+2021-06-17 11:29:02.839 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:29:02.839 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:29:02.839 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:29:02.839 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:29:02.840 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:29:02.840 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2021-06-17T11:29:03.231695+05:30 (CDB$ROOT(1))
+2021-06-17 11:29:03.231 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:29:03.231 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2021-06-17 11:29:03.270 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:29:03.270 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_10556.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:437M/8070M, Ph+PgF:2866M/18952M 
+Instance name: orcl
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 10556, image: 
+
+
+*** 2021-06-17T11:34:26.736438+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set

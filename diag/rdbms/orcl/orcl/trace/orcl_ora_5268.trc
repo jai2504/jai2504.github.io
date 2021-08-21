@@ -1,0 +1,63 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_ora_5268.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:590M/8070M, Ph+PgF:3108M/18952M 
+Instance name: orcl
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 5268, image: 
+
+
+*** 2021-06-17T11:36:00.162355+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+
+*** 2021-06-17T11:36:18.616058+05:30 (CDB$ROOT(1))
+*** SESSION ID:(622.60335) 2021-06-17T11:36:18.616058+05:30
+*** SERVICE NAME:(SYS$USERS) 2021-06-17T11:36:18.616058+05:30
+*** MODULE NAME:(perl.exe) 2021-06-17T11:36:18.616058+05:30
+*** ACTION NAME:() 2021-06-17T11:36:18.616058+05:30
+*** CLIENT DRIVER:() 2021-06-17T11:36:18.616058+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:36:18.616058+05:30
+ 
+qmtmrc_sga_init[INITIALIZING]:qmtmrcsg:0x00007FFE611074D8:flgs:0
+
+*** 2021-06-17T11:36:18.843586+05:30 (PDB$SEED(2))
+*** CONTAINER ID:(2) 2021-06-17T11:36:18.872508+05:30
+ 
+qmtmrc_sga_init[INITIALIZING]:qmtmrcsg:0x00007FFE640EAD28:flgs:0
+
+*** 2021-06-17T11:36:19.174394+05:30 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-06-17T11:36:19.174394+05:30
+ 
+QPI: In GET_PENDING_ACTIVITY
+QPI: Obtaining lock SUCCESSFUL, qp_result=0 at : 17-JUN-21 11.36.19.179000000 AM +05:30
+QPI: Got lock get_pending_activity
+QPI: In opatch_run_job
+QPI: In sanity check..
+QPI:  t_root is C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\
+QPI:  t_orabase is C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\
+QPI:  t_op_inst_path is C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\OPatch\
+QPI:  t_op_scpt_path is C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\QOpatch\
+QPI:  t_op_log_path is C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\rdbms\log\
+QPI: op_scpt_path :C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home\QOpatchpos1
+QPI: opatch file present, opatch.bat
+QPI: qopiprep.bat file present
+QPI: In opatch_inv_refresh_job
+QPI: In REFRESH_OPATCH_DATA
+QPI: Caught error while querying opatch_xml_inv
+QPI: in REFRESH_OPATCH_DATA, ERROR code -29913 : ORA-29913: error in executing ODCIEXTTABLEOPEN callout
+ORA-29400: data cartridge error
+KUP-04027: file name check failed: qopatc
+QPI: Releasing lock SUCCESSFUL, qp_result=0 at : 17-JUN-21 11.36.19.263000000 AM +05:30
+QPI: Releasing lock FAILED, qp_result=4 at : 17-JUN-21 11.36.19.263000000 AM +05:30
+QPI: in get_pending_activity, ERROR code -20001 : ORA-20001: Latest xml inventory is not loaded into table
+QPI: org_node and inst resore 2::
+QPI: In set_current_opinst
+QPI: Releasing lock FAILED, qp_result=4 at : 17-JUN-21 11.36.19.264000000 AM +05:30

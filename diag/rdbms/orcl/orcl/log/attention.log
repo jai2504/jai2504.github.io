@@ -1,0 +1,15 @@
+
+2021-06-17T11:23:35.878+05:30 NOTIFICATION 16 VOS startup 35782658: Starting ORACLE instance (normal) (OS id: 8424)
+2021-06-17T11:25:57.334+05:30 NOTIFICATION 16 VOS shutdown 35782659: Shutting down ORACLE instance (abort) (OS id: 8232)
+2021-06-17T11:26:36.910+05:30 NOTIFICATION 16 VOS startup 35782658: Starting ORACLE instance (normal) (OS id: 6800)
+2021-06-17T11:27:22.722+05:30 NOTIFICATION 16 VOS shutdown 35782659: Shutting down ORACLE instance (immediate) (OS id: 10156)
+2021-06-17T11:28:09.996+05:30 NOTIFICATION 16 VOS startup 35782658: Starting ORACLE instance (normal) (OS id: 15924)
+2021-06-17T11:31:48.194+05:30 NOTIFICATION 16 VOS shutdown 35782659: Shutting down ORACLE instance (immediate) (OS id: 9812)
+2021-06-17T11:32:46.390+05:30 NOTIFICATION 16 VOS startup 35782658: Starting ORACLE instance (restrict) (OS id: 20008)
+2021-06-17T11:39:41.674+05:30 NOTIFICATION 16 VOS shutdown 35782659: Shutting down ORACLE instance (immediate) (OS id: 15288)
+2021-06-17T11:40:49.194+05:30 NOTIFICATION 16 VOS startup 35782658: Starting ORACLE instance (normal) (OS id: 9476)
+2021-06-17T12:36:59.263+05:30 ERROR PID: 20556 SQLID:  ()  (orcl:): 35782660: USER (ospid: ): terminating the instance due to ORA error 
+Cause: The instance termination routine was called
+Action: Check alert log for more information relating to instance termination rectify the error and restart the instance
+Call Stack: dbklaWriteAttentionLogTextVaList()+644&lt;-dbklaWriteAttentionLogText()+152&lt;-ksuitm_opt()+2412&lt;-ksuitm()+27&lt;-ksbrdp()+7303&lt;-opirip()+633&lt;-opidrv()+851&lt;-sou2o()+110&lt;-opimai_real()+283&lt;-opimai()+268&lt;-BackgroundThreadStart()+580&lt;-0x00007FFE5F037034&lt;-0x00007FFE60B42651
+Trace Details: 

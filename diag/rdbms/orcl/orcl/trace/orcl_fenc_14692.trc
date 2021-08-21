@@ -1,0 +1,64 @@
+Trace file C:\USERS\ASUS\DOWNLOADS\COMPRESSED\diag\rdbms\orcl\orcl\trace\orcl_fenc_14692.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\asus\Downloads\Compressed\WINDOWS.X64_193000_db_home
+Node name           : DESKTOP-6NN7RR4
+CPU                 : 8 - type 86644 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:440M/8070M, Ph+PgF:1973M/17827M 
+Instance name: orcl
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 14692, image: 
+
+
+*** 2021-06-17T11:24:06.856462+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+*** SESSION ID:(250.16940) 2021-06-17T11:24:06.860451+05:30
+*** SERVICE NAME:() 2021-06-17T11:24:06.861448+05:30
+*** CONTAINER ID:(1) 2021-06-17T11:24:06.861448+05:30
+ 
+2021-06-17 11:24:06.860 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:24:06.861 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2021-06-17T11:24:08.877186+05:30 (CDB$ROOT(1))
+2021-06-17 11:24:08.877 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE742422A0, req 000001EE742438A0, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+2021-06-17 11:24:08.877 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+2021-06-17 11:24:08.877 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+2021-06-17 11:24:08.877 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+2021-06-17 11:24:08.877 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE74243A18
+[ default][ default]u_set_comp_error: comptype '103' : error '29'
+2021-06-17 11:24:08.878 : [ default][ default]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+
+*** 2021-06-17T11:24:10.880217+05:30 (CDB$ROOT(1))
+2021-06-17 11:24:10.880 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE741558A0, req 000001EE74157200, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+2021-06-17 11:24:10.880 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+2021-06-17 11:24:10.880 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+2021-06-17 11:24:10.880 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+2021-06-17 11:24:10.880 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE74157378
+2021-06-17 11:24:10.880 : [GIPCXCPT][GIPCXCPT] gipcInternalConnectSync: failed sync request, addr 000001EE74156928 [000000000000001d] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61013)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, ret gipcretConnectionRefused (29)
+2021-06-17 11:24:10.880 : [GIPCXCPT][GIPCXCPT] gipcConnectSyncF [clscrsconGipcConnect : clscrscon.c : 686]: EXCEPTION[ ret gipcretConnectionRefused (29) ]  failed sync connect endp 000001EE741558A0 [000000000000001a] { gipcEndpoint : localAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=50056)(GIPCID=00000000-00000000-0))', remoteAddr 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61013)(GIPCID=00000000-00000000-0))', numPend 0, numReady 0, numDone 0, numDead 0, numTransfer 0, objFlags 0x0, pidPeer 0, readyRef 0000000000000000, ready 0, wobj 000001EE741580B8, sendp 000001EE74157DA0 status 13flags 0x2008071a, flags-2 0x0, usrFlags 0x0 }, addr 000001EE74156928 [000000000000001d] { gipcAddress : name 'clsc://(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=61013)(GIPCID=00000000-00000000-0))', objFlags 0x0, addrFlags 0x4 }, flags 0x0
+
+*** 2021-06-17T11:24:12.888297+05:30 (CDB$ROOT(1))
+2021-06-17 11:24:12.888 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE741572C0, req 000001EE74158918, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+2021-06-17 11:24:12.888 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+2021-06-17 11:24:12.888 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+2021-06-17 11:24:12.888 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+2021-06-17 11:24:12.888 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE74158A90
+[ default][ default]u_set_comp_error: comptype '103' : error '29'
+2021-06-17 11:24:12.890 : [  OCROSD][  OCROSD]ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2021-06-17 11:24:12.890 : [  OCRRAW][  OCRRAW]proprioo: cannot get current configuration (33)
+[ default][ default]u_set_gbl_comp_error: comptype '107' : error '2'
+2021-06-17 11:24:12.891 : [  OCRRAW][  OCRRAW]proprinit: Could not open raw device 
+2021-06-17 11:24:12.893 : [ default][ default]a_init:7!: Backend init unsuccessful : [33]
+2021-06-17 11:24:12.894 : [ default][ default]clsutcnr:5.1: procr_init_ext failed [33] with bootlevel [131072]. Error data []. Return [5]
+
+*** 2021-06-17T11:24:14.910897+05:30 (CDB$ROOT(1))
+2021-06-17 11:24:14.910 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: [network]  error for endp 000001EE72FE5358, req 000001EE72FE4148, type sgipcnreqtypeConnect (1), data 0000000000000000, sret sgipcretConnectionRefused (28)
+2021-06-17 11:24:14.910 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos op  :  sgipcwWait
+2021-06-17 11:24:14.910 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos dep :  The remote computer refused the network connection. (1225)
+2021-06-17 11:24:14.910 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos loc :  GetQueueComp
+2021-06-17 11:24:14.910 : [ GIPCNET][ GIPCNET] gipcmodNetworkAsyncComplete: slos info:  failed for over 000001EE72FE42C0
